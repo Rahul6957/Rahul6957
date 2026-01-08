@@ -12,6 +12,8 @@ Welcome to my GitHub profile repository! This is a little space where I showcase
 - 🌱 I’m continuously learning **Full Stack Development**, **REST APIs**, and **frontend frameworks**.  
 - 💡 Passionate about turning **ideas into functional projects**.  
 - ⚡ Fun fact: I love exploring **new tech and solving problems** with code.
+
+ 
 🎓 **BCA Student** from Deogiri College, Ch. Sambhaji Nagar  
 💻 **MCA Learner** at BATU University  
 🏢 **Intern** at TFL Pvt Ltd  
