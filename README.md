@@ -61,7 +61,7 @@ Welcome to my GitHub profile repository! This is a little space where I showcase
    - Built with Node.js, Express, MySQL, AJAX
    - Allows adding, viewing, updating, and deleting users dynamically
 
-> Check out my GitHub repositories for more projects: [GitHub Repos](https://github.com/Rahul6957)
+> Check out my GitHub repositories for more projects: [GitHub Repos]https://github.com/Rahul6957
 
 ---
 
