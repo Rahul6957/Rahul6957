@@ -1,0 +1,136 @@
+Day Blog: Learning Input Box, Props, State & Basic Form in React
+
+Today was a good React day 💻✨
+I learned some important core concepts that every React developer must know.
+
+Instead of just reading theory, I tried to understand how things work practically.
+
+🔹 1. Input Box in React
+
+In React, input box is not just HTML.
+We usually connect it with state so React can control the data.
+
+Example:
+
+const [data, setData] = useState("");
+
+<input 
+  type="text" 
+  value={data} 
+  onChange={(e) => setData(e.target.value)} 
+/>
+
+
+👉 This is called a controlled component
+👉 React always knows what is inside the input box
+
+🔹 2. State in React (useState)
+
+State is used to store and update data in a component.
+
+Example:
+
+const [show, setShow] = useState(false);
+
+
+show → current value
+
+setShow → function to update value
+
+When state changes, component re-renders automatically 🔁
+
+🔹 3. Function Component
+
+React components are just JavaScript functions.
+
+Example:
+
+function App() {
+  return <h1>Hello React</h1>;
+}
+
+
+👉 Function components are:
+
+easy to write
+
+easy to understand
+
+widely used in modern React
+
+🔹 4. Props (Single & Multiple)
+
+Props are used to send data from parent to child component.
+
+Single prop:
+<User name="Rahul" />
+
+Multiple props:
+<User name="Rahul" age="22" email="rahul@gmail.com" />
+
+
+Inside child component:
+
+function User(props) {
+  return (
+    <h2>{props.name} - {props.age}</h2>
+  );
+}
+
+
+👉 Props are read-only
+👉 They help components communicate
+
+🔹 5. Handling Input with Button (Real Use Case)
+
+I learned how to:
+
+take input
+
+store it in state
+
+show it on button click
+
+Example:
+
+{show && <h1>{data}</h1>}
+<button onClick={() => setShow(true)}>Print Data</button>
+
+
+This helped me understand conditional rendering.
+
+🔹 6. Basic HTML Form in React
+
+React forms use:
+
+onSubmit
+
+preventDefault()
+
+Example:
+
+function handleSubmit(e) {
+  e.preventDefault();
+  console.log(data);
+}
+
+
+👉 Prevents page reload
+👉 React handles form smoothly
+
+✅ What I Learned Today
+
+✔ Input box handling
+✔ useState hook
+✔ Function components
+✔ Single & multiple props
+✔ Conditional rendering
+✔ Basic form handling
+
+🧠 Final Thoughts
+
+Today’s learning made me more confident in React basics.
+These concepts are foundation for real projects.
+
+Slow progress is still progress 🚀
+Tomorrow I will practice more and build better components.
