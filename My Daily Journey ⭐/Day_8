@@ -1,0 +1,120 @@
+📘 Day Blog: Understanding Props in React
+📌 What are Props in React?
+
+Props (short for properties) are used to pass data from one component to another.
+Props make components reusable and dynamic.
+
+👉 Props are read-only (we cannot change them inside the child component).
+
+🔹 Props in Functional Components
+
+In a functional component, props are received as a parameter.
+
+✅ Example 1: Simple Props with Function Component
+Parent Component
+function App() {
+  return (
+    <div>
+      <Student name="Rahul" course="MCA" />
+    </div>
+  );
+}
+
+Child Component
+function Student(props) {
+  return (
+    <div>
+      <h2>Name: {props.name}</h2>
+      <p>Course: {props.course}</p>
+    </div>
+  );
+}
+
+📝 Explanation:
+
+App is the parent component
+
+Student is the child component
+
+Data (name, course) is passed as props
+
+We access props using props.propertyName
+
+✅ Example 2: Props using Destructuring (Best Practice)
+function Student({ name, course }) {
+  return (
+    <div>
+      <h2>Name: {name}</h2>
+      <p>Course: {course}</p>
+    </div>
+  );
+}
+
+
+✔ Cleaner
+✔ Easy to read
+✔ Mostly used in real projects
+
+🔹 Props in Class Components
+
+In class components, props are accessed using this.props.
+
+✅ Example: Props with Class Component
+Parent Component
+function App() {
+  return (
+    <div>
+      <Teacher subject="React" experience="3 Years" />
+    </div>
+  );
+}
+
+Child Component
+import React, { Component } from "react";
+
+class Teacher extends Component {
+  render() {
+    return (
+      <div>
+        <h2>Subject: {this.props.subject}</h2>
+        <p>Experience: {this.props.experience}</p>
+      </div>
+    );
+  }
+}
+
+export default Teacher;
+
+📝 Explanation:
+
+In class components, we must use this.props
+
+Props work the same way as function components
+
+Only the syntax is different
+
+🔑 Key Points to Remember
+
+Props are used to send data from parent to child
+
+Props are immutable (read-only)
+
+Functional Component → props or destructuring
+
+Class Component → this.props
+
+Props help in reusability of components
+
+💡 Real-Life Example
+
+Think of props like:
+
+📦 Gift from parent to child
+Child can use the gift but cannot change it 🎁
+
+✅ Conclusion
+
+Props are one of the most important concepts in React.
+Understanding props clearly helps you build dynamic, reusable, and clean components.
+
+Tomorrow, you can learn 👉 State vs Props 😄🔥
