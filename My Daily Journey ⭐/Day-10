@@ -1,0 +1,203 @@
+Today’s Learning – React Class Lifecycle
+
+Aaj React ne mujhe apna full old-school swag dikhaya 😎
+I learned how Class Components actually live their life — from birth to goodbye 👋
+
+Today, I deep-dived into React’s lifecycle methods and finally understood what happens behind the scenes when a component loads, updates, and disappears.
+
+I explored:
+
+constructor() – jahan component ka janam hota hai 👶
+
+render() – jahan UI ka fashion show chalta hai 🎨
+
+componentDidMount() – first entry with dhoom 💥
+
+componentDidUpdate() – jab React bolta hai “kuch change hua hai 👀”
+
+shouldComponentUpdate() – React ka bouncer 🚨 (andar jane de ya nahi)
+
+componentWillUnmount() – clean exit, no drama 😄
+
+By learning this, I realized React is not magic — it’s just smart logic with perfect timing.
+Once lifecycle samajh aa gaya, Hooks ka fear bhi khatam ho gaya 💪🔥
+
+🧠 What is a Class Component?
+
+A class component is a JavaScript class that extends React.Component.
+It allows us to:
+
+manage state using this.state
+
+respond to changes using lifecycle methods
+
+class Example extends React.Component {
+  render() {
+    return <h1>Hello React</h1>;
+  }
+}
+
+👶 constructor() – Initial Setup
+
+The constructor() method runs first when the component is created.
+
+It is mainly used to:
+
+initialize state
+
+bind methods (if needed)
+
+constructor(props) {
+  super(props);
+  this.state = {
+    count: 0
+  };
+}
+
+
+super(props) is required so that this.props works correctly.
+
+🎨 render() – Displaying UI
+
+The render() method decides what appears on the screen.
+
+Important rules:
+
+It must return JSX
+
+It should stay pure
+
+No API calls or setState here
+
+render() {
+  return <h1>Count: {this.state.count}</h1>;
+}
+
+🚀 componentDidMount() – After First Render
+
+componentDidMount() runs once, after the component is added to the DOM.
+
+Used for:
+
+API calls
+
+starting timers
+
+subscribing to events
+
+componentDidMount() {
+  console.log("Component mounted");
+}
+
+🔄 componentDidUpdate() – After Updates
+
+This method runs after every update caused by state or props change.
+
+It is useful for:
+
+reacting to state changes
+
+comparing previous and current values
+
+componentDidUpdate(prevProps, prevState) {
+  if (prevState.count !== this.state.count) {
+    console.log("Count updated");
+  }
+}
+
+
+⚠️ Always use a condition to avoid infinite loops.
+
+🛂 shouldComponentUpdate() – Performance Control
+
+This method decides whether React should re-render the component or not.
+
+shouldComponentUpdate(nextProps, nextState) {
+  return nextState.count <= 5;
+}
+
+
+Returning:
+
+true → component updates
+
+false → component does not update
+
+This helps in performance optimization.
+
+👋 componentWillUnmount() – Cleanup Time
+
+This method runs just before the component is removed from the UI.
+
+Used to:
+
+clear timers
+
+remove event listeners
+
+cancel subscriptions
+
+componentWillUnmount() {
+  console.log("Component unmounted");
+}
+
+
+Proper cleanup prevents memory leaks.
+
+🔥 Complete Working Example
+class Counter extends React.Component {
+  constructor() {
+    super();
+    this.state = { count: 0 };
+  }
+
+  componentDidMount() {
+    console.log("Mounted");
+  }
+
+  componentDidUpdate() {
+    console.log("Updated");
+  }
+
+  componentWillUnmount() {
+    console.log("Unmounted");
+  }
+
+  render() {
+    return (
+      <div>
+        <h1>Count: {this.state.count}</h1>
+        <button onClick={() => this.setState({ count: this.state.count + 1 })}>
+          Increase
+        </button>
+      </div>
+    );
+  }
+}
+
+🔁 Lifecycle Flow (Easy to Remember)
+constructor
+   ↓
+render
+   ↓
+componentDidMount
+   ↓
+(state / props change)
+   ↓
+shouldComponentUpdate
+   ↓
+render
+   ↓
+componentDidUpdate
+   ↓
+componentWillUnmount
+
+🧩 Final Understanding
+
+Lifecycle methods show how React manages component life
+
+Class components help in understanding React fundamentals
+
+Once lifecycle is clear, Hooks become easier to learn
+
+These concepts are still important for interviews
