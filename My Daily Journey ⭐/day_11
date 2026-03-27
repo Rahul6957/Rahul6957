@@ -1,0 +1,95 @@
+# Day 11 - Working with SQL & Understanding Mapping Tables 🛢️
+
+## 📌 What I Learned
+
+Today I focused on SQL and database operations.
+
+* Learned how to **CREATE, INSERT, and UPDATE** data in tables
+* Practiced writing queries for real scenarios
+* Understood **MCQ-type data structure** in database
+* Learned about **Mapping Tables (Junction Tables)** and why they are used
+
+---
+
+## 💻 What I Did
+
+* Created tables for test and questions
+* Inserted multiple records into tables
+* Updated existing data using `UPDATE` queries
+* Designed structure for MCQ options
+* Implemented mapping between tables
+
+---
+
+## 🧠 Important Concept - Mapping Table
+
+A **mapping table** is used when two tables have a **many-to-many relationship**.
+
+### 📍 Example:
+
+* One **Test** can have multiple **Questions**
+* One **Question** can be part of multiple **Tests**
+
+So we create a mapping table like:
+👉 `test_questions`
+
+---
+
+## 🧾 Sample SQL Script
+
+```sql
+-- Test Table
+CREATE TABLE tests (
+    test_id INT PRIMARY KEY AUTO_INCREMENT,
+    test_name VARCHAR(100)
+);
+
+-- Question Table
+CREATE TABLE questions (
+    question_id INT PRIMARY KEY AUTO_INCREMENT,
+    question_text TEXT
+);
+
+-- Options Table (MCQ)
+CREATE TABLE options (
+    option_id INT PRIMARY KEY AUTO_INCREMENT,
+    question_id INT,
+    option_text VARCHAR(255),
+    is_correct BOOLEAN,
+    FOREIGN KEY (question_id) REFERENCES questions(question_id)
+);
+
+-- Mapping Table (Test <-> Questions)
+CREATE TABLE test_questions (
+    test_id INT,
+    question_id INT,
+    PRIMARY KEY (test_id, question_id),
+    FOREIGN KEY (test_id) REFERENCES tests(test_id),
+    FOREIGN KEY (question_id) REFERENCES questions(question_id)
+);
+```
+
+---
+
+## 😅 Challenges Faced
+
+* Understanding many-to-many relationship
+* Designing proper table structure
+* Managing foreign keys correctly
+
+---
+
+## 🚀 Tomorrow Plan
+
+* Practice more complex SQL queries (JOIN, GROUP BY)
+* Integrate SQL with Node.js project
+* Use this structure in real API
+
+---
+
+## 💯 Final Note
+
+Today was a very productive day.
+I learned how real database design works and how to handle relationships between tables.
+
+Step by step I am getting closer to becoming a backend developer 🚀
