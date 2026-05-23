@@ -1,0 +1,1259 @@
+
+
+Best-  python,express,js,html,react,Bootstrap
+
+Library:
+A library is a collection of reusable code/functions that developers call when needed.
+
+Framework:
+A framework is a predefined structure that controls the application flow and provides rules for development.
+
+Q1..What is JavaScript and why is it used?
+JavaScript is a programming language used to make web pages interactive. It runs in the browser for frontend and on Node.js for backend.
+    1. What is React?
+•	React is a JavaScript library for building user interfaces, mainly single-page applications (SPAs).
+
+Q2..What is HTML and why is it used?
+•	Answer: HTML (HyperText Markup Language) is the standard language to create web pages. It defines the structure of a webpage using elements like headings, paragraphs, links, and forms.
+•	
+•	Q3..What is Express.js?
+•	Express.js is a Node.js web framework used to build web applications and APIs. It simplifies routing, middleware, and server-side logic.
+•	
+•	Q4..What is Node.js and why do we use it?
+•	Answer: Node js is backend  java script engeen .
+•	a JavaScript runtime that allows running JavaScript on the server. We use it to build scalable and fast web applications, APIs, and real-time applications because it is non-blocking and event-driven.
+•	
+•	Q5..What is MySQL and why do we use it?
+•	Answer: MySQL is an open-source relational database management system (RDBMS). We use it to store, retrieve, and manage structured data efficiently. It is fast, reliable, and widely used in web applications.
+ 
+Q6..What is python ? popular application in the word of application  
+-	It is object oriented programing language its  create by Gaido van Rossum in 1991  
+-	It is easy to understand and use  
+-	Readable syntax and allows programmer to express their concept in few lines of code It is used for  
+1-Data science & machine learning  
+2-web development 
+3- Auto scripting  
+4-AI  
+5-Game development  
+
+Q7. What are a benefits of using python language  
+-	object oriented programing language 
+-	High-level language 
+-	Extensive support for machine learning libraries - Portable and interactive
+Q8... What is dynamically type language     
+1)	Dynamically: these are the language that do not require any predefined data type for any variable as it is interpreted data type for any variable as it is interpreted at runtime by the maechine it self  Ex: python , js ,Ruby 
+2)	Statically  :  define a data type at the time to define a variable   -manually define data type of variable Ex: c,c++ 
+
+Q9.. What is dictionary ? 
+It is a Data type in python  
+-when we want to store data in key and value format them we use dictionary data type 
+-	dictionary object content multiple item each item content two parts 1-key 2-values 
+-key must be unique and in mutable type  
+-value may be anything that is mutable and in mutable 
+*can not be access indexing value only by key 
+
+Q10.What is Init function ?  
+Is a in build method 
+-we can initialize the value of variable in the init method  
+-it is complesery to create class  
+-init method automatically call when we created object of the class 
+
+Q11. Self parameter ? 
+-	It is use to initialize value of the variable  
+-	When we write function or init method in the class then always 1st parameter is self  
+-	.
+Q12..What is decorator (@) ? 
+-	-is a function that alters the behavior of another function whithout modifying the original function code  
+-	*Benefits of decorator:they make you code more readble reusable and maintainable  
+-	 @ class Method(CLS) (one time I declare class method they access and use to comenly)
+-	@ instance method (this method Access member using Self keyword)
+-	@Static Method (is declare simle function not use self and cls )
+
+-	Q13..  Different between while loop or for loop ? 
+-	While loop: is used whean we want to exqute code untile condition sytified they we use while loop 
+           -while loop stop exquetion  only when condition become false  
+-	For loop : are exqute range function and conditional statement and seprate a iteam of the list,tuple, set , store sepraetly 
+
+
+-	Q14..opps (object oriented programing system) 
+-	Is a concept is use C++,java,python 
+-	A class is like a structure or blueprint. It is defined once, and objects are used to access and use it multiple times.
+
+1) Polymorphism  
+One thing can behave in many forms.
+The same function/method name can do different work depending on the object or data.
+Real Life Example
+Think about a person:
+As a student → studies
+As a son → helps family
+As a friend → talks differently
+Same person → different behavior.
+1. Compile Time Polymorphism
+(Method Overloading)
+-Same function name with different parameters.
+Run Time Polymorphism
+(Method Overriding)
+Child class changes parent method.
+
+
+2)	Encapsulation = Data hiding+Abstaction 
+    Important Content (Data) are represent Hided form that call Encapsulation  
+Ex: Tablet 
+
+3)	Abstaction 
+  showing essesntial detail
+Ex:ATM 
+ 
+4)	Inheritance 
+ you can reuse code and improving development efficiency.  
+There are 5 type    
+       1)Single Inheritance  
+       In this type of Inheritance  there is one base class and one drived class  
+      2)Multilevel inheritance 
+      There are multiple base class and one drived class  
+      3)Multiple Inheritance 
+      One parent class multiple child class 
+      4)Hirarchical inheritance 
+      Like Tree structure   
+      5)Hybrid inheritance  
+      Combination of any two inheritance its call hybrid
+
+Q15..Pass keyword ? 
+   It used as placeholder for future code when the pass statement is excuted   
+-nothing happens but you avoid error when empty code is not allowed 
+ 
+Q16. What is a lambda function  
+It a anonymous function it short way to write function it help full for short code lines  
+Ex: a=lambda x,y:a+y 
+ Print (a(2,3))
+
+Q17..What is arbitrary argument & Keyword arbitrary argument  ?     
+arbitrary argument:  
+-	we pass multiple argument  
+-	To create arbitrary argument give (*) before the argument name  - 	All the argument value store in tuple  format 
+Keyword arbitrary argument:  
+-	we pass multiple argument 
+-	To create  Keyword arbitrary argument give (**) before the argument name  
+-	All the argument value store in Dictionary format 
+ 
+ Q18. What is variable scope  In python ? 
+ There are two type 
+    1)	Local scope 
+       Its work only inside a function  
+       -it not use or  access outside of the function  
+ 
+     2)	Global scope 
+       -it work only outside a function  it can use to accesses outside of the function  
+ 
+** Global keyword  
+-	We can access global variable inside function but we can not modify  
+
+Q19.. What is slicing in python ? 
+   Syntax : start : stop : step  
+
+Q20. What is Veriable ? 
+  Is a store data during program exquation  in python when be assine value  to the variable  
+-	Actually data store inside memory and name given to that location is called variable  
+•	Rules 
+•	Variable name always start alphabets or undercore   
+•	We can add a number in the variable but ufter 1st latter 
+•	Space not allowed in the variable use underscore (_) 
+
+
+
+Q21. Operators in python  
+•	Arithematic operators (+,-,*,/) 
+•	Relational operators (=,>,<) 
+•	Logical operators (AND&&,OR||,NOT !) 
+•	Membership operator (in,not in) 
+ 
+Q22. Conditional statement  
+1)	If and else = use only 2 condition 
+2)	Elseif (elif) = use more than 2 condition 
+
+
+Q23. Explain string five methods (“””  “””)  
+1)	Lower : every string convert lover case  
+2)	Upper :  every string convert upper case 
+3)	Capitalize: string 1st word are capitalize  
+4)	Title : every word 1st later capital  
+5)	Swap case : upper case convert a lower case and lover case convert upper case 
+
+
+Q24.List methods (function) [ ] 
+1)	Append: this function add the item at the end of the list  
+2)	Inset: pass a index No and they  that update the value and those value are all ready there they value shift right side 
+3)	Extend: its store multiple item but last 
+4)	Copy : pass index no and value that value is updated  
+ 
+ 
+Q25.  Tuple methods ( ) 
+1)	Count : its count value how many time repeated  
+2)	Index : its pass value they return index number 
+
+ 
+Q26.dictionary method  {k:v} 
+1)	Pop : it is use to delete specific key  
+2)	Pop item: is delete last item  
+3)	Clear : delete all the item from dictionary  
+4)	Values: all values print in the dictionary 
+5)	Keys: all keys print in the dictionary  
+
+Q27.set  methods  { } 
+1)	Remove : pass a item that item is remove in the tuple  
+2)	Discard: pass a item that item is remove in the tuple 
+3)	Pop: delete random item  
+4)	Union(|):  use both two set combine  
+5)	Intersection: when we perform intersectipon on two set it will be give to common element between 2 set  - 	Its provide common element  
+
+Q28.  What is Function ? 
+ Is use to group  of the code  which required frequently  
+-	The main purpose of the function is code reusability  
+-	We can declare function by using def keyword as follow  
+•	Why will use function  
+The main purpose of the function is avoid repetition of code if avoid program here repeated code them can use function  
+•	There are two type  
+1) In blind : this function provide by python  
+2)user define: those function are maniuly created is called user define function 
+
+Q29.  What is module ? 
+         Is a group of function there are two type module 
+     1)	In blid module  : python provide many  redimade module which we can use in over program sum example of inblid modules  
+      Ex: math module ,os modules  
+     2)	User define modules : we put the functions which we required frequently and use that modules in the multiple projects  
+ 
+
+Q30. Difference between package or module?  
+Module 	
+Is a group of function 
+package
+it is group of module 
+
+
+Q31. What is class and object ? 
+       Class: is a blueprint of object – working of object de-sided by classs   
+       Object: it is real world entity that can be describe by attributes & action  
+ 
+Q32. What is __init__ method ? (Constructor)
+    Is a inbuit method user for initialize of the object we can initialize the value of variable in the init method  
+
+Q33. What is file handling ? 
+File use to store data on hard dicks  
+-	In python we perform read or write operation with the file  
+-	There are two type  
+-	1)  text file  
+-	2) binary file : (video file ,audio file ,pdf file , png file ) 
+•	Open() function  
+Before performing read or write operation we must open that file  
+Syntax :open(file name ,mode) we have pass 2 parameter
+•	1) file name  
+It is name of file we have to perform read or write operation  
+2) Mode  
+It is specify wich operation we want to perform mode of the can be specify by  
+“r”=read mode  
+“w”=write mode  
+“a”=append mode  
+
+Q34 . how many types of method 
+There are three types 
+An instance method uses the self keyword to access instance variables.
+A class method uses the cls keyword to access class variables.
+A static method does not use self or cls; it works like a normal function written inside a class.
+
+ 	 	 	 	 
+mutable 	inmutable 	inmutable 	inmutable 	mutable 
+[ ]       	( )        	{ }         	“ “ 	   {k:v} 
+List consume more memory 	tuple consume 
+less memory 	Not use indexing because it is use 
+hash algorithm format 	 	Not use indexing only use key 
+
+
+
+
+
+
+### My SQL
+
+Q1..What is MySQL and why do we use it?
+Answer: MySQL is an open-source relational database management system (RDBMS). We use it to store, retrieve, and manage structured data efficiently. It is fast, reliable, and widely used in web applications.
+
+Q2..What is a database and what is a table?
+Answer: A database is a collection of related data stored in an organized manner. A table is a collection of rows (records) and columns (fields) inside a database, representing data in a structured way.
+
+Q3.Difference between CHAR and VARCHAR
+Answer: CHAR stores fixed-length strings, padding extra spaces if needed. VARCHAR stores variable-length strings and uses only the required space, saving memory.
+
+Q4..What is a primary key? Can a table have multiple primary keys?
+Answer: A primary key uniquely identifies each record in a table. A table can have only one primary key, but it can be composed of multiple columns (composite key).
+
+Q5..What is a foreign key?
+Answer: A foreign key is a column in one table that refers to the primary key in another table, creating a relationship between the tables.(Foreign key ha yeka table cha  column aani to refer krtoy dursreya table chi primary key ) 
+
+Q6..What are indexes and why do we use them?
+Think of a database table like a big book:
+•	Each row is like a page in the book.
+•	If you want to find a specific page (say, a person’s name), you’d normally have to look page by page until you find it — this is slow if the book is big.
+An index is like the index at the back of a book:
+•	It tells you exactly where to look to find what you want.
+•	So instead of searching the whole book, you jump straight to the right page.
+In database terms:
+•	An index is a data structure (usually a B-tree or hash table) that allows the database to quickly locate rows without scanning the whole table
+                     ## “An index helps to quickly find specific rows in a database table based on column values.”
+
+Q7..Difference between INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN
+INNER JOIN → returns only matching rows from both tables
+LEFT JOIN → returns all rows from left table + matching from right
+RIGHT JOIN → all rows from right table + matching from left
+FULL OUTER JOIN → all rows from both tables + matches where possible
+
+Q8..Difference between WHERE and HAVING clause
+91.WHERE Clause
+•	Purpose: Filters individual rows before any grouping happens.
+•	Use case: When you want to select only certain rows based on a condition.
+2. HAVING Clause
+•	Purpose: Filters groups of rows after grouping (after GROUP BY).
+•	Use case: When you want to filter aggregated results, like totals, averages, counts, etc.
+     Example: Suppose you want to find products whose total quantity sold is more than 10:
+
+
+Q8..What is normalization? Explain 1NF, 2NF, 3NF.
+Answer: Normalization is the process of organizing data to reduce redundancy:
+
+1NF → eliminate duplicate columns, ensure atomic values
+
+2NF → remove partial dependencies
+
+3NF → remove transitive dependencies
+
+Q9.What is denormalization and when is it used?
+Answer: Denormalization combines tables to improve read performance at the cost of some redundancy. Used in reporting or high-speed read queries.
+
+
+Q11..Update multiple rows:
+UPDATE employees SET salary = salary + 1000 WHERE department = 'Sales';
+
+
+Q12..Delete duplicate rows:
+DELETE t1 FROM table_name t1
+INNER JOIN table_name t2
+WHERE t1.id > t2.id AND t1.email = t2.email;
+
+
+Q13..Difference between TRUNCATE and DELETE:
+DELETE → removes rows, can use WHERE, slower, can rollback
+TRUNCATE → removes all rows, resets auto-increment, faster, cannot rollback
+
+
+Q15..Explain GROUP BY:
+GROUP BY is used in SQL to group rows that have the same values in a column and apply aggregate functions on each group.
+
+Q16..Difference between UNION and UNION ALL:
+UNION → combines results and removes duplicates
+UNION ALL → combines results including duplicates
+
+Q17. What is pool in database connection ?
+A connection pool is a collection of reusable database connections that improves performance by avoiding repeated connection creation.
+
+
+
+
+
+
+
+
+
+NODE.JS 
+Q1..What is Node.js and why do we use it?
+Answer: Node js is backend  java script engeen .
+a JavaScript runtime that allows running JavaScript on the server. We use it to build scalable and fast web applications, APIs, and real-time applications because it is non-blocking and event-driven.
+
+
+Q2..What is the difference between Node.js and JavaScript in the browser?
+Answer: Browser JavaScript runs in the client-side environment and is mainly for UI/DOM manipulation. Node.js runs on the server and is used for backend tasks like handling requests, databases, and APIs.
+
+Q3..What is npm?
+Answer: npm (Node Package Manager) is used to install, manage, and share Node.js packages and dependencies in a project.
+
+Q4..What is event-driven programming in Node.js?
+Answer: In event-driven programming, the server reacts to events (like HTTP requests) and executes callback functions. Node.js uses this to handle multiple requests efficiently without blocking.
+
+Q5..What is non-blocking I/O in Node.js?
+Answer: Non-blocking I/O means operations like reading files or querying databases don’t block other code from running. Node.js can handle multiple operations simultaneously.
+
+Q6..What is the difference between synchronous and asynchronous code?
+Answer: Synchronous code executes line by line, blocking the next operation until the previous is done. Asynchronous code allows other operations to continue while waiting for long tasks like database queries.
+
+Q7..What are modules in Node.js?
+Answer: Modules are reusable code blocks in Node.js. They can be built-in (like fs, http), custom, or third-party (from npm).
+
+Q8..What is require() in Node.js?
+Answer: require() is used to import modules into a Node.js file so you can use their functionality.
+
+
+Q10..What is the difference between __dirname and __filename?
+Answer: __dirname gives the current folder path, __filename gives the full path of the current file.
+
+Q11..How do you create a simple HTTP server in Node.js?
+
+const http = require('http');
+const server = http.createServer((req, res) => {
+  res.writeHead(200, {'Content-Type':'text/plain'});
+  res.end('Hello World');
+});
+server.listen(3000, () => console.log('Server running on port 3000'));
+
+
+Q12..Explain the role of the package.json file.
+Answer: package.json stores project metadata, dependencies, scripts, version, and other configurations.
+
+Q13..What is middleware in Node.js?
+👉 Middleware in Node.js is a function that runs between the request and the response.
+It can check, modify, or control the request before sending the response.
+
+Q14..What is the difference between readFileSync and readFile in Node.js?
+•	readFileSync → Reads a file synchronously, code waits until file is read.
+•	readFile → Reads a file asynchronously, code doesn’t wait and continues running.
+Q15..How do you handle errors in Node.js?
+Answer: Errors can be handled using try-catch (for synchronous code), .catch() for promises, or error-handling middleware in Express.
+
+Q16..What is the difference between process.exit() and process.kill()?
+•  process.exit() → Stops your Node.js program immediately.
+•  process.kill() → Sends a signal to terminate or control any process (can be another process or itself).
+
+Q17..What is the difference between require() and import?
+Answer: require() is CommonJS syntax used in Node.js. import is ES6 module syntax used in modern JavaScript; Node.js supports both in newer versions.
+
+Q18..Explain callback hell and how to avoid it.
+Answer: Callback hell occurs when multiple nested callbacks make code hard to read and maintain. We avoid it using Promises, async/await, or modular functions.
+
+Q19..What are streams in Node.js?
+Answer: Streams allow reading or writing data in chunks instead of loading everything at once, which is memory-efficient. Example: reading large files or real-time data.
+
+Q20..How do you connect Node.js to a MySQL database?
+const mysql = require('mysql2');
+const connection = mysql.createConnection({
+  host: 'localhost',
+  user: 'root',
+  password: 'password',
+  database: 'mydb'
+});
+connection.connect((err) => {
+  if(err) throw err;
+  console.log('Connected to MySQL');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EXPRESS.JS 
+Q1.layered architecture (or MVC + Service + Repository pattern)
+
+“When a user sends a request, it first hits the entry point (index.js), then goes through the router to the controller. The controller delegates the request to the service layer, which contains business logic. The service calls the repository layer to interact with the database.
+Once the database returns the data, it flows back through the repository, service, and controller, and finally the response is sent to the client.”
+
+Q1..What is Express.js?
+Express.js is a Node.js web framework used to build web applications and APIs. It simplifies routing, middleware, and server-side logic.
+
+Q..What is bind?
+When a function is passed outside its object, it can lose its original this context.
+So we use bind() to permanently bind the function with its original object.
+In Express routing, controller methods are passed to the router, therefore we use:
+.bind(controller)
+
+
+Q2..Why do we use Express.js instead of plain Node.js?
+Express simplifies backend development by handling routing, requests, responses, and middleware, making code cleaner and easier to maintain compared to raw Node.js.
+
+Q3.What is middleware in Express?
+Middleware is a function that executes during the request-response cycle. It can modify requests, handle authentication, log activity, or manage errors.
+
+Q4..Explain different types of middleware in Express.
+Application-level middleware: Applied to all requests (e.g., app.use())
+Router-level middleware: Applied to specific route
+Error-handling middleware: Handles errors (err, req, res, next)
+Built-in middleware: e.g., express.json()
+Third-party middleware: e.g., cors, body-parser
+
+
+
+Q5..What is routing in Express?
+Routing is how Express handles client requests (GET, POST, PUT, DELETE) and maps them to specific code/functions.
+
+Q6..How do you handle query parameters and URL parameters in Express?
+Query parameters → req.query (e.g., /users?name=Rahul)
+URL parameters → req.params (e.g., /users/:id)
+Query parameters are accessed using req.query, while URL parameters are accessed using req.params in Express.
+
+Q7..What is params & body ?
+ is an object in Express (req.params) that stores values of URL parameters from the route path.
+“In real-world applications, params are used to identify a specific resource (like user ID in URL), while body is used to send detailed data from client to server, such as form data or JSON.”
+⚡ Simple Memory Trick
+👉
+•	Params = “Kon?” (Which one?) 
+•	Body = “Kay?” (What data?)
+
+Q8..What is the difference between app.get() and app.post()?
+app.get() handles HTTP GET requests (usually for fetching data to server)
+
+app.post() handles HTTP POST requests (usually for sending/creating data to server)
+
+
+
+
+
+Q9..How do you server static files in Express?
+Answer: Use express.static() middleware. Example:
+app.use(express.static('public'));
+👉 Static files in Express are files like HTML, CSS, JavaScript, images, and videos that are sent directly to the browser without any processing, using express.static().
+
+
+Q10..What is express.json() and why is it used?
+👉 express.json() is a middleware in Express that reads JSON data from the request body and converts it into a JavaScript object, so we can easily use it in req.body.
+Why it is used (easy words) 😊
+•	To accept JSON data from client (frontend / Postman)
+•	To read request body in POST / PUT requests
+•	Without it, req.body will be undefined
+
+Q11..Explain error-handling middleware in Express.
+Error-handling middleware has four parameters: (err, req, res, next). It is used to catch and handle errors in a centralized way.
+
+
+Q12..How do you create a basic Express server?
+const express = require('express');
+const app = express();
+app.get('/', (req, res) => res.send('Hello World'));
+app.listen(3000, () => console.log('Server running on port 3000'));
+
+
+
+
+Q13..How do you handle 404 errors in Express?
+app.use((req, res, next) => {
+  res.status(404).send('Page Not Found');
+});
+
+
+Q14..How do you handle POST requests in Express?
+app.use(express.json());
+app.post('/user', (req, res) => {
+  console.log(req.body);
+  res.send('User added');
+});
+ 
+app.use() → applies middleware to all requests for a route or app
+app.all() → applies a handler to all HTTP methods (GET, POST, etc.) for a specific route
+
+
+
+
+
+Q16..How do you organize routes in separate files?
+// routes/user.js
+const express = require('express');
+const router = express.Router();
+router.get('/', (req, res) => res.send('User route'));
+module.exports = router;
+// server.js
+const userRoutes = require('./routes/user');
+app.use('/users', userRoutes);
+
+
++++
+
+Use mysql2 package, create a connection, and then call queries inside route handlers. Example:
+const mysql = require('mysql2');
+const connection = mysql.createConnection({ host:'localhost', user:'root', database:'test' });
+app.get('/users', (req, res) => {
+  connection.query('SELECT * FROM users', (err, results) => {
+    if(err) res.status(500).send(err);
+    else res.json(results);
+  });
+});
+Q18..Explain CORS in Express.
+👉 CORS (Cross-Origin Resource Sharing) in Express is a security rule that controls which websites are allowed to access your backend API.
+•	Frontend and backend run on different origins (different port/domain)
+•	Browser blocks the request for security
+•	CORS allows the request by giving permission
+We  pass the frontend port number when request come to this port number thean accept other waise regect this request
+
+Q19..What are route parameters vs query parameters?
+Answer: Route parameters are part of the URL (e.g., /user/:id) and accessed via req.params. Query parameters are key-value pairs in the URL after ? (e.g., /user?id=1) and accessed via req.query.
+
+
+
+Q20..How do you handle environment variables in Express?
+Answer: Use .env file and dotenv package:
+require('dotenv').config();
+const port = process.env.PORT || 3000;
+
+
+Q21..what is middleware chaining in Express.
+means running multiple middleware functions one after another for a single request, using next() to pass control to the next middleware.
+app.get('/test', middleware1, middleware2, (req,res)=>res.send('Done'));
+
+
+
+
+
+
+JAVASCRIPT 
+
+Q1.What is Dependency Injection
+Dependency Injection is a design pattern where required dependencies are provided from outside instead of creating them inside the class.( one class depends another class)
+“Don’t create it, just take it”
+Dependency Injection is used because code becomes clean, reusable, easy to manage, and loosely coupled.
+
+Q1..What is JavaScript and why is it used?
+JavaScript is a programming language used to make web pages interactive. It runs in the browser for frontend and on Node.js for backend.
+⚡ Why Prototype is Used?
+1️⃣ Memory Efficiency (VERY IMPORTANT)
+Imagine a classroom.
+Every student has their own name, but all students share the same school name.
+Instead of storing the school name in every student, we store it once in a common place.
+That common place is called the prototype.
+Prototype is used to share common properties between multiple objects.
+________________________________________
+⚡ If interviewer asks “HOW it works?”
+Prototype is like a parent that shares common properties and methods with all its children, avoiding duplication and improving memory efficiency.
+
+Q2..Difference between var, let, and const
+var → function-scoped, can be redeclared
+let → block-scoped, cannot be redeclared
+const → block-scoped, cannot be redeclared or reassigned
+
+
+Q3..Difference between == and ===
+Answer: == checks value only (type conversion happens), === checks value and type strictly.
+
+Q.What is entity folder ?
+Entity is a class that represents a database table and stores structured data as objects.
+
+Q5..What is hoisting?
+“Hoisting is JavaScript moving variable and function declarations to the top so you can use them before writing them.”
+“Hoisting lets you use functions and variables before they appear in the code.”
+“JavaScript तुम्हाला variable किंवा function वापरायला परवानगी देते आधी जरी तुम्ही ते लिहिले नसेल.”
+
+Q6..Difference between synchronous (सिंक्रोनस कोड) and asynchronous (असिंक्रोनस कोड)code
+Answer: Synchronous code executes line by line, blocking the next operation. 
+Asynchronous code allows other code to run while waiting for long tasks, like API calls or file reading.
+
+
+Q7..What are callbacks?
+“A callback is a function you pass to another function so it can be called later, usually after some task is done.”
+“It’s like telling someone: ‘Do this, and when you’re finished, call me.’”
+
+
+
+
+Q9..Difference between null and undefined
+  Null → intentionally no value.
+ Undefined → value not assigned yet.
+
+Q10..Difference between let and var in terms of scope
+var = is function-scoped
+ Let= is block-scoped, meaning it exists only within { }.
+
+Q11..What is the event loop in JavaScript?
+Answer: The event loop allows JavaScript to execute asynchronous code by checking the call stack and the callback queue, ensuring non-blocking execution.
+
+Q12..Difference between call, apply, and bind
+call() → invokes function with given this and arguments
+apply() → invokes function with given this and arguments as array
+
+Q13..What are arrow functions?
+Arrow functions are a shorter syntax for writing functions in JavaScript using the => operator.
+
+Q15..What is a JavaScript object?
+An object is a collection of key-value pairs used to store structured data. Example:
+Its like a dictionary {key : value}
+let user = {name: 'Rahul', age: 22};
+
+
+
+
+Q17.What is the difference between map, forEach, and filter?
+Map()= is use to transform every element in array 
+Like  you have product prices you want new price with tax 
+(it not remove item you just modified each items)
+Filter() =it use select item base on condition
+Like I want to select those how age is > 18 thean us filter
+Reduce()= it use combine all element in one 
+Like bill multiple item calculate and give bill
+Q18..Explain JavaScript hoisting with example?
+ Hoisting is JavaScript’s behavior of moving variable and function declarations to the top of their scope before code execution.
+
+Q19..Why use New keyword ?
+“The new keyword is used to create an object  of a class. It allows us to reuse the class by creating multiple objects with the same structure and behavior.”
+
+Q20. What is constructor?
+“A constructor is a special method in a class that is automatically called when an object is created. It is used to initialize object properties and set up required dependencies.”
+•	A class can have only one constructor 
+•	It runs automatically 
+•	You don’t call it manually 
+“Yes, JavaScript constructor is similar to Python’s __init__ method. Both are used to initialize object properties when an object is created.”
+
+
+1. What is OOP in JavaScript?
+OOP is a programming style where you organize code using objects and classes.
+•	Encapsulation 
+•	Inheritance 
+•	Polymorphism 
+•	Abstraction 
+________________________________________
+2. What is an Object?
+An object is a collection of key-value pairs.
+const user = {name: "Rahul",  age: 22};
+________________________________________
+3. What is a Class?
+A class is a blueprint for creating objects.
+class User {
+  constructor(name) {
+    this.name = name;
+  }
+}
+________________________________________
+4. What is a Constructor?
+A constructor is a special method used to initialize object values.
+constructor(name) {
+  this.name = name;
+}
+👉 In Python → similar to __init__
+________________________________________
+5. What is this keyword?
+this refers to the current object.
+class User {
+  constructor(name) {
+    this.name = name;
+  }
+}
+________________________________________
+6. What is Encapsulation?
+Binding data + methods into a single unit.
+class Bank {
+  #balance = 0;   // private
+
+  deposit(amount) {
+    this.#balance += amount;
+  }
+}
+👉 # = private field
+________________________________________
+7. Why use # (private fields)?
+To hide data from outside access.
+obj.#balance ❌ (not allowed)
+________________________________________
+🔹 Intermediate Questions
+8. What is Inheritance?
+One class can use properties of another class.
+class Animal {
+  speak() { 
+
+    console.log("Animal speaks");
+  }
+}
+
+class Dog extends Animal {}
+________________________________________
+9. What is Polymorphism?
+Same method behaves differently.
+class Animal {
+  speak() {
+    console.log("Animal sound");
+  }
+}
+
+class Dog extends Animal {
+  speak() {
+    console.log("Bark");
+  }
+}
+________________________________________
+10. What is Abstraction?
+Hiding internal details and showing only functionality.
+(showing esswntial detail)
+👉 Example: ATM machine (you don’t see internal code)
+________________________________________
+11. Difference between Class and Object?
+Class	Object
+Blueprint	Instance
+Defined once	Created multiple times
+________________________________________
+12. What is Prototype in JavaScript?
+Every object has a hidden property called prototype used for inheritance.
+function Person(name) {
+  this.name = name;
+}
+
+Person.prototype.sayHi = function() {
+  console.log("Hi");
+};
+________________________________________
+13. What is Prototype Chain?
+JavaScript searches properties in chain:
+object → prototype → parent prototype → null
+________________________________________
+14. Difference between __proto__ and prototype
+prototype	proto
+Used in constructor	Used in object
+Creates methods	Accesses parent
+________________________________________
+🔹 Advanced Level Questions
+15. What is Method Overriding?
+Child class changes parent method.
+
+class A {
+  show() {
+    console.log("A");
+  }
+}
+
+class B extends A {
+  show() {
+    console.log("B");
+  }
+}
+________________________________________
+16. What is Method Overloading in JS?
+JavaScript does NOT support traditional overloading.
+👉 Instead:
+function add(a, b) {
+  return a + (b || 0);
+}
+________________________________________
+
+
+17. What is Static Method?
+class MathUtil {
+  static add(a, b) {
+    return a + b;
+  }
+}
+
+MathUtil.add(2,3);
+👉 Called without creating object
+________________________________________
+18. What is Getter and Setter?
+class User {
+  constructor(name) {
+    this._name = name;
+  }
+
+  get name() {
+    return this._name;
+  }
+
+  set name(value) {
+    this._name = value;
+  }
+}
+________________________________________
+19. What is super keyword?
+Used to call parent constructor.
+class Dog extends Animal {
+  constructor(name) {
+    super();
+    this.name = name;
+  }
+}
+
+________________________________________
+20. Factory Function vs Constructor Function
+Factory Function	Constructor
+returns object	uses new
+no this needed	uses this
+
+HTML
+Q1..What is HTML and why is it used?
+Answer: HTML (HyperText Markup Language) is the standard language to create web pages. It defines the structure of a webpage using elements like headings, paragraphs, links, and forms.
+
+Q2..What is the difference between HTML and XHTML?
+Answer: XHTML is stricter than HTML. It must be well-formed, all tags closed, lowercase, and nested properly. HTML is more lenient.
+“HTML is flexible and forgiving with syntax, while XHTML is strict, follows XML rules, and requires proper closing of all tags.”
+
+Q3.What are semantic tags in HTML?
+Answer: Semantic tags provide meaning to content, helping browsers and search engines understand it. Examples: <header>, <footer>, <article>, <section>.
+
+Q4..Difference between block-level and inline elements
+Block-level → take full width, start on a new line (e.g., <div>, <p>)
+Inline → take only the space they need, stay in line (e.g., <span>, <a>)
+
+Q5.What is the difference between <div> and <span>?
+Answer: <div> is a block-level container, <span> is inline. Both are used to group content but behave differently in layout.
+
+Q6..What is the purpose of the <meta> tag?
+Answer: <meta> provides metadata about the page, such as charset, description, keywords, viewport, and SEO info.
+
+Q7..What are forms in HTML?
+Answer: Forms collect user input through fields like <input>, <textarea>, <select> and send data to a server using GET or POST methods.
+
+Q8..Difference between GET and POST in forms
+GET → sends data in URL, visible, limited length, not secure
+POST → sends data in request body, more secure, unlimited length
+
+Q9..What is the difference between HTML5 and HTML4?
+Answer: HTML5 introduced semantic tags, audio/video support, canvas, offline storage, and better forms. HTML4 is older and less feature-rich.
+
+Q10..What are the new input types in HTML5?
+Answer: Examples: email, number, url, date, range, color, tel, search. 
+
+Q11.What is the difference between <iframe> and <embed>?
+Answer: <iframe> embeds another HTML page inside the current page. <embed> embeds external content like PDFs, videos, or plugins.
+
+Q12..What is the purpose of the <canvas> tag?
+Answer: <canvas> is used to draw graphics dynamically using JavaScript, like charts, animations, or games.
+
+Q13..Difference between <section>, <article>, and <div>
+<section> → groups related content
+<article> → independent, self-contained content
+<div> → generic container with no meaning
+
+Q14..What are data- attributes?*
+Answer: Custom attributes starting with data- allow storing extra information on HTML elements. Example: <div data-id="123"></div>
+
+Q15..What is the difference between <ul>, <ol>, and <dl>?
+<ul> → unordered list
+
+<ol> → ordered list
+
+<dl> → definition list
+
+Q16..What is the difference between <b> and <strong>?
+Answer: <b> is for visual bold text. <strong> indicates importance and is semantic.
+
+Q17..Explain the difference between <i> and <em>
+Answer: <i> is for visual italics. <em> indicates emphasis (semantic).
+
+Q18..What is the difference between <link> and <a>?
+Answer: <link> is used to link external resources like CSS. <a> creates clickable hyperlinks.
+
+Q19..What is the difference between inline, internal, and external CSS?
+Inline → style attribute in HTML tag
+
+Internal → <style> in <head>
+
+External → separate CSS file linked via <link>
+
+Q20..What is the purpose of the viewport meta tag?
+It controls the page’s layout on mobile devices. Example:
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+________________________________________
+Bootstrap
+
+
+Bootstrap Interview Questions & Answers
+1. What is Bootstrap?
+•	Bootstrap is a front-end framework for designing responsive websites quickly using CSS, JS, and prebuilt components.
+2. What are the main features of Bootstrap?
+•	Responsive design
+•	Prebuilt CSS classes
+•	Grid system
+•	Components (buttons, navbar, cards, etc.)
+•	JavaScript plugins
+3. What is the difference between Bootstrap 4 and Bootstrap 5?
+4. What is the Bootstrap Grid System?
+•	A layout system dividing the page into 12 columns.
+•	Use classes like col-md-6, col-lg-4 to make responsive layouts.
+5. Explain Bootstrap breakpoints.
+•	Breakpoints control responsiveness:
+o	xs <576px, sm ≥576px, md ≥768px, lg ≥992px, xl ≥1200px, xxl ≥1400px
+6. Difference between container, container-fluid, and container-{breakpoint}?
+•	container → fixed-width
+•	container-fluid → full-width
+•	container-md → responsive fixed width starting at md breakpoint
+7. What are Bootstrap components? Give examples.
+•	Reusable UI elements. Examples:
+o	Navbar, Buttons, Cards, Modals, Forms, Alerts
+8. How do you make a button in Bootstrap?
+<button class="btn btn-primary">Click Me</button>
+9. What is the difference between .btn-primary and .btn-outline-primary?
+•	.btn-primary → solid color button
+•	.btn-outline-primary → outlined button
+10. What are Bootstrap utilities?
+•	Helper classes for spacing, colors, display, flex, text, borders.
+Example: mt-3 → margin-top 1rem, text-center → center text
+11. How do you create a responsive navbar?
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Logo</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+    data-bs-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+    </ul>
+  </div>
+</nav>
+12. Difference between .d-none, .d-block, .d-flex in Bootstrap?
+•	.d-none → hides element
+•	.d-block → display block
+•	.d-flex → display flex
+13. How do you make a modal in Bootstrap?
+•	Use data-bs-toggle="modal" and data-bs-target="#modalId" with modal HTML structure.
+14. Difference between Bootstrap 4 and 5 grid classes?
+•	Bootstrap 4 uses .col-*, .offset-*
+•	Bootstrap 5 adds .gx-* and .gy-* for gutter spacing, no jQuery required
+15. How do you include Bootstrap in a project?
+•	CDN or downloaded files
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+16. Difference between .container and .container-fluid?
+•	.container → fixed width with responsive breakpoints
+•	.container-fluid → full width, spans 100%
+17. What is the difference between .row and .col?
+•	.row → wrapper for columns, creates horizontal group
+•	.col → actual column that holds content
+18. How do you align items in Bootstrap flex?
+•	Use flex utilities:
+o	justify-content-center → horizontal
+o	align-items-center → vertical
+o	d-flex → enable flex
+19. How do you make an image responsive in Bootstrap?
+<img src="image.jpg" class="img-fluid" alt="Responsive image">
+20. Difference between Bootstrap 4 cards and panels?
+•	Panels (Bootstrap 3) → old
+•	Cards (Bootstrap 4+) → modern, more flexible UI containers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+React
+1. What is React?
+•	React is a JavaScript library for building user interfaces, mainly single-page applications (SPAs).
+•	
+2. What are the features of React?
+•	JSX (JavaScript + HTML)
+•	Components
+•	Virtual DOM
+•	One-way data binding
+•	Performance via re-rendering only changed parts
+3. What is JSX?
+•	JSX = JavaScript XML. Allows writing HTML-like syntax in JS.
+const element = <h1>Hello React</h1>;
+4. Difference between state and props?
+Props = data passed from parent to child component
+•	Read-only (cannot change ❌) 
+•	Used for communication between components
+State = data managed inside the component
+•	Can be changed ✅ 
+•	Used for dynamic behavior
+
+5. What is the Virtual DOM and real DOM?
+•	A lightweight copy of the real DOM.
+•	React updates Virtual DOM first, then diffs and updates only changed parts in real DOM → better performance.
+6. Functional vs Class Components
+•	Functional: simple functions, can use hooks (useState, useEffect)
+•	Class: ES6 classes, use this.state and lifecycle methods
+7. What are React Hooks?
+•	Special functions to use state and lifecycle features in functional components.
+•	Examples: useState, useEffect, useContext, useRef
+
+
+
+8. What is useState?
+•	Hook to manage state in functional components
+•	useState is used to add and update state in functional components.”
+•	
+const [count, setCount] = useState(0);
+
+9. What is useEffect?
+•	Hook to manage side effects (API calls, timers, DOM updates)
+useEffect(() => { console.log("Component mounted"); }, []);
+10. What is a controlled component?
+•	Form elements whose value is controlled by React state
+<input value={name} onChange={e => setName(e.target.value)} />
+11. What is an uncontrolled component?
+•	Form elements that maintain their own state, accessed via ref.
+12. Difference between React and Angular
+React is a JavaScript library used for building UI components, while Angular is a full-fledged framework used to build complete web applications. React uses a virtual DOM for faster updates, whereas Angular uses a real DOM.
+
+13. What is props drilling? How to avoid it?
+•	Passing props through multiple components unnecessarily.
+•	Avoid using Context API or Redux.
+
+14. What is React Router?
+•	React Router is a library used to handle navigation between different pages (components) in a React application without reloading the page.”
+•	Yes, React Router works like mapping
+•	But better way to say:
+•	 “It maps URL paths to components”
+
+15. What is the difference between stateful and stateless components?
+👉 “Stateful components handle state and logic, while stateless components are pure functions that render UI based on props.”16. What are keys in React?
+
+18. What is React Context API?
+“React Context API is used to share data between components without passing props manually at every level (avoids props drilling).”
+
+19. Difference between useEffect and componentDidMount?
+“componentDidMount is a lifecycle method used in class components, while useEffect is a hook used in functional components that can handle mounting, updating, and unmounting.”
+ 20. What is Redux?
+•	State management library to handle global state in React apps.
+•	Centralized store → predictable state changes via actions and reducers
+21. What is the difference between useState and useReducer?
+•	useState → simple state
+•	useReducer → complex state logic or multiple sub-values
+22. What are Higher Order Components (HOC)?
+•	Function that takes a component and returns a new component.
+const EnhancedComponent = withAuth(Component);
+23. Difference between React.memo and PureComponent?
+•	React.memo → functional components, prevents unnecessary re-render
+•	PureComponent → class components, shallow prop comparison
+24. What is reconciliation in React?
+•	Process of React comparing Virtual DOM with real DOM and updating only the necessary parts.
+25. What is the difference between controlled vs uncontrolled form inputs?
+•	Controlled → value controlled by state
+•	Uncontrolled → value controlled by DOM
+
+Q26.instance ?
+An instance is an object of a component, and we can create multiple instances by using the component multiple times.”
+Q.. .then()
+.then() is used to handle the result of asynchronous operations like API calls.
+Q27.Render?
+Rendering in React means displaying the UI on the screen. React performs an initial render when the component loads and re-renders when state or props change, updating only the necessary parts of the UI.
+Q21.Reconciliation Algorithm (Interview Definition)
+👉 “Reconciliation is the process React uses to compare the virtual DOM with the previous version and update only the changed parts in the real DOM efficiently.”
+
+👇
+🔹 Constructor
+A constructor is a special method that is automatically called when an object is created. It is used to initialize the object.
+Destructor
+A destructor is a special method that is automatically called when an object is destroyed. It is used to free memory or clean up resources.
+
+•  State is used to store and manage dynamic data in a component, and it updates the UI when changed. 
+•  .then() is used to handle asynchronous operations like API responses. 
+•  .map() is used to loop through arrays and render lists in React.
+
+
+state	store data
+Q28.what is component lifecycle
+👉 “Component lifecycle refers to the stages a React component goes through: mounting, updating, and unmounting. In class components, lifecycle methods are used, while in functional components, useEffect handles these stages.”
+1. Mounting (Component Created)
+👉 When component is created and shown on screen
+Methods (Class Components):
+•	constructor() 
+•	render() 
+•	componentDidMount() ✅ (very important) 
+📌 Use:
+•	API calls 
+•	Initial setup 
+________________________________________
+🔶 2. Updating (Data Changes)
+👉 When state or props change
+Methods:
+•	render() 
+•	componentDidUpdate() ✅ 
+📌 Use:
+•	React to data changes 
+•	Update UI 
+________________________________________
+🔴 3. Unmounting (Component Removed)
+👉 When component is removed from screen
+Method:
+•	componentWillUnmount() ✅
+
+
+asynchronous operations
+Asynchronous operations are tasks that take time to complete, and JavaScript does not wait for them — it continues executing other code.
+What is React DOM?
+👉 React DOM is a library that helps React show content on the web page (browser DOM)
+📌 Simple:
+👉 React → creates UI
+👉 React DOM → displays UI in browser
+1. Angular DOM
+👉 Angular uses Real DOM
+How it works:
+•	When data changes → Angular updates full DOM tree 
+•	Even small change → bigger update 
+📌 Result:
+•	Slower compared to React (for large apps) 
+________________________________________
+🔶 2. React DOM
+👉 React uses Virtual DOM
+How it works:
+•	Creates a copy of DOM (Virtual DOM) 
+•	Compares old vs new (diffing) 
+•	Updates only changed part 
+📌 Result:
+•	Faster performance ✅ 
+
+
+
+“Difference between framework and library?”
+You can say:
+A library is a collection of reusable functions where we control the flow of the program.
+A framework provides a complete structure and controls the flow of the application, where our code is called by the framework.
+
+
+
+
+Q . what is package.json and package-lock.json  and node_modules
+package.json contains project metadata, dependencies, and scripts.
+package-lock.json locks the exact versions of dependencies to ensure consistency across environments.
+node_modules is the folder where all installed packages and their dependencies are stored.
+________________________________________
+🎯 Real-Life Analogy
+•	package.json → Shopping list 📝 
+•	package-lock.json → Fixed bill (exact items & price) 🧾 
+•	node_modules → Actual groceries 🛒 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
