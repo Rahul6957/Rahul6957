@@ -1,1 +1,141 @@
 # TFL-Comentor Work Notes
+
+## Project Work Summary
+
+### 1. Database Design and Learning
+
+* Designed complete database structure for the project.
+* Created tables for:
+
+  * Users
+  * Personal Information
+  * Professional Information
+  * Academic Information
+  * Roles and User Roles
+  * User Logs
+* Learned:
+
+  * Database normalization
+  * Relationships
+  * Foreign keys
+  * Primary keys
+  * SQL queries
+  * Join operations
+  * Insert and update operations
+* Improved understanding of MySQL database design and backend data flow.
+
+---
+
+### 2. Create User Update API
+
+* Created User Update API for:
+
+  * Personal Information
+  * Professional Information
+  * Academic Information
+* Initially used MySQL Stored Procedures for update operations.
+* Stored procedures were working correctly.
+* Later removed stored procedures because:
+
+  * Logic became difficult to manage.
+  * Debugging was difficult.
+  * Backend service layer was a better place for business logic.
+
+---
+
+### 3. Rebuild API Using MVC Structure
+
+* Reimplemented the same API using MVC architecture.
+* Created separate layers:
+
+  * Controller
+  * Service
+  * Repository
+  * Routes
+* Improved code maintainability and project structure.
+* Followed clean backend architecture.
+
+---
+
+### 4. Problem Faced in Update API
+
+* Initially, API updated all fields together.
+* Even unchanged fields were sent in the request.
+* MySQL update query executed for all fields.
+* User requirement was:
+
+  * Update only edited fields.
+  * Avoid unnecessary updates.
+
+---
+
+### 5. Dynamic Field Update Logic
+
+* Implemented dynamic update logic.
+* Only modified fields are updated in database.
+* Unchanged fields remain the same.
+* Reduced unnecessary database operations and requests.
+* Improved API efficiency and flexibility.
+
+---
+
+### 6. Frontend Integration
+
+* Created APIs to fetch:
+
+  * Personal data
+  * Professional data
+  * Academic data
+* Integrated APIs in React frontend.
+* Displayed user data in editable forms.
+* Added:
+
+  * Edit functionality
+  * Save functionality
+* Users can manage profile information from frontend.
+
+---
+
+### 7. First-Time Update Issue
+
+* Faced issue during first-time profile update.
+* Existing logic only worked for update operations.
+* If data was not present in MySQL tables:
+
+  * Update query failed.
+
+---
+
+### 8. Insert or Update Solution
+
+* Created separate repository methods:
+
+  * Insert query
+  * Update query
+  * Get data by userId
+* Added service-layer logic:
+
+  * If data exists → run UPDATE query.
+  * If data does not exist → run INSERT query.
+* Successfully handled both first-time save and future edits.
+
+---
+
+### 9. Code Refactoring and Improvements
+
+* Restructured backend codebase.
+* Applied camelCase naming convention.
+* Improved:
+
+  * Function names
+  * Variable names
+  * Folder structure
+  * Code readability
+  * Maintainability
+* Made project cleaner and scalable for future development.
+
+
+
+** save descriptive question ANS
+I built a full-stack descriptive assessment system using React.js, Node.js, and Express.js. Students can view technical questions and submit descriptive answers. I created REST APIs for fetching assessments and saving submissions. I used the Node.js fs module to read and write JSON files as lightweight storage. Through this project, I learned REST APIs, Express routing, JSON handling, file operations, React hooks, and frontend-backend integration.
+ 
