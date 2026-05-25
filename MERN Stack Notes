@@ -88,35 +88,40 @@ As a student → studies
 As a son → helps family
 As a friend → talks differently
 Same person → different behavior.
-1. Compile Time Polymorphism
-(Method Overloading)
+there are 2 type
+1. Compile Time Polymorphism(Method Overloading)
 -Same function name with different parameters.
-Run Time Polymorphism
-(Method Overriding)
+
+2.Run Time Polymorphism(Method Overriding)
 Child class changes parent method.
 
 
 2)	Encapsulation = Data hiding+Abstaction 
-    Important Content (Data) are represent Hided form that call Encapsulation  
+represent a data Hided form  it use private veriable
+-Encapsulation class are not access out side of the class 
+-whean you want access this out side whean we use getter setter  
 Ex: Tablet 
 
 3)	Abstaction 
-  showing essesntial detail
-Ex:ATM 
+-Abstract class hides implementation details and shows only essential data
+-It cannot create its own object.
+-It is inherited by other classes, and child classes use or implement its methods.
+
+
  
 4)	Inheritance 
  you can reuse code and improving development efficiency.  
 There are 5 type    
        1)Single Inheritance  
        In this type of Inheritance  there is one base class and one drived class  
-      2)Multilevel inheritance 
-      There are multiple base class and one drived class  
-      3)Multiple Inheritance 
-      One parent class multiple child class 
-      4)Hirarchical inheritance 
-      Like Tree structure   
-      5)Hybrid inheritance  
-      Combination of any two inheritance its call hybrid
+       2)Multilevel inheritance 
+       There are multiple base class and one drived class  
+       3)Multiple Inheritance 
+       One parent class multiple child class 
+       4)Hirarchical inheritance 
+       Like Tree structure   
+       5)Hybrid inheritance  
+       Combination of any two inheritance its call hybrid
 
 Q15..Pass keyword ? 
    It used as placeholder for future code when the pass statement is excuted   
@@ -703,92 +708,6 @@ Q20. What is constructor?
 •	You don’t call it manually 
 “Yes, JavaScript constructor is similar to Python’s __init__ method. Both are used to initialize object properties when an object is created.”
 
-
-1. What is OOP in JavaScript?
-OOP is a programming style where you organize code using objects and classes.
-•	Encapsulation 
-•	Inheritance 
-•	Polymorphism 
-•	Abstraction 
-________________________________________
-2. What is an Object?
-An object is a collection of key-value pairs.
-const user = {name: "Rahul",  age: 22};
-________________________________________
-3. What is a Class?
-A class is a blueprint for creating objects.
-class User {
-  constructor(name) {
-    this.name = name;
-  }
-}
-________________________________________
-4. What is a Constructor?
-A constructor is a special method used to initialize object values.
-constructor(name) {
-  this.name = name;
-}
-👉 In Python → similar to __init__
-________________________________________
-5. What is this keyword?
-this refers to the current object.
-class User {
-  constructor(name) {
-    this.name = name;
-  }
-}
-________________________________________
-6. What is Encapsulation?
-Binding data + methods into a single unit.
-class Bank {
-  #balance = 0;   // private
-
-  deposit(amount) {
-    this.#balance += amount;
-  }
-}
-👉 # = private field
-________________________________________
-7. Why use # (private fields)?
-To hide data from outside access.
-obj.#balance ❌ (not allowed)
-________________________________________
-🔹 Intermediate Questions
-8. What is Inheritance?
-One class can use properties of another class.
-class Animal {
-  speak() { 
-
-    console.log("Animal speaks");
-  }
-}
-
-class Dog extends Animal {}
-________________________________________
-9. What is Polymorphism?
-Same method behaves differently.
-class Animal {
-  speak() {
-    console.log("Animal sound");
-  }
-}
-
-class Dog extends Animal {
-  speak() {
-    console.log("Bark");
-  }
-}
-________________________________________
-10. What is Abstraction?
-Hiding internal details and showing only functionality.
-(showing esswntial detail)
-👉 Example: ATM machine (you don’t see internal code)
-________________________________________
-11. Difference between Class and Object?
-Class	Object
-Blueprint	Instance
-Defined once	Created multiple times
-________________________________________
 12. What is Prototype in JavaScript?
 Every object has a hidden property called prototype used for inheritance.
 function Person(name) {
@@ -1214,19 +1133,12 @@ How it works:
 
 
 
-“Difference between framework and library?”
-You can say:
-A library is a collection of reusable functions where we control the flow of the program.
-A framework provides a complete structure and controls the flow of the application, where our code is called by the framework.
-
-
-
 
 Q . what is package.json and package-lock.json  and node_modules
 package.json contains project metadata, dependencies, and scripts.
 package-lock.json locks the exact versions of dependencies to ensure consistency across environments.
 node_modules is the folder where all installed packages and their dependencies are stored.
-________________________________________
+
 🎯 Real-Life Analogy
 •	package.json → Shopping list 📝 
 •	package-lock.json → Fixed bill (exact items & price) 🧾 
