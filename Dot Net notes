@@ -1,0 +1,10 @@
+Q1.Why use action method .
+An Action Method is a public method inside a Controller that handles an HTTP request, performs the required processing, and returns a response such as a View, JSON, Redirect, or File.
+
+Q2. RedirectToAction() ?
+RedirectToAction() tells the browser:
+"Go to another Action Method."
+It does not return a View directly. Instead, it sends the browser to a different URL.
+RedirectToAction("ActionMethodName", "ControllerName")
+•	"Welcome" → Action Method name 
+•	"Home" → Controller name (HomeController)
