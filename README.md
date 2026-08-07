@@ -8,7 +8,7 @@ Welcome to my GitHub profile repository! This is a little space where I showcase
 
 🚀 𝐀𝐛𝐨𝐮𝐭 𝐌𝐞 
 
-- 🔭 I’m currently exploring **Web Development** with **Node.js, Express, MySQL, AJAX, and jQuery**.  
+- 🔭 I’m currently exploring **Web Development** with **Node.js, Express, MySQL, AJAX, and C#**.  
 - 🌱 I’m continuously learning **Full Stack Development**, **REST APIs**, and **frontend frameworks**.  
 - 💡 Passionate about turning **ideas into functional projects**.  
 - ⚡ Fun fact: I love exploring **new tech and solving problems** with code.
