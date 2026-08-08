@@ -21,7 +21,7 @@ Welcome to my GitHub profile repository! This is a little space where I showcase
 ---
 - contact_no: 9130240968
 - Email: **rahulgayke1704@gmail.com**  
-- LinkedIn: [linkedin.com/in/Rahul6957](https://www.linkedin.com/in/rahulgayke](https://www.linkedin.com/in/rahul-gayke6957/))]  
+- LinkedIn: [linkedin.com/in/Rahul6957](https://www.linkedin.com/in/rahulgayke](https://www.linkedin.com/in/rahul-gayke6957/))
 
 ---
 ![githubstreak](https://streak-stats.demolab.com?user=Rahul6957&theme=highcontrast&border_radius=5.4)
