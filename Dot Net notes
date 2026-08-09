@@ -8,3 +8,13 @@ It does not return a View directly. Instead, it sends the browser to a different
 RedirectToAction("ActionMethodName", "ControllerName")
 •	"Welcome" → Action Method name 
 •	"Home" → Controller name (HomeController)
+
+🔹 Common Tag Helpers
+Tag Helper	उपयोग
+asp-action	Action Method specify करतो
+asp-route-id	Route parameter पाठवतो
+asp-for	Model property ला HTML input शी जोडतो
+asp-validation-for	Validation error दाखवतो
+asp-validation-summary	सर्व validation errors दाखवतो
+asp-items	Dropdown/List तयार करण्यासाठी
+asp-page	Razor Page navigation
