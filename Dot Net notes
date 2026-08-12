@@ -1,20 +1,226 @@
-Q1.Why use action method .
-An Action Method is a public method inside a Controller that handles an HTTP request, performs the required processing, and returns a response such as a View, JSON, Redirect, or File.
+1. C# Basics — Must Know ⭐⭐⭐
 
-Q2. RedirectToAction() ?
-RedirectToAction() tells the browser:
-"Go to another Action Method."
-It does not return a View directly. Instead, it sends the browser to a different URL.
-RedirectToAction("ActionMethodName", "ControllerName")
-•	"Welcome" → Action Method name 
-•	"Home" → Controller name (HomeController)
+These are very commonly asked:
 
-🔹 Common Tag Helpers
-Tag Helper	उपयोग
-asp-action	Action Method specify करतो
-asp-route-id	Route parameter पाठवतो
-asp-for	Model property ला HTML input शी जोडतो
-asp-validation-for	Validation error दाखवतो
-asp-validation-summary	सर्व validation errors दाखवतो
-asp-items	Dropdown/List तयार करण्यासाठी
-asp-page	Razor Page navigation
+What is C#?
+What is .NET?
+Difference between C# and .NET
+What is a variable?
+What are data types in C#?
+Difference between value type and reference type
+What is a class?
+What is an object?
+What is a method?
+What is a constructor?
+What is a property?
+Difference between field and property
+What are access modifiers?
+What is public, private, protected, internal?
+What is static?
+What is const?
+What is readonly?
+Difference between var, dynamic, and object
+What is type casting?
+What is nullable type?
+Why do we use virtual and override?
+2. OOP — VERY IMPORTANT ⭐⭐⭐⭐⭐
+
+You should be strong in these:
+
+What is OOP?
+What are the 4 pillars of OOP?
+Encapsulation
+Inheritance
+Polymorphism
+Abstraction
+What is encapsulation?
+What is inheritance?
+What is polymorphism?
+Difference between method overloading and overriding
+What is abstraction?
+Difference between abstract class and interface
+Can a class inherit multiple classes?
+Can a class implement multiple interfaces?
+What is virtual?
+
+3. Arrays & Collections ⭐⭐⭐⭐
+
+Since you've been practicing arrays, this section is important for you.
+
+What is an array?
+How do you create an array?
+What is Length?
+Difference between array and List<T>
+What is List<T>?
+What is Dictionary<TKey,TValue>?
+What is HashSet<T>?
+What is IEnumerable<T>?
+Difference between IEnumerable and List
+What is foreach?
+Difference between for and foreach
+What is LINQ?
+What is FirstOrDefault()?
+What is Where()?
+What is Select()?
+What is OrderBy()?
+What is Max()?
+What is override?
+What is abstract?
+What is an interface?
+What is constructor inheritance?
+
+4. Exception Handling ⭐⭐⭐⭐
+What is an exception?
+What is try?
+What is catch?
+What is finally?
+What is throw?
+Difference between throw and throw ex
+Can we have multiple catch blocks?
+What happens if an exception is not handled?
+
+5. ASP.NET Core / MVC ⭐⭐⭐⭐⭐
+
+This is especially important because you're learning MVC.
+
+What is ASP.NET Core?
+What is MVC?
+What is Model?
+What is View?
+What is Controller?
+What is an Action Method?
+What is IActionResult?
+What is return View()?
+What is RedirectToAction()?
+What is routing?
+What is middleware?
+What is dependency injection?
+What is model binding?
+What is ViewBag?
+What is ViewData?
+What is TempData?
+Difference between ViewBag and ViewData
+What is a Partial View?
+What is Razor?
+What is @model in Razor?
+
+6. Web API ⭐⭐⭐⭐⭐
+
+Very common for fresher interviews.
+
+What is Web API?
+What is REST API?
+What is HTTP?
+What are HTTP methods?
+GET
+POST
+PUT
+PATCH
+DELETE
+Difference between GET and POST
+What is JSON?
+What is status code?
+What is 200 OK?
+What is 201 Created?
+What is 400 Bad Request?
+What is 401 Unauthorized?
+What is 404 Not Found?
+What is 500 Internal Server Error?
+What is [HttpGet]?
+What is [HttpPost]?
+What is [FromBody]?
+What is [FromRoute]?
+What is [FromQuery]?
+What is Swagger?
+Difference between MVC and Web API
+7. Entity Framework Core ⭐⭐⭐⭐
+
+If the job description mentions EF Core, prepare these:
+
+What is Entity Framework Core?
+What is ORM?
+What is DbContext?
+What is DbSet?
+What is migration?
+What is SaveChanges()?
+What is SaveChangesAsync()?
+What is LINQ?
+What is Include()?
+What is Code First?
+What is Database First?
+What is primary key?
+What is foreign key?
+What is one-to-many relationship?
+What is many-to-many relationship?
+8. SQL — Don't Ignore This ⭐⭐⭐⭐⭐
+
+For a .NET fresher, SQL is usually very important.
+
+Learn:
+
+SELECT
+WHERE
+ORDER BY
+GROUP BY
+HAVING
+JOIN
+INNER JOIN
+LEFT JOIN
+INSERT
+UPDATE
+DELETE
+PRIMARY KEY
+FOREIGN KEY
+UNIQUE
+NULL
+
+Common questions:
+
+What is a primary key?
+What is a foreign key?
+What is a JOIN?
+Difference between WHERE and HAVING
+Difference between DELETE, TRUNCATE, and DROP
+What is normalization?
+Find the second-highest salary.
+Find duplicate records.
+9. Async / Await ⭐⭐⭐⭐
+
+You've already been learning this, so make sure you can explain it simply.
+
+What is asynchronous programming?
+What is async?
+What is await?
+What is Task?
+Why do we use Task?
+Difference between synchronous and asynchronous programming
+What is Task.Delay()?
+What is Task.FromResult()?
+What is Task.CompletedTask?
+You should practice these:
+
+Level 1
+Find maximum number in an array.
+Find minimum number.
+Reverse an array.
+Reverse a string.
+Check palindrome.
+Check even/odd.
+Find sum of array.
+Count elements.
+Find duplicate numbers.
+Swap two numbers.
+Level 2
+Find second-largest number.
+Count frequency of characters.
+Remove duplicates.
+Find missing number.
+Check prime number.
+Print Fibonacci series.
+Find factorial.
+Check Armstrong number.
+Sort an array.
+Find common elements between two arrays.
+🎯 Most Important for You
+
+Rahul, don't try to learn 100 questions at once.
