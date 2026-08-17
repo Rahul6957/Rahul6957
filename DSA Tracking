@@ -1,0 +1,23 @@
+🔥 DSA Priority — Most Important First
+Priority	Topic	Importance	
+🥇 1	Array	⭐⭐⭐⭐⭐	Reverse, Max/Min, Even/Odd, Duplicate, Frequency, Sum, Sorting
+
+🥇 2	String	⭐⭐⭐⭐⭐	Reverse, Palindrome, Character frequency, Anagram, Duplicate chars
+
+🥇 3	Hashing / Dictionary	⭐⭐⭐⭐⭐	Frequency count, Duplicate, Two Sum
+
+🥈 4	Searching	⭐⭐⭐⭐⭐	Linear Search, Binary Search
+
+🥈 5	Sorting	⭐⭐⭐⭐	Bubble, Selection, Insertion, basic Sort()
+
+🥈 6	Linked List	⭐⭐⭐⭐	Insert, Delete, Search, Reverse
+
+🥈 7	Stack & Queue	⭐⭐⭐⭐	Push/Pop, Enqueue/Dequeue, Parentheses
+
+🥉 8	Recursion	⭐⭐⭐	Factorial, Fibonacci, Reverse, basic recursion
+
+🥉 9	Tree / BST	⭐⭐⭐	Traversal, Search, Height
+
+🥉 10	Graph	⭐⭐	BFS, DFS, basic concepts
+
+🥉 11	Dynamic Programming	⭐⭐	Basic DP patterns
