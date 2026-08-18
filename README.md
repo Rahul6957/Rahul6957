@@ -88,7 +88,7 @@ Feel free to **connect, collaborate, or just say hi!** 😄
 
  
 
-- Coffee + coding = productivity ☕💻  
+- Tea + coding = productivity ☕💻  
 - Problem-solving and building projects is my happy place 🧩  
 - Always learning and exploring new tech 🚀
 
