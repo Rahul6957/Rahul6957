@@ -24,15 +24,15 @@ Welcome to my GitHub profile repository! This is a little space where I showcase
 💻 **MCA Learner** at BATU University  
 🏢 **Intern** at TFL Pvt Ltd  
 
----
+
 - contact_no: 9130240968
 - Email: **rahulgayke1704@gmail.com**  
 - LinkedIn: [linkedin.com/in/Rahul6957](https://www.linkedin.com/in/rahulgayke](https://www.linkedin.com/in/rahul-gayke6957/))
 
----
 
 
 ---
+
 ## 🚀 Skills & Technologies
 ### 🛠️ Languages and Tools
 
@@ -61,7 +61,7 @@ Welcome to my GitHub profile repository! This is a little space where I showcase
 </p>
 
 
-
+----
 ## 💼 Internship
 - https://github.com/Transflower-Learning
 - **TFL Pvt Ltd** – Learning and working on **real-world projects**  
