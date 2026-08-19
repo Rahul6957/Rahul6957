@@ -1,39 +1,38 @@
 1. C# Basics — Must Know ⭐⭐⭐
 
-What is C#?
-What is .NET?
-Difference between C# and .NET
-What is a variable?
-What are data types in C#?
-Difference between value type and reference type
-What is a class?
-What is an object?
-What is a method?
-What is a constructor?
-What is a property?
-Difference between field and property
-What are access modifiers?
-What is public, private, protected, internal?
-What is static?
-What is const?
-What is readonly?
-Q: What is Serialization?
-Q: What is Deserialization?
-MVC VS Minimal
-Difference between var, dynamic, and object
-What is type casting?
-What is nullable type?
-Why do we use virtual and override?
-2. OOP — VERY IMPORTANT ⭐⭐⭐⭐⭐
-
-You should be strong in these:
-Reflection
+What is C#?✅
+What is .NET?✅
+Difference between C# and .NET✅
+What is a variable?✅
+What are data types in C#?✅
+Difference between value type and reference type✅
+What is a class?✅
+What is an object?✅
+What is a method?✅
+What is a constructor?✅
+What is a property?✅
+Difference between field and property✅
+What are access modifiers?✅
+What is public, private, protected, internal?✅
+What is static?✅
+What is const?✅
+What is readonly?✅
+Q: What is Serialization?✅
+Q: What is Deserialization?✅
+MVC VS Minimal✅
+Difference between var, dynamic, and object✅
+What is type casting?✅
+What is nullable type?✅
+Why do we use virtual and override?✅
 
 
-What is OOP?
-What are the 4 pillars of OOP?
-Encapsulation
-Inheritance
+2. OOP — VERY IMPORTANT ⭐⭐⭐⭐⭐✅
+
+Reflection✅
+What is OOP?✅
+What are the 4 pillars of OOP?✅
+Encapsulation✅
+Inheritance✅
 Polymorphism
 Abstraction
 What is encapsulation?
