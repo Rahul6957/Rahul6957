@@ -19,6 +19,9 @@ What is public, private, protected, internal?
 What is static?
 What is const?
 What is readonly?
+Q: What is Serialization?
+Q: What is Deserialization?
+MVC VS Minimal
 Difference between var, dynamic, and object
 What is type casting?
 What is nullable type?
@@ -26,6 +29,8 @@ Why do we use virtual and override?
 2. OOP — VERY IMPORTANT ⭐⭐⭐⭐⭐
 
 You should be strong in these:
+Reflection
+
 
 What is OOP?
 What are the 4 pillars of OOP?
