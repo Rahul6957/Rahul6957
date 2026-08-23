@@ -75,7 +75,7 @@ Welcome to my GitHub profile repository! This is a little space where I showcase
 > Check out my GitHub repositories for more projects: [GitHub Repos]https://github.com/Rahul6957
 
 ---
-![githubstreak](https://streak-stats.demolab.com?user=Rahul6957&theme=highcontrast&border_radius=5.4)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Rahul6957&theme=tokyonight&hide_border=true&border_radius=10)](https://git.io/streak-stats)
 
 Feel free to **connect, collaborate, or just say hi!** 😄
 
