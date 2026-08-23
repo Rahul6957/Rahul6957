@@ -8,7 +8,6 @@ Welcome to my GitHub profile repository! This is a little space where I showcase
 
 🚀 𝐀𝐛𝐨𝐮𝐭 𝐌𝐞 
 
--## 𝐀𝐛𝐨𝐮𝐭 𝐌𝐞
 
 * 🔭 I’m currently learning **C#** and exploring the **.NET ecosystem**.
 * 🌱 I’m continuously learning **C# Development**, including **OOP, Collections, Generics, Exception Handling, Delegates, Events, LINQ, and Async/Await**.
@@ -32,66 +31,91 @@ Welcome to my GitHub profile repository! This is a little space where I showcase
 
 
 ---
+ <h1 Color=red> 🚀 Skills & Technologies</h1>
 
-## 🚀 Skills & Technologies
-### 🛠️ Languages and Tools
 
-<p align="left">
+<h3>💻 Languages</h3>
+<p>
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 </p>
-<p align="center">
-  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=red"/>
+
+<h3>🚀 .NET & Backend</h3>
+<p>
   <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
   <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Console_Application-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Minimal_API-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Class_Library-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Solution-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
   <img src="https://img.shields.io/badge/Web_API-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Minimal_API-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
   <img src="https://img.shields.io/badge/MVC-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
-<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-FF0000?style=for-the-badge&logo=react&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Dapper-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Console_App-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Class_Library-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
+</p>
+
+<h3>🌐 Web Development</h3>
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
+</p>
+
+<h3>🗄️ Database</h3>
+<p>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+</p>
+
+<h3>🔧 Tools & Version Control</h3>
+<p>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </p>
 
 
-----
-## 💼 Internship
-- https://github.com/Transflower-Learning
-- **TFL Pvt Ltd** – Learning and working on **real-world projects**  
-- Gaining experience in **Node.js, Express, Database Management, and Web Development**
 
-
-1. **User Manager (CRUD App)**
-   - Built with Node.js, Express, MySQL, 
-   - Allows adding, viewing, updating, and deleting users dynamically
-
-> Check out my GitHub repositories for more projects: [GitHub Repos]https://github.com/Rahul6957
 
 ---
-[![GitHub Streak](https://streak-stats.demolab.com?user=Rahul6957&theme=tokyonight&hide_border=true&border_radius=10)](https://git.io/streak-stats)
+<h1>💼 Internship Experience</h1> 
 
-Feel free to **connect, collaborate, or just say hi!** 😄
+### 🏢 TFL Pvt Ltd
 
----
+🔗 **Organization:** https://github.com/Transflower-Learning
 
- 🌟 Fun Fact
+> 🚀 Working on real-world software projects and gaining hands-on experience in **Backend Development, REST APIs, Database Management, and Web Technologies**.
+
+### 🛠️ Technologies
+
+`Node.js` • `Express.js` • `MySQL` • `REST API` • `JavaScript`
+
+### 📌 Project: User Manager — CRUD Application
+
+A backend-focused **User Management System** built to understand and implement complete **CRUD operations**.
+
+**✨ Key Features**
+
+* ➕ Create new users
+* 📋 View and retrieve user details
+* ✏️ Update existing user information
+* 🗑️ Delete users
+* 🔗 Connect and manage data using **MySQL**
+* 🌐 Build and test REST APIs using **Node.js & Express.js**
+
+**🎯 What I Learned**
+
+* Designing and developing REST APIs
+* Connecting backend applications with MySQL
+* Performing CRUD operations
+* Handling API requests and responses
+* Understanding backend project structure and database integration
 
 
-
-
- 
-
-- Tea + coding = productivity ☕💻  
-- Problem-solving and building projects is my happy place 🧩  
-- Always learning and exploring new tech 🚀
-
+## 🔥 GitHub Streak
+<p >
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=Rahul6957" alt="GitHub Streak" />
+</p>
 
 **Thanks for visiting my GitHub!** 💻  
 Your ⭐ and support mean a lot! Keep exploring my projects and feel free to connect. 🚀
