@@ -33,27 +33,43 @@ What is OOP?✅
 What are the 4 pillars of OOP?✅
 Encapsulation✅
 Inheritance✅
-Polymorphism
+Polymorphism✅
 Abstraction✅
-What is encapsulation?
-What is inheritance?
-What is polymorphism?
-Difference between method overloading and overriding
-What is abstraction?
-Difference between abstract class and interface
-Can a class inherit multiple classes?
-Can a class implement multiple interfaces?
-What is virtual?
+Jagged Array
+I Comparable and comparer
+Delegate
+Event
+Task
+Application execution internal 
+Serilition and deserilization 
+linQ
+unsafe
+fixed
+etity
+ado
+drapper
+multithreading
+tag helper
+ioc
+dependency injection 
+http pipeline
+filters
+statemanagement 
+jwt authitication
+jwt role base authitiation
+coculization
+web sockets
+signal R
+MQII
+CI/CD peplince
+microservices
+monolithic
 
-3. Arrays & Collections ⭐⭐⭐⭐✅
+3. Arrays & Collections ⭐⭐⭐⭐
 
-Since you've been practicing arrays, this section is important for you.
 
 What is an array?
-How do you create an array?
-What is Length?
 Difference between array and List<T>
-What is List<T>?
 What is Dictionary<TKey,TValue>?
 What is HashSet<T>?
 What is IEnumerable<T>?
@@ -66,10 +82,6 @@ What is Where()?
 What is Select()?
 What is OrderBy()?
 What is Max()?
-What is override?
-What is abstract?
-What is an interface?
-What is constructor inheritance?
 
 4. Exception Handling ⭐⭐⭐⭐
 What is an exception?
@@ -82,8 +94,6 @@ Can we have multiple catch blocks?
 What happens if an exception is not handled?
 
 5. ASP.NET Core / MVC ⭐⭐⭐⭐⭐
-
-This is especially important because you're learning MVC.
 
 What is ASP.NET Core?
 What is MVC?
@@ -107,9 +117,6 @@ What is Razor?
 What is @model in Razor?
 
 6. Web API ⭐⭐⭐⭐⭐
-
-Very common for fresher interviews.
-
 What is Web API?
 What is REST API?
 What is HTTP?
@@ -119,7 +126,6 @@ POST
 PUT
 PATCH
 DELETE
-Difference between GET and POST
 What is JSON?
 What is status code?
 What is 200 OK?
@@ -128,17 +134,13 @@ What is 400 Bad Request?
 What is 401 Unauthorized?
 What is 404 Not Found?
 What is 500 Internal Server Error?
-What is [HttpGet]?
-What is [HttpPost]?
 What is [FromBody]?
 What is [FromRoute]?
 What is [FromQuery]?
 What is Swagger?
 Difference between MVC and Web API
+
 7. Entity Framework Core ⭐⭐⭐⭐
-
-If the job description mentions EF Core, prepare these:
-
 What is Entity Framework Core?
 What is ORM?
 What is DbContext?
@@ -154,12 +156,10 @@ What is primary key?
 What is foreign key?
 What is one-to-many relationship?
 What is many-to-many relationship?
+
 8. SQL — Don't Ignore This ⭐⭐⭐⭐⭐
 
 For a .NET fresher, SQL is usually very important.
-
-Learn:
-
 SELECT
 WHERE
 ORDER BY
@@ -187,9 +187,6 @@ What is normalization?
 Find the second-highest salary.
 Find duplicate records.
 9. Async / Await ⭐⭐⭐⭐
-
-You've already been learning this, so make sure you can explain it simply.
-
 What is asynchronous programming?
 What is async?
 What is await?
@@ -199,30 +196,3 @@ Difference between synchronous and asynchronous programming
 What is Task.Delay()?
 What is Task.FromResult()?
 What is Task.CompletedTask?
-You should practice these:
-
-Level 1
-Find maximum number in an array.
-Find minimum number.
-Reverse an array.
-Reverse a string.
-Check palindrome.
-Check even/odd.
-Find sum of array.
-Count elements.
-Find duplicate numbers.
-Swap two numbers.
-Level 2
-Find second-largest number.
-Count frequency of characters.
-Remove duplicates.
-Find missing number.
-Check prime number.
-Print Fibonacci series.
-Find factorial.
-Check Armstrong number.
-Sort an array.
-Find common elements between two arrays.
-🎯 Most Important for You
-
-Rahul, don't try to learn 100 questions at once.
