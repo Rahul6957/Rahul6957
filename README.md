@@ -8,14 +8,14 @@ Welcome to my GitHub profile repository! This is a little space where I showcase
 
 🚀 𝐀𝐛𝐨𝐮𝐭 𝐌𝐞 
 
+<p>
+*🔭 I’m currently learning C# and exploring the .NET ecosystem. <br>
+🌱 I’m continuously learning C# Development, including OOP, Collections, Generics, Exception Handling, Delegates, Events, LINQ, and Async/Await. <br>
+💻 Exploring Console Applications, Class Libraries, Solutions, Minimal APIs, Web APIs, and MVC Applications with C# and .NET. <br>
+✅ Recently completed learning JavaScript, Node.js, Express.js, Python, MySQL, React.js, and HTML. <br>
+* 💡 Passionate about turning **ideas into functional projects** and building real-world applications. <br>
 
-*🔭 I’m currently learning C# and exploring the .NET ecosystem.
-🌱 I’m continuously learning C# Development, including OOP, Collections, Generics, Exception Handling, Delegates, Events, LINQ, and Async/Await.
-💻 Exploring Console Applications, Class Libraries, Solutions, Minimal APIs, Web APIs, and MVC Applications with C# and .NET.
-✅ Recently completed learning JavaScript, Node.js, Express.js, Python, MySQL, React.js, and HTML.
-* 💡 Passionate about turning **ideas into functional projects** and building real-world applications.
-
-
+</p>
  
 🎓 **BCA Student** from Deogiri College, Chh. Sambhaji Nagar  
 💻 **MCA Learner** at BATU University  
