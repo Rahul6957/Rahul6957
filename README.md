@@ -8,6 +8,15 @@ Welcome to my GitHub profile repository! This is a little space where I showcase
 
 🚀 𝐀𝐛𝐨𝐮𝐭 𝐌𝐞 
 
+🎓 **MCA Pursuing** at BATU University 
+🎓 **BCA Graduate** from Deogiri College, Chh. Sambhaji Nagar
+🏢 **Intern** at TFL Pvt Ltd
+
+* 📞 Contact: 9130240968
+* 📧 Email: [rahulgayke1704@gmail.com](mailto:rahulgayke1704@gmail.com)
+* 🔗 LinkedIn: linkedin.com/in/rahul-gayke6957
+
+
 <p>
 🔭 I’m currently learning C# and exploring the .NET ecosystem. <br>
 🌱 I’m continuously learning C# Development, including OOP, Collections, Generics, Exception Handling, Delegates, Events, LINQ, and Async/Await. <br>
@@ -17,17 +26,6 @@ Welcome to my GitHub profile repository! This is a little space where I showcase
 💡 Passionate about turning **ideas into functional projects** and building real-world applications. <br>
 
 </p>
-
- 
-🎓 **BCA Student** from Deogiri College, Chh. Sambhaji Nagar  
-💻 **MCA Learner** at BATU University  
-🏢 **Intern** at TFL Pvt Ltd  
-
-
-- contact_no: 9130240968
-- Email: **rahulgayke1704@gmail.com**  
-- LinkedIn: [linkedin.com/in/Rahul6957](https://www.linkedin.com/in/rahulgayke](https://www.linkedin.com/in/rahul-gayke6957/))
-
 
 
 ---
