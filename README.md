@@ -88,26 +88,27 @@ Welcome to my GitHub profile repository! This is a little space where I showcase
 
 `Node.js` • `Express.js` • `MySQL` • `REST API` • `JavaScript`
 
-### 📌 Project: TFL- TFLCoMentor
-My project TFLCoMentor is an integrated learning and recruitment platform. It connects students, mentors, SMEs, and employers in a single ecosystem. SMEs create courses and assessments, students learn and complete assignments, mentors guide students and review projects, and employers post jobs and recruit qualified candidates. The platform includes modules for user management, learning content, assessments, mentoring, project management, skill tracking, and recruitment.
+### 📌 Project: TFLCoMentor
+
+TFLCoMentor is an integrated learning and recruitment platform. It connects students, mentors, SMEs, and employers in a single ecosystem. SMEs create courses and assessments, students learn and complete assignments, mentors guide students and review projects, and employers post jobs and recruit qualified candidates. The platform includes modules for user management, learning content, assessments, mentoring, project management, skill tracking, and recruitment.
 
 
 **✨ Key Features**
+📚 Course & Learning Management
+📝 Assessments & Evaluations
+👨‍🏫 Mentoring & Project Review
+🧠 Skill Tracking
+💼 Job Posting & Recruitment
+📊 Progress & Performance Tracking
+🔐 Role-Based Access & Security
 
-* ➕ Create new users
-* 📋 View and retrieve user details
-* ✏️ Update existing user information
-* 🗑️ Delete users
-* 🔗 Connect and manage data using **MySQL**
-* 🌐 Build and test REST APIs using **Node.js & Express.js**
-
-**🎯 What I Learned**
-
-* Designing and developing REST APIs
-* Connecting backend applications with MySQL
-* Performing CRUD operations
-* Handling API requests and responses
-* Understanding backend project structure and database integration
+🎯 What I Learned
+Designed and developed RESTful APIs
+Implemented MySQL database integration and connectivity
+Performed CRUD operations for data management
+Designed database schemas, relationships, and optimized queries
+Handled API requests, responses, and error handling
+Understood backend architecture, project structure, and API integration
 
 
 ## 🔥 GitHub Streak
@@ -115,6 +116,11 @@ My project TFLCoMentor is an integrated learning and recruitment platform. It co
   <img src="https://github-readme-streak-stats-eight.vercel.app/?user=Rahul6957" alt="GitHub Streak" />
 </p>
 
-**Thanks for visiting my GitHub!** 💻  
-Your ⭐ and support mean a lot! Keep exploring my projects and feel free to connect. 🚀
+🚀 Let’s Connect & Build Something Great
 
+Thanks for visiting my GitHub! 👋
+
+I’m passionate about software development, problem-solving, and building real-world applications. <br>
+I’m always open to new opportunities, collaborations, and professional connections.
+
+Keep learning. Keep building. Keep growing. 🚀
