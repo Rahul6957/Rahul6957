@@ -102,13 +102,13 @@ TFLCoMentor is an integrated learning and recruitment platform. It connects stud
 📊 Progress & Performance Tracking
 🔐 Role-Based Access & Security
 
-🎯 What I Learned
-Designed and developed RESTful APIs
-Implemented MySQL database integration and connectivity
-Performed CRUD operations for data management
-Designed database schemas, relationships, and optimized queries
-Handled API requests, responses, and error handling
-Understood backend architecture, project structure, and API integration
+**🎯 What I Learned ** <br>
+Designed and developed RESTful APIs  <br>
+Implemented MySQL database integration and connectivity  <br>
+Performed CRUD operations for data management  <br>
+Designed database schemas, relationships, and optimized queries  <br>
+Handled API requests, responses, and error handling  <br>
+Understood backend architecture, project structure, and API integration <br>
 
 
 ## 🔥 GitHub Streak
@@ -116,11 +116,12 @@ Understood backend architecture, project structure, and API integration
   <img src="https://github-readme-streak-stats-eight.vercel.app/?user=Rahul6957" alt="GitHub Streak" />
 </p>
 
-🚀 Let’s Connect & Build Something Great
+
 
 Thanks for visiting my GitHub! 👋
 
 I’m passionate about software development, problem-solving, and building real-world applications. <br>
-I’m always open to new opportunities, collaborations, and professional connections.
-
+I’m always open to new opportunities, collaborations, and professional connections. <br>
+🚀 Let’s Connect & Build Something Great <br>
 Keep learning. Keep building. Keep growing. 🚀
+
