@@ -9,13 +9,11 @@ Welcome to my GitHub profile repository! This is a little space where I showcase
 🚀 𝐀𝐛𝐨𝐮𝐭 𝐌𝐞 
 
 
-* 🔭 I’m currently learning **C#** and exploring the **.NET ecosystem**.
-* 🌱 I’m continuously learning **C# Development**, including **OOP, Collections, Generics, Exception Handling, Delegates, Events, LINQ, and Async/Await**.
-* 💻 Exploring **Console Applications, Class Libraries, Solutions, Minimal APIs, Web APIs, and MVC Applications** with C# and .NET.
-* ✅ Completed **JavaScript, Node.js, Express.js, React.js, and MySQL**.
+*🔭 I’m currently learning C# and exploring the .NET ecosystem.
+🌱 I’m continuously learning C# Development, including OOP, Collections, Generics, Exception Handling, Delegates, Events, LINQ, and Async/Await.
+💻 Exploring Console Applications, Class Libraries, Solutions, Minimal APIs, Web APIs, and MVC Applications with C# and .NET.
+✅ Recently completed learning JavaScript, Node.js, Express.js, Python, MySQL, React.js, and HTML.
 * 💡 Passionate about turning **ideas into functional projects** and building real-world applications.
-* 🧠 Currently strengthening my **C# fundamentals and problem-solving skills**.
-* ⚡ Fun fact: I love exploring **new technologies and solving problems** with code.
 
 
  
