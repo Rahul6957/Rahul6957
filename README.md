@@ -8,9 +8,9 @@ Welcome to my GitHub profile repository! This is a little space where I showcase
 
 🚀 𝐀𝐛𝐨𝐮𝐭 𝐌𝐞 
 
-🎓 **MCA Pursuing** at BATU University 
-🎓 **BCA Graduate** from Deogiri College, Chh. Sambhaji Nagar
-🏢 **Intern** at TFL Pvt Ltd
+🎓 **MCA Pursuing** at BATU University  <br>
+🎓 **BCA Graduate** from Deogiri College, Chh. Sambhaji Nagar  <br>
+🏢 **Intern** at TFL Pvt Ltd  <br>
 
 * 📞 Contact: 9130240968
 * 📧 Email: [rahulgayke1704@gmail.com](mailto:rahulgayke1704@gmail.com)
