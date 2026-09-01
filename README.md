@@ -113,7 +113,7 @@ Understood backend architecture, project structure, and API integration <br>
 
 ## 🔥 GitHub Streak
 <p >
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=Rahul6957" alt="GitHub Streak" />
+  
 </p>
 
 
