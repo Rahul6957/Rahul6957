@@ -1,0 +1,10 @@
+What is exception handling in Python?
+What is an exception?
+What is the difference between an error and an exception?
+What is the purpose of try block?
+What is the purpose of except block?
+What is the purpose of finally block?
+What is the use of raise keyword?
+What happens if an exception occurs inside a try block?
+Can we use try without except?
+Can we use finally without except?
