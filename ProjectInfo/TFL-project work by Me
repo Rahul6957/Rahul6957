@@ -1,139 +1,347 @@
-## Project Work Summary
+TFLCoMentor is an online learning, mentoring, assessment, and recruitment platform that connects students, mentors, SMEs (Subject Matter Experts), and employers.
 
-### 1. Database Design and Learning
 
-* Designed complete database structure for the project.
-* Created tables for:
+
+1️⃣ Admin Dashboard
+
+Admin manages and monitors the entire platform.
+
+Main responsibilities:
+
+View platform statistics and activity
+
+Manage assessments
+
+Assign assessments to students
+
+Track student participation and results
+
+View platform session logs
+
+Manage users and roles
+
+Remove inactive users
+
+
+
+2️⃣ Student Dashboard
+
+Student uses the platform for learning, testing, and job opportunities.
+
+Main responsibilities:
+
+Manage profile and password
+
+View courses, assignments, and labs
+
+Submit assignments and projects
+
+Take assessments and view results
+
+Communicate with mentors
+
+Participate in discussion forums
+
+Apply for jobs and track applications
+
+Monitor learning progress and notifications
+
+
+
+3️⃣ SME Dashboard
+
+SME creates learning content and assessments.
+
+Main responsibilities:
+
+Create and manage learning sessions
+
+Create hands-on practice activities
+
+Manage concepts and topics
+
+Manage programming runtimes
+
+Create and manage tests
+
+Manage question bank
+
+Submit questions for mentor review
+
+Analyze assessment results and student performance
+
+
+
+4️⃣ Mentor Dashboard
+
+Mentor guides and monitors student learning progress.
+
+Main responsibilities:
+
+Manage assigned students
+
+Track student progress and skills
+
+Review assignments and projects
+
+Provide feedback and mentoring notes
+
+Conduct mentoring sessions
+
+Access learning resources
+
+Manage mentor profile
+
+5️⃣ Employer Dashbord
+
+Employer handles recruitment and hiring.
+
+Main responsibilities:
+
+Manage company profile
+
+Post and manage job openings
+
+View and search candidates
+
+Review job applications
+
+Shortlist candidates
+
+Conduct interviews
+
+View interview results
+
+Hire qualified candidates
+
+
+
+
+You can say this:
+
+My project TFLCoMentor is an integrated learning and recruitment platform. It connects students, mentors, SMEs, and employers in a single ecosystem. SMEs create courses and assessments, students learn and complete assignments, mentors guide students and review projects, and employers post jobs and recruit qualified candidates. The platform includes modules for user management, learning content, assessments, mentoring, project management, skill tracking, and recruitment.
+
+🎤 Interview साठी Marathi Explanation
+
+“माझा प्रोजेक्ट TFLCoMentor platform आहे.
+हा एक learning, mentoring, assessment आणि recruitment platform आहे.
+
+या system मध्ये Student, Mentor, SME आणि Employer हे roles आहेत आणि सगळे एकाच platform वर interact करतात.
+
+🔄 System Flow (Simple शब्दात)
+SME courses आणि tests तयार करतो
+Student learning करतो आणि assignments complete करतो
+Student assessment देतो
+Mentor त्याला guide करतो आणि feedback देतो
+Employer jobs post करतो
+Student job ला apply करतो
+Employer interview घेऊन candidate hire करतो
+🧩 माझं Contribution (Important Part)
+
+“या project मध्ये मी backend development (Express.js) वर काम केलं.
+
+सुरुवातीला मी Database design केलं.”
+
+👉 Database design करताना:
+
+Multiple tables design केल्या (User, Profile, etc.)
+Proper relationships maintain केले
+Data normalize करण्यावर focus केला
+🔧 मी बनवलेली API
+
+“यानंतर मी User Profile Update API तयार केली.”
+
+⚠️ Problem मी face केली
+
+“जेव्हा मी पहिल्यांदा API तयार केली तेव्हा एक मोठी mistake झाली:
+
+User फक्त एक field update करत असला (जसं name)
+तरी माझी API सगळे fields update करत होती
+त्यामुळे:
+Existing data override होत होता
+Unnecessary updates होत होते
+System performance कमी होत होता
+✅ मी कसा fix केलं
+
+“नंतर मला कळलं की हे योग्य नाही.
+
+मग मी API सुधारली:
+
+आता फक्त user ने जे fields दिले आहेत तेवढेच update होतात
+बाकी data unchanged राहतो
+Multiple tables मध्येही proper handling केलं”
+
+👉 Example:
+
+User फक्त name बदलतो → फक्त name update होतो
+बाकी fields untouched राहतात
+📚 मी काय शिकलो
+Partial update (PATCH concept)
+Data overwrite कसं avoid करायचं
+Multi-table update कसं handle करायचं
+Real-world debugging
+Efficient API design
+
+
+## Project Explanation
+
+या project मध्ये मी backend development वर काम केलं using Express.js, Node.js आणि MySQL.
+
+सुरुवातीला मी complete database design केलं.
+
+### Database Design करताना:
+
+* Multiple tables तयार केल्या:
 
   * Users
   * Personal Information
   * Professional Information
   * Academic Information
-  * Roles and User Roles
-  * User Logs
-* Learned:
-
-  * Database normalization
-  * Relationships
-  * Foreign keys
-  * Primary keys
-  * SQL queries
-  * Join operations
-  * Insert and update operations
-* Improved understanding of MySQL database design and backend data flow.
+  * Roles & User Roles
+* Proper relationships maintain केले using primary key आणि foreign key.
+* Database normalization वर focus केलं जेणेकरून redundant data avoid होईल.
+* या process मध्ये मला MySQL schema design, joins, relationships आणि data flow बद्दल practical understanding मिळाली.
 
 ---
 
-### 2. Create User Update API
+## User Profile Update API
 
-* Created User Update API for:
+यानंतर मी User Profile Update API तयार केली.
 
-  * Personal Information
-  * Professional Information
-  * Academic Information
-* Initially used MySQL Stored Procedures for update operations.
-* Stored procedures were working correctly.
-* Later removed stored procedures because:
+ही API:
 
-  * Logic became difficult to manage.
-  * Debugging was difficult.
-  * Backend service layer was a better place for business logic.
+* Personal data
+* Professional data
+* Academic data
 
----
+update करण्यासाठी वापरली.
 
-### 3. Rebuild API Using MVC Structure
+सुरुवातीला मी MySQL Stored Procedures वापरले होते update operations साठी.
+Stored procedures working होते, पण नंतर मला जाणवलं की business logic backend service layer मध्ये handle करणं जास्त maintainable आणि scalable आहे.
 
-* Reimplemented the same API using MVC architecture.
-* Created separate layers:
+म्हणून मी Stored Procedures remove करून पूर्ण API पुन्हा MVC architecture follow करून build केली.
 
-  * Controller
-  * Service
-  * Repository
-  * Routes
-* Improved code maintainability and project structure.
-* Followed clean backend architecture.
+### MVC Structure:
+
+* Controller
+* Service
+* Repository
+* Routes
+
+यामुळे code readability आणि maintainability improve झाली.
 
 ---
 
-### 4. Problem Faced in Update API
+## Major Problem I Faced
 
-* Initially, API updated all fields together.
-* Even unchanged fields were sent in the request.
-* MySQL update query executed for all fields.
-* User requirement was:
+जेव्हा मी पहिल्यांदा update API तयार केली तेव्हा एक मोठी issue आली.
 
-  * Update only edited fields.
-  * Avoid unnecessary updates.
+User फक्त एक field update करत असला (उदा. name),
+तरी API सगळे fields update करत होती.
 
----
+त्यामुळे:
 
-### 5. Dynamic Field Update Logic
-
-* Implemented dynamic update logic.
-* Only modified fields are updated in database.
-* Unchanged fields remain the same.
-* Reduced unnecessary database operations and requests.
-* Improved API efficiency and flexibility.
+* Existing data unnecessarily overwrite होत होता
+* Multiple unnecessary MySQL queries execute होत होत्या
+* Performance reduce होत होता
+* Unwanted requests database ला जात होत्या
 
 ---
 
-### 6. Frontend Integration
+## Solution I Implemented
 
-* Created APIs to fetch:
+नंतर मी dynamic update logic implement केलं.
 
-  * Personal data
-  * Professional data
-  * Academic data
-* Integrated APIs in React frontend.
-* Displayed user data in editable forms.
-* Added:
+आता:
 
-  * Edit functionality
-  * Save functionality
-* Users can manage profile information from frontend.
+* User जे fields edit करतो फक्त तेवढेच update होतात
+* बाकी fields unchanged राहतात
 
----
+### Example:
 
-### 7. First-Time Update Issue
-
-* Faced issue during first-time profile update.
-* Existing logic only worked for update operations.
-* If data was not present in MySQL tables:
-
-  * Update query failed.
+जर user फक्त name बदलतो,
+तर फक्त name field update होते.
+बाकी personal, professional आणि academic data untouched राहतो.
 
 ---
 
-### 8. Insert or Update Solution
+## Another Issue Faced
 
-* Created separate repository methods:
+पहिल्यांदा user profile save करताना आणखी एक issue आला.
 
-  * Insert query
-  * Update query
-  * Get data by userId
-* Added service-layer logic:
+कारण:
 
-  * If data exists → run UPDATE query.
-  * If data does not exist → run INSERT query.
-* Successfully handled both first-time save and future edits.
+* माझी API फक्त update query वापरत होती
+* जर database मध्ये user data आधीपासून नसला,
+  तर update operation fail होत होता
 
 ---
 
-### 9. Code Refactoring and Improvements
+## Final Fix
 
-* Restructured backend codebase.
-* Applied camelCase naming convention.
-* Improved:
+हे solve करण्यासाठी:
+मी repository layer मध्ये:
 
-  * Function names
-  * Variable names
-  * Folder structure
-  * Code readability
-  * Maintainability
-* Made project cleaner and scalable for future development.
+* Insert methods
+* Update methods
+* GetByUserId methods
 
+वेगळे तयार केले.
 
+Service layer मध्ये logic लिहिलं:
 
-** save descriptive question ANS
-I built a full-stack descriptive assessment system using React.js, Node.js, and Express.js. Students can view technical questions and submit descriptive answers. I created REST APIs for fetching assessments and saving submissions. I used the Node.js fs module to read and write JSON files as lightweight storage. Through this project, I learned REST APIs, Express routing, JSON handling, file operations, React hooks, and frontend-backend integration.
- 
+* जर data exist असेल → UPDATE query run करा
+* जर data exist नसेल → INSERT query run करा
+
+यामुळे:
+
+* First-time save
+* Future edits
+  दोन्ही properly handle झाले.
+
+---
+
+## Frontend Integration
+
+मी React frontend मध्ये:
+
+* Personal
+* Professional
+* Academic
+
+data fetch करून forms मध्ये display केलं.
+
+त्यामध्ये:
+
+* Edit button
+* Save button
+* Dynamic field handling
+
+implement केलं.
+
+---
+
+## Additional Improvements
+
+* Complete codebase restructure केलं
+* camelCase naming convention apply केलं
+* Clean architecture follow केली
+* Code readability improve केली
+
+---
+
+## What I Learned
+
+या project मधून मला:
+
+* Real-world backend development
+* MVC architecture
+* Database design
+* Partial update (PATCH concept)
+* Multi-table handling
+* Dynamic query building
+* Insert vs Update logic
+* API optimization
+* Debugging and problem solving
+
+याबद्दल practical experience मिळाला.
