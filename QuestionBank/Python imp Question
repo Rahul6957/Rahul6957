@@ -9,3 +9,4 @@ What happens if an exception occurs inside a try block?
 Can we use try without except?
 Can we use finally without except?
 what is dump and load in file handling 
+what is Dunder method
