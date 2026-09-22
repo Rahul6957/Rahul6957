@@ -11,3 +11,5 @@ Can we use finally without except?
 what is dump and load in file handling 
 what is Dunder method
 how to define private veriable and method
+secondary and primery thread 
+gc is low level  proverety when thread are working on high preverty task then gc are stop when no any high preverty then gc come and check un useble object and clean it 
