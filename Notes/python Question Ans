@@ -1,1 +1,42 @@
+Q1. What is Garbage Collection?
+Answer:
 
+Garbage collection is an automatic memory-management mechanism that helps reclaim memory occupied by objects that are no longer reachable by the program.
+
+Q2. What is reference counting?
+Answer:
+
+Reference counting tracks references to objects. When an object's reference count reaches zero, the object can generally be reclaimed immediately in CPython.
+
+Q3. What problem can reference counting alone have?
+Answer:
+
+It cannot by itself reclaim objects involved in unreachable circular reference cycles.
+
+Q4. What is cyclic garbage collection?
+Answer:
+
+It is the mechanism that can detect certain unreachable groups of objects that reference one another and reclaim them.
+
+Q5. What is the gc module?
+import gc
+It provides interfaces for inspecting and controlling Python's cyclic garbage collector.
+
+Q6. How can you request garbage collection manually?
+import gc
+
+gc.collect()
+Q7. Does del immediately destroy an object?
+Answer:
+
+Not necessarily.
+
+del removes a reference/name. The object can be reclaimed when it is no longer reachable.
+
+Q8. What is a circular reference?
+Example:
+
+Customer ───► Policy
+    ▲            │
+    └────────────┘
+Two or more objects ultimately reference each other, forming a cycle.
