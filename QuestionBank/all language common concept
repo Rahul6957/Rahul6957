@@ -1,0 +1,82 @@
+2. Decision Making
+if
+if-else
+else-if
+switch
+🔁 3. Loops
+for
+while
+do-while
+break
+continue
+⚙️ 4. Functions
+Function/method
+Parameters
+Arguments
+Return value
+Default parameters
+Recursion
+📦 5. Data Structures
+Array
+String
+List
+Dictionary / Map
+Set
+Stack
+Queue
+🧩 6. OOP
+Class
+Object
+Constructor
+Encapsulation
+Inheritance
+Polymorphism
+Abstraction
+Interface
+🚨 7. Error Handling
+Exception
+try
+catch / except
+finally
+Throwing exceptions
+📁 8. File Handling
+Create file
+Read file
+Write file
+Update file
+Delete file
+JSON/XML basics
+🧠 9. Memory & Runtime
+Stack
+Heap
+References
+Garbage Collection
+Memory management
+🗄️ 10. Database
+Database connection
+SQL
+CRUD
+Primary Key
+Foreign Key
+Joins
+Transactions
+🌐 11. Web/API
+HTTP
+GET
+POST
+PUT
+DELETE
+REST API
+JSON
+Authentication/Authorization
+🧮 12. DSA
+Searching
+Sorting
+Hashing
+Recursion
+Linked List
+Stack
+Queue
+Tree
+Graph
+Big-O
