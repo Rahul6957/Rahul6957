@@ -1,3 +1,7 @@
+#### explore this think to all languages
+
+0.how to print 
+1. variable declaration
 2. Decision Making
 if
 if-else
@@ -13,7 +17,6 @@ continue
 Function/method
 Parameters
 Arguments
-Return value
 Default parameters
 Recursion
 📦 5. Data Structures
@@ -39,19 +42,8 @@ try
 catch / except
 finally
 Throwing exceptions
-📁 8. File Handling
-Create file
-Read file
-Write file
-Update file
-Delete file
-JSON/XML basics
-🧠 9. Memory & Runtime
-Stack
-Heap
-References
-Garbage Collection
-Memory management
+
+
 🗄️ 10. Database
 Database connection
 SQL
