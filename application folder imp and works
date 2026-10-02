@@ -1,0 +1,5 @@
+
+*************************** Model **********************************************************************
+
+Model=“We use a Model to represent the database table in Python so that our application can work with database data in a structured and maintainable way.”
+Model = the Python representation/blueprint of your database table.(Python doesn't automatically know what this table looks like.)
