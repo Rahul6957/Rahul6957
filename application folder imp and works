@@ -40,3 +40,6 @@ Controller	Request/response handle आणि flow control
 Service	Business logic
 Model	Database table structure
 Database	Actual data store
+***********************  Routes *****************************************************************************
+
+Route tells FastAPI: When this URL come which function should run
