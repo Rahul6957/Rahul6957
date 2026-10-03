@@ -31,6 +31,7 @@ business rules apply करणे
 database मधून data आणणे
 हे सगळं Controller मध्ये भरून टाकलं तर Controller खूप मोठा होईल.
 म्हणून business logic Service मध्ये ठेवतो.
+Controller चं काम business logic ठेवणं नाही; ते Service कडे काम delegate करेल.
 *****************************************************************************************************
 Layer	काम
 Route	कोणता URL आणि HTTP method
