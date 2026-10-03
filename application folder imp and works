@@ -3,3 +3,39 @@
 
 Model=“We use a Model to represent the database table in Python so that our application can work with database data in a structured and maintainable way.”
 Model = the Python representation/blueprint of your database table.(Python doesn't automatically know what this table looks like.)
+→ Database table ची structure define करतो
+class Student(Base):
+    __tablename__ = "students"
+
+    id = Column(Integer, primary_key=True)
+    name = Column(String(100))
+    email = Column(String(100))
+    age = Column(Integer)
+    course = Column(String(100))
+
+******************************** Schema  *******************************************************************************
+API मधून येणारा/जाणारा data कसा असावा ते define करतो आणि validation करतो.
+class StudentCreate(BaseModel):
+    name: str
+    email: str
+    age: int
+    course: str
+
+******************************* service *******************************************************************
+Service का वापरतो?
+समजा Student create करताना काही logic आहे:
+email आधीपासून आहे का check करणे
+student तयार करणे
+काही calculation करणे
+business rules apply करणे
+database मधून data आणणे
+हे सगळं Controller मध्ये भरून टाकलं तर Controller खूप मोठा होईल.
+म्हणून business logic Service मध्ये ठेवतो.
+*****************************************************************************************************
+Layer	काम
+Route	कोणता URL आणि HTTP method
+Schema	Data valid आहे का
+Controller	Request/response handle आणि flow control
+Service	Business logic
+Model	Database table structure
+Database	Actual data store
