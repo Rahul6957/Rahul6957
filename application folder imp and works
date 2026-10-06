@@ -1,4 +1,12 @@
 
+मग Repository म्हणजे काय?
+
+Repository = Database access logic ची जागा.
+
+
+
+
+
 *************************** Model **********************************************************************
 
 Model=“We use a Model to represent the database table in Python so that our application can work with database data in a structured and maintainable way.”
@@ -43,6 +51,9 @@ Database	Actual data store
 ***********************  Routes *****************************************************************************
 
 Route tells FastAPI: When this URL come which function should run and the function is write know in controller
+
+
+
 *********************************************************************************************************************************************************************************************************************
 
 हो bro ❤️ flow समजणं हेच आता सगळ्यात important आहे. Code पाठ करण्यापेक्षा एक request project मध्ये कशी travel होते ते समजून घे.
