@@ -42,4 +42,155 @@ Model	Database table structure
 Database	Actual data store
 ***********************  Routes *****************************************************************************
 
-Route tells FastAPI: When this URL come which function should run
+Route tells FastAPI: When this URL come which function should run and the function is write know in controller
+*********************************************************************************************************************************************************************************************************************
+
+हो bro ❤️ flow समजणं हेच आता सगळ्यात important आहे. Code पाठ करण्यापेक्षा एक request project मध्ये कशी travel होते ते समजून घे.
+
+आपण GET /students example घेऊ, कारण त्यात database मधून data आणतो.
+
+🔥 पूर्ण Flow
+Postman
+   ↓
+main.py
+   ↓
+student_routes.py
+   ↓
+student_controller.py
+   ↓
+student_service.py
+   ↓
+student_model.py
+   ↓
+MySQL
+
+आता एकदम story सारखं पाहूया.
+
+1️⃣ Postman
+
+तू request पाठवतो:
+
+GET /students
+
+म्हणजे:
+
+"मला सर्व students पाहिजेत."
+
+2️⃣ main.py
+
+main.py मध्ये:
+
+app.include_router(router)
+
+यामुळे FastAPI ला माहिती आहे:
+
+"Student related URLs student_routes.py मध्ये आहेत."
+
+म्हणून request Route कडे जाते.
+
+3️⃣ student_routes.py
+
+इथे:
+
+@router.get("/students")
+def get_all_students_route():
+    return get_all_students()
+
+FastAPI पाहतो:
+
+GET /students
+
+आणि म्हणतो:
+
+"यासाठी get_all_students_route() चालवायचा."
+
+मग:
+
+get_all_students()
+
+हा Controller चा function call होतो.
+
+4️⃣ student_controller.py
+
+Controller:
+
+def get_all_students():
+    db = SessionLocal()
+
+    try:
+        return get_all_students_service(db)
+    finally:
+        db.close()
+
+Controller म्हणतो:
+
+"माझ्याकडे request आली आहे. आता Service, तू actual काम कर."
+
+म्हणून:
+
+get_all_students_service(db)
+
+call होतो.
+
+5️⃣ student_service.py
+
+Service मध्ये:
+
+def get_all_students(db):
+    return db.query(Student).all()
+
+इथे actual database logic आहे.
+
+Service म्हणतो:
+
+"Student model वापरून database मधून सगळे students आण."
+
+6️⃣ student_model.py
+
+आपला model:
+
+class Student(Base):
+    __tablename__ = "students"
+
+यामुळे SQLAlchemy ला माहिती आहे:
+
+Student class
+      ↓
+students table
+
+म्हणून:
+
+db.query(Student).all()
+
+चा अर्थ roughly:
+
+SELECT * FROM students;
+7️⃣ MySQL
+
+MySQL data देतो:
+
+1 | Rahul | rahul@gmail.com | 22 | MCA
+2 | Amit  | amit@gmail.com  | 23 | BCA
+
+मग data परत त्याच flow ने वर येतो:
+
+MySQL
+  ↑
+Service
+  ↑
+Controller
+  ↑
+Route
+  ↑
+Postman
+🔥 एकदम simple memory trick
+
+प्रत्येक layer ला एक question दे:
+
+Route       → "कोणत्या URL वर?"
+Controller  → "Request कुठे handle करायची?"
+Service     → "Actual काम काय?"
+Model       → "Database table कोणता?"
+Database    → "Actual data कुठे?"
+
+आणि Schema:
