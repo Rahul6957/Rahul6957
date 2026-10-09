@@ -1,119 +1,262 @@
-TFLCoMentor is an online learning, mentoring, assessment, and recruitment platform that connects students, mentors, SMEs (Subject Matter Experts), and employers.
-
-
-
-1️⃣ Admin Dashboard
-
-Admin manages and monitors the entire platform.
-
-Main responsibilities:
-
-View platform statistics and activity
-
-Manage assessments
-
-Assign assessments to students
-
-Track student participation and results
-
-View platform session logs
-
-Manage users and roles
-
-Remove inactive users
-
-
-
-2️⃣ Student Dashboard
-
-Student uses the platform for learning, testing, and job opportunities.
-
-Main responsibilities:
-
-Manage profile and password
-
-View courses, assignments, and labs
-
-Submit assignments and projects
-
-Take assessments and view results
-
-Communicate with mentors
-
-Participate in discussion forums
-
-Apply for jobs and track applications
-
-Monitor learning progress and notifications
-
-
-
-3️⃣ SME Dashboard
-
-SME creates learning content and assessments.
-
-Main responsibilities:
-
-Create and manage learning sessions
-
-Create hands-on practice activities
-
-Manage concepts and topics
-
-Manage programming runtimes
-
-Create and manage tests
-
-Manage question bank
-
-Submit questions for mentor review
-
-Analyze assessment results and student performance
-
-
-
-4️⃣ Mentor Dashboard
-
-Mentor guides and monitors student learning progress.
-
-Main responsibilities:
-
-Manage assigned students
-
-Track student progress and skills
-
-Review assignments and projects
-
-Provide feedback and mentoring notes
-
-Conduct mentoring sessions
-
-Access learning resources
-
-Manage mentor profile
-
-5️⃣ Employer Dashbord
-
-Employer handles recruitment and hiring.
-
-Main responsibilities:
-
-Manage company profile
-
-Post and manage job openings
-
-View and search candidates
-
-Review job applications
-
-Shortlist candidates
-
-Conduct interviews
-
-View interview results
-
-Hire qualified candidates
-
-
-
+# TFLCoMentor – Online Learning, Mentoring, Assessment & Recruitment Platform
+
+## 📌 Project Overview
+
+**TFLCoMentor** is an online learning, mentoring, assessment, and recruitment platform designed to connect students, mentors, Subject Matter Experts (SMEs), administrators, and employers through a unified system.
+
+The platform enables students to develop technical skills, participate in assessments, receive mentorship, complete practical assignments, and explore job opportunities. SMEs can create learning content and assessments, mentors can guide students, and employers can identify and recruit qualified candidates.
+
+The system follows a modular architecture, with different modules responsible for specific business functionalities and implemented using appropriate technologies.
+
+
+
+## 👥 User Roles and Dashboards
+
+### 1. Admin Dashboard
+The Admin Dashboard provides centralized control over the entire platform.
+**Key Responsibilities:**
+* View platform statistics and activity.
+* Manage assessments and assessment assignments.
+* Track student participation and results.
+* View platform session logs.
+* Manage users and roles.
+* Remove inactive users.
+* Monitor overall platform activity.
+
+
+### 2. Student Dashboard
+The Student Dashboard helps students learn, practice, assess their skills, and explore career opportunities.
+**Key Responsibilities:**
+* Manage profile information and passwords.
+* View courses, assignments, and practical labs.
+* Submit assignments and projects.
+* Take assessments and view results.
+* Communicate with mentors.
+* Participate in discussion forums.
+* Apply for job opportunities.
+* Track job application status.
+* Monitor learning progress and notifications.
+
+
+### 3. SME Dashboard
+The SME (Subject Matter Expert) Dashboard enables experts to create and manage technical learning content and assessments.
+**Key Responsibilities:**
+* Create and manage learning sessions.
+* Develop hands-on practice activities.
+* Manage concepts and topics.
+* Configure programming runtimes.
+* Create and manage tests.
+* Maintain the question bank.
+* Submit questions for mentor review.
+* Analyze assessment results.
+* Evaluate student performance.
+
+
+### 4. Mentor Dashboard
+The Mentor Dashboard supports student guidance, progress monitoring, and performance improvement.
+**Key Responsibilities:**
+* Manage assigned students.
+* Track student progress and technical skills.
+* Review assignments and projects.
+* Provide feedback and mentoring notes.
+* Conduct mentoring sessions.
+* Access learning resources.
+* Manage mentor profile information.
+
+
+### 5. Employer Dashboard
+The Employer Dashboard enables organizations to manage recruitment and hire suitable candidates.
+**Key Responsibilities:**
+* Manage company profile information.
+* Post and manage job openings.
+* Search and view candidates.
+* Review job applications.
+* Shortlist qualified candidates.
+* Schedule and conduct interviews.
+* View interview results.
+* Hire suitable candidates.
+
+---
+
+## ⚙️ System Modules and Technologies
+TFLCoMentor is divided into multiple modules. Each module handles a specific set of responsibilities.
+
+| No. | Module                    | Technology            | Responsibilities                                                        |
+| --- | ------------------------- | --------------------- | ----------------------------------------------------------------------- |
+| 1   | Skill Taxonomy Module     | Java                  | Manages subjects, concepts, skill levels, and prerequisites.            |
+| 2   | Evaluation Content Module | Java                  | Manages question banks, coding problems, projects, and concept mapping. |
+| 3   | Assessment Module         | .NET                  | Creates tests, schedules assessments, and manages candidate attempts.   |
+| 4   | Evaluation Module         | Node.js               | Processes candidate submissions and performs automated grading.         |
+| 5   | Insight Module            | .NET – Future Phase   | Supports performance tracking, rankings, and analytics dashboards.      |
+| 6   | Growth Module             | Python – Future Phase | Supports AI-based recommendations and concept improvement tracking.     |
+| 7   | Membership & Roles Module | Node.js               | Handles user authentication, authorization, and role management.        |
+
+
+### 1. Skill Taxonomy Module – Java
+This module maintains the platform's skill structure and relationships between learning concepts.
+**Responsibilities:**
+* Manage subjects and technical skills.
+* Organize concepts and topics.
+* Define skill levels.
+* Maintain prerequisite relationships.
+* Map concepts to relevant skills.
+
+
+### 2. Evaluation Content Module – Java
+This module manages educational and assessment content.
+**Responsibilities:**
+
+* Maintain the question bank.
+* Manage coding problems and projects.
+* Organize learning and assessment content.
+* Map questions to concepts and skills.
+* Support content creation and review workflows.
+
+### 3. Assessment Module – .NET
+This module manages assessment creation, scheduling, and student attempts.
+**Responsibilities:**
+* Create and configure assessments.
+* Schedule assessments.
+* Assign assessments to students.
+* Manage candidate attempts.
+* Track assessment status.
+* Store assessment-related information.
+
+### 4. Evaluation Module – Node.js
+This module evaluates student submissions and processes assessment results.
+**Responsibilities:**
+* Receive candidate submissions.
+* Process answers and coding solutions.
+* Execute automated grading workflows.
+* Evaluate submissions against defined criteria.
+* Generate evaluation results.
+* Return results to the relevant system components.
+*Note: Coding submissions should be executed in an appropriately isolated and secured environment.*
+
+### 5. Insight Module – .NET (Future Phase)
+The Insight Module will provide advanced performance analysis and reporting capabilities.
+**Planned Responsibilities:**
+* Track student performance.
+* Analyze assessment results.
+* Generate rankings and performance reports.
+* Provide analytics dashboards.
+* Identify strengths and improvement areas.
+
+### 6. Growth Module – Python (Future Phase)
+The Growth Module will focus on personalized learning and skill improvement.
+**Planned Responsibilities:**
+* Generate AI-based learning recommendations.
+* Identify concepts requiring improvement.
+* Track concept mastery over time.
+* Recommend relevant learning resources.
+* Support personalized learning paths.
+
+
+### 7. Membership & Roles Module – Node.js
+This module manges user identity, access, and permissions across the platform.
+**Responsibilities:**
+* Handle user registration and login.
+* Manage authentication.
+* Implement role-based authorization.
+* Manage user roles and permissions.
+* Support access control for different dashboards.
+* Manage relevant user account operations.
+
+---
+
+## 🔄 System Workflow
+The following workflow describes how the primary modules interact.
+
+```text
+                    TFLCoMentor Platform
+                            |
+                            v
+                 User Registration / Login
+                            |
+                            v
+                Membership & Roles Module
+                         (Node.js)
+                            |
+                            v
+                   Select Skills / Concepts
+                            |
+                            v
+                  Skill Taxonomy Module
+                          (Java)
+                            |
+                            v
+                Retrieve Questions / Content
+                            |
+                            v
+                 Evaluation Content Module
+                          (Java)
+                            |
+                            v
+                    Create / Schedule Test
+                            |
+                            v
+                    Assessment Module
+                          (.NET)
+                            |
+                            v
+                    Student Attempts Test
+                            |
+                            v
+                    Submit Assessment
+                            |
+                            v
+                    Evaluation Module
+                         (Node.js)
+                            |
+                            v
+                    Automated Evaluation
+                            |
+                            v
+                    Store / Return Results
+                            |
+                            v
+                   Insight Module (.NET)
+                       Future Phase
+                            |
+                            v
+                    Growth Module (Python)
+                       Future Phase
+                            |
+                            v
+                Personalized Learning & Improvement
+```
+
+### Workflow Explanation
+
+**Step 1: User Registration and Login**
+
+Users register or log in to the platform. The Membership & Roles Module authenticates users and determines their access permissions.
+
+**Step 2: Skill Selection**
+
+Students select or explore relevant skills and concepts. The Skill Taxonomy Module provides the structured skill information.
+
+**Step 3: Content Retrieval**
+
+The Evaluation Content Module provides relevant questions, coding problems, and assessment content.
+
+**Step 4: Assessment Creation**
+
+The Assessment Module allows authorized users to create, schedule, and assign assessments.
+
+**Step 5: Assessment Attempt**
+
+Students attempt the assigned assessments and submit their answers or coding solutions.
+
+**Step 6: Automated Evaluation**
+
+The Evaluation Module processes submissions and performs automated grading where applicable.
+
+**Step 7: Result Processing**
+
+Assessment results are stored and made available to the relevant platform components and authorized users.
+
+**Step 8: Analytics and Recommendations**
+
+In future phases, the Insight Module will analyze student performance, while the Growth Module will use performance information to support personalized learning recommendations.
 
