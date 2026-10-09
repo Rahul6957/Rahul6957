@@ -160,5 +160,24 @@ What is primary key?
 What is foreign key?
 What is one-to-many relationship?
 What is many-to-many relationship?
+What is exception handling in Python?
+What is an exception?
+What is the difference between an error and an exception?
+What is the purpose of try block?
+What is the purpose of except block?
+What is the purpose of finally block?
+What is the use of raise keyword?
+What happens if an exception occurs inside a try block?
+Can we use try without except?
+Can we use finally without except?
+what is dump and load in file handling 
+what is Dunder method
+how to define private veriable and method
+secondary and primery thread 
+gc is low level  proverety when thread are working on high preverty task then gc are stop when no any high preverty then gc come and check un useble object and clean it 
+Multithreading, Multiprocessing & Async Programming in Python
+Socket Programming 
+defference library and package and module
+
 
  
