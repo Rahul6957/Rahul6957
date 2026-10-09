@@ -1,4 +1,3 @@
-1. C# Basics — Must Know ⭐⭐⭐
 
 What is C#?✅
 What is .NET?✅
@@ -6,68 +5,8 @@ Difference between C# and .NET✅
 What is a variable?✅
 What are data types in C#?✅
 Difference between value type and reference type✅
-What is a class?✅
-What is an object?✅
-What is a method?✅
-What is a constructor?✅
-What is a property?✅
-Difference between field and property✅
-What are access modifiers?✅
-What is public, private, protected, internal?✅
-What is static?✅
-What is const?✅
-What is readonly?✅
-Q: What is Serialization?✅
-Q: What is Deserialization?✅
-MVC VS Minimal✅
-Difference between var, dynamic, and object✅
-What is type casting?✅
-What is nullable type?✅
-Why do we use virtual and override?✅
-
-
-2. OOP — VERY IMPORTANT ⭐⭐⭐⭐⭐✅
-
-Reflection✅
-What is OOP?✅
-What are the 4 pillars of OOP?✅
-Encapsulation✅
-Inheritance✅
-Polymorphism✅
-Abstraction✅
-Jagged Array✅
-I Comparable and comparer
-Delegate✅
-Event✅
-Task✅
-Application execution internal 
-Serilition and deserilization 
-linQ
-unsafe
-fixed
-etity
-ado
-drapper
-multithreading
-tag helper
-ioc
-dependency injection 
-http pipeline
-filters
-statemanagement 
-jwt authitication
-jwt role base authitiation
-coculization
-web sockets
-signal R
-MQII
-CI/CD peplince
-microservices
-monolithic
 
 3. Arrays & Collections ⭐⭐⭐⭐
-
-
 What is an array?
 Difference between array and List<T>
 What is Dictionary<TKey,TValue>?
@@ -83,18 +22,8 @@ What is Select()?
 What is OrderBy()?
 What is Max()?
 
-4. Exception Handling ⭐⭐⭐⭐
-What is an exception?
-What is try?
-What is catch?
-What is finally?
-What is throw?
-Difference between throw and throw ex
-Can we have multiple catch blocks?
-What happens if an exception is not handled?
 
 5. ASP.NET Core / MVC ⭐⭐⭐⭐⭐
-
 What is ASP.NET Core?
 What is MVC?
 What is Model?
@@ -116,46 +45,6 @@ What is a Partial View?
 What is Razor?
 What is @model in Razor?
 
-6. Web API ⭐⭐⭐⭐⭐
-What is Web API?
-What is REST API?
-What is HTTP?
-What are HTTP methods?
-GET
-POST
-PUT
-PATCH
-DELETE
-What is JSON?
-What is status code?
-What is 200 OK?
-What is 201 Created?
-What is 400 Bad Request?
-What is 401 Unauthorized?
-What is 404 Not Found?
-What is 500 Internal Server Error?
-What is [FromBody]?
-What is [FromRoute]?
-What is [FromQuery]?
-What is Swagger?
-Difference between MVC and Web API
-
-7. Entity Framework Core ⭐⭐⭐⭐
-What is Entity Framework Core?
-What is ORM?
-What is DbContext?
-What is DbSet?
-What is migration?
-What is SaveChanges()?
-What is SaveChangesAsync()?
-What is LINQ?
-What is Include()?
-What is Code First?
-What is Database First?
-What is primary key?
-What is foreign key?
-What is one-to-many relationship?
-What is many-to-many relationship?
 
 8. SQL — Don't Ignore This ⭐⭐⭐⭐⭐
 
@@ -186,13 +75,3 @@ Difference between DELETE, TRUNCATE, and DROP
 What is normalization?
 Find the second-highest salary.
 Find duplicate records.
-9. Async / Await ⭐⭐⭐⭐
-What is asynchronous programming?
-What is async?
-What is await?
-What is Task?
-Why do we use Task?
-Difference between synchronous and asynchronous programming
-What is Task.Delay()?
-What is Task.FromResult()?
-What is Task.CompletedTask?
