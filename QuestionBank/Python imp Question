@@ -1,1 +1,126 @@
+Python Interview Questions for Freshers 🐍
+1. Python Basics
+What is Python?
+What are the main features of Python?
+What are the advantages of Python?
+What is an interpreted language?
+What is a dynamically typed language?
+What are the different data types in Python?
+What are identifiers in Python?
+What is type casting in Python?
+What is the difference between mutable and immutable objects?
+What is indentation in Python?
+2. Data Structures
+What is a list in Python?
+What is a tuple in Python?
+What is a dictionary in Python?
+What is a set in Python?
+What is the difference between a list and a tuple?
+What is the difference between a list and a set?
+What is the difference between a dictionary and a list?
+What are mutable and immutable data types?
+What is list slicing?
+What is list comprehension?
+What is dictionary comprehension?
+What is the difference between append() and extend()?
+What is the difference between remove(), pop(), and del?
+How do you remove duplicates from a list?
+How do you reverse a list in Python?
+What are default arguments?
+What are keyword arguments?
+What are *args and **kwargs?
+What is a lambda function?
+What is the difference between local and global variables?
+What is the global keyword?
+What is the purpose of the pass statement?
+What is the difference between break, continue, and pass?
+What is variable scope in Python?
+What is the purpose of self?
+What is the difference between a class variable and an instance variable?
+What is exception handling in Python?
+What is the difference between an error and an exception?
+What is the purpose of the try block?
+What is the purpose of the except block?
+What is the finally block?
+What is the purpose of the else block in exception handling?
+What is the raise keyword?
+How do you create a custom exception?
+What is the difference between syntax errors and runtime errors?
+Why is exception handling important?
+6. File Handling
+What is file handling in Python?
+What is the difference between r, w, and a modes?
+What is the difference between read(), readline(), and readlines()?
 
+
+What is the difference between an iterator and a generator?
+What is the yield keyword?
+What is a decorator?
+What is a closure?
+What is a module in Python?
+What is the purpose of __name__ == "__main__"?
+What is the difference between shallow copy and deep copy?
+What are map(), filter(), and reduce()?
+What is the difference between range() and xrange()?
+
+8. Python API and FastAPI
+What is an API?
+What is a REST API?
+What is FastAPI?
+What are the advantages of FastAPI?
+What is the difference between FastAPI and Flask?
+What are HTTP methods?
+What is CRUD?
+What is middleware?
+What is dependency injection in FastAPI?
+What is Pydantic?
+What is request validation?
+What is response serialization?
+What is the purpose of async and await in FastAPI?
+What is CORS?
+What is the difference between authentication and authorization?
+What is the purpose of Swagger UI?
+What are path parameters and query parameters?
+What is the difference between PUT and PATCH?
+How do you handle exceptions in FastAPI?
+How do you connect FastAPI to a database?
+tabase?
+
+10. Coding Questions
+How do you reverse a string in Python?
+How do you check whether a string is a palindrome?
+How do you find the factorial of a number?
+How do you generate the Fibonacci series?
+How do you check whether a number is prime?
+How do you find the largest element in a list?
+How do you find the second-largest element in a list?
+How do you remove duplicates from a list?
+How do you count the frequency of each element in a list?
+How do you count the frequency of each character in a string?
+How do you check whether two strings are anagrams?
+How do you find common elements between two lists?
+How do you swap two variables without using a third variable?
+How do you sort a list without using the built-in sort() method?
+How do you find missing numbers in a list?
+How do you find even and odd numbers in a list?
+How do you find the sum of digits of a number?
+How do you check whether a number is an Armstrong number?
+How do you find duplicate characters in a string?
+How do you merge two dictionaries
+
+11. Project-Based Interview Questions
+Explain your Python Student Management System project.
+Why did you choose FastAPI for your project?
+What is the architecture of your project?
+How does your project communicate with the database?
+What is the role of the controller in your project?
+What is the role of the service layer?
+What is the role of the repository layer?
+How did you implement CRUD operations?
+How did you handle exceptions in your project?
+How did you validate user input?
+How did you connect your React frontend to your FastAPI backend?
+What is CORS, and why did you need it?
+How did you test your APIs?
+What challenges did you face while developing your project?
+How would you improve your project in the future?
