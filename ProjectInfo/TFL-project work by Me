@@ -1,119 +1,3 @@
-TFLCoMentor is an online learning, mentoring, assessment, and recruitment platform that connects students, mentors, SMEs (Subject Matter Experts), and employers.
-
-
-
-1️⃣ Admin Dashboard
-
-Admin manages and monitors the entire platform.
-
-Main responsibilities:
-
-View platform statistics and activity
-
-Manage assessments
-
-Assign assessments to students
-
-Track student participation and results
-
-View platform session logs
-
-Manage users and roles
-
-Remove inactive users
-
-
-
-2️⃣ Student Dashboard
-
-Student uses the platform for learning, testing, and job opportunities.
-
-Main responsibilities:
-
-Manage profile and password
-
-View courses, assignments, and labs
-
-Submit assignments and projects
-
-Take assessments and view results
-
-Communicate with mentors
-
-Participate in discussion forums
-
-Apply for jobs and track applications
-
-Monitor learning progress and notifications
-
-
-
-3️⃣ SME Dashboard
-
-SME creates learning content and assessments.
-
-Main responsibilities:
-
-Create and manage learning sessions
-
-Create hands-on practice activities
-
-Manage concepts and topics
-
-Manage programming runtimes
-
-Create and manage tests
-
-Manage question bank
-
-Submit questions for mentor review
-
-Analyze assessment results and student performance
-
-
-
-4️⃣ Mentor Dashboard
-
-Mentor guides and monitors student learning progress.
-
-Main responsibilities:
-
-Manage assigned students
-
-Track student progress and skills
-
-Review assignments and projects
-
-Provide feedback and mentoring notes
-
-Conduct mentoring sessions
-
-Access learning resources
-
-Manage mentor profile
-
-5️⃣ Employer Dashbord
-
-Employer handles recruitment and hiring.
-
-Main responsibilities:
-
-Manage company profile
-
-Post and manage job openings
-
-View and search candidates
-
-Review job applications
-
-Shortlist candidates
-
-Conduct interviews
-
-View interview results
-
-Hire qualified candidates
-
 
 
 
@@ -345,3 +229,10 @@ implement केलं.
 * Debugging and problem solving
 
 याबद्दल practical experience मिळाला.
+
+#######################################################################  14-10-2026     ########################################################################################################################################
+Created a Student Details page to display individual student information.
+Reused existing APIs to fetch student details.
+Created a reusable React component using TypeScript.
+Configured React Router to navigate from the Mentor Dashboard to the Student Details page.
+#################################################################################################################################
