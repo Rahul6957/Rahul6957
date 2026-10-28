@@ -52,30 +52,26 @@ spread operator--------------
 shallow copy and deep copy---------------
 decorator----------------
 attributes------
-annonations
-solid division principle
-decoretor
-how much types of architecture
+annonations-----
+solid division principle--------------
+how much types of architecture---------------------
 
 9. Async / Await ⭐⭐⭐⭐
-What is asynchronous programming?
-What is async?
-What is await?
+What is asynchronous programming?---------
+What is async?------------
+What is await?---------
 What is Task?
-Why do we use Task?
-Difference between synchronous and asynchronous programming
+thread pool------------
 What is Task.Delay()?
-What is Task.FromResult()?
-What is Task.CompletedTask?
-microservices
-monolithic
-Jagged Array✅
-I Comparable and comparer
-Delegate✅
-Event✅
-Task✅
+microservices--------
+monolithic----------
+Jagged Array✅-----------------
+I Comparable and comparer-----------
+Delegate✅----------------
+
+
 Application execution internal 
-Serilition and deserilization 
+Serilition and deserilization -------------------
 linQ
 unsafe
 fixed
@@ -83,6 +79,7 @@ etity
 ado
 drapper
 multithreading
+multiprocessing
 tag helper
 ioc
 dependency injection 
@@ -100,14 +97,11 @@ What is a property?✅
 Difference between field and property✅
 What are access modifiers?✅
 What is public, private, protected, internal?✅
-What is static?✅
-What is const?✅
+
+
 What is readonly?✅
-Q: What is Serialization?✅
-Q: What is Deserialization?✅
 MVC VS Minimal✅
 Difference between var, dynamic, and object✅
-What is type casting?✅
 What is nullable type?✅
 Why do we use virtual and override?✅
 4. Exception Handling ⭐⭐⭐⭐
