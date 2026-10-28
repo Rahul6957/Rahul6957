@@ -86,8 +86,8 @@ dependency injection
 http pipeline
 filters
 statemanagement 
-jwt authitication
-jwt role base authitiation
+jwt authitication--------------
+jwt role base authitiation---------------
 coculization
 web sockets
 signal R
