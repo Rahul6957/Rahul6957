@@ -15,6 +15,8 @@ then next create component and add app.js file like obj
 ************************************ python project folderstructure ****************************************************
 1).....pip install fastapi uvicorn sqlalchemy pymysql
 2.(pip freeze > requirements.txt)
+3.python -m venv venv
+4.venv\Scripts\activate
 .....when we want to run  the project or run the server use (uvicorn main:app --reload)
 3)follow the MVC or dependences(follow node.js )
 #shortway to crate folder ---> mkdir config, models, repositories, services, controllers, routes
