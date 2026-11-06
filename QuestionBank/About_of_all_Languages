@@ -22,12 +22,9 @@ Q27.  What is Interface?--------------------
 Multithreading,---------------------
 Multiprocessing --------------------
 & Async Programming in Python--------------------------
-Process
 thread-----------------
 GIL--------------------------
- CPU-Bound vs I/O-Bound
 . Thread Pool-------------------------
-Lock
 Q6. What does await do?----------------------
 What is socket programming?------------------
 TCP vs UDP-------------------
@@ -62,17 +59,19 @@ What is async?------------
 What is await?---------
 What is Task?
 thread pool------------
-What is Task.Delay()?
 microservices--------
 monolithic----------
 Jagged Array✅-----------------
 I Comparable and comparer-----------
 Delegate✅----------------
-
-
-Application execution internal ---
 Serilition and deserilization -------------------
+jwt authitication--------------
+jwt role base authitiation---------------
 linQ
+Application execution internal 
+ CPU-Bound vs I/O-Bound
+Lock
+Process
 unsafe
 fixed
 etity
@@ -86,8 +85,6 @@ dependency injection
 http pipeline
 filters
 statemanagement 
-jwt authitication--------------
-jwt role base authitiation---------------
 coculization
 web sockets
 signal R
