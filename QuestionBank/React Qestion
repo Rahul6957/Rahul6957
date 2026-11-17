@@ -1,1 +1,69 @@
 
+1. What is React.js?
+2. Why do we use React?
+3. What are the features of React?
+4. What is a Single Page Application (SPA)?
+5. What is the difference between React and JavaScript?
+6. What is JSX?
+7. What is the difference between HTML and JSX?
+8. What is a Component in React?
+9. What are the different types of components?
+10. What is the difference between Functional and Class Components?
+2. Components and Props
+11. What are Props in React?
+12. Why do we use Props?
+14. What is State in React?
+15. What is the difference between Props and State?
+16. What is Component Reusability?
+17. What is Conditional Rendering?
+21. What are Hooks in React?
+22. Why do we use Hooks?
+23. What is useState()?
+24. What is useEffect()?
+25. What is the difference between useState() and useEffect()?
+28. What is useContext()?
+29. What is useRef()?
+30. What is useMemo()?
+31. What is useCallback()?
+32. What is the difference between useMemo() and useCallback()?
+34. What are Custom Hooks?
+35. How do you handle events in React?
+36. What is onClick?
+37. What is onChange?
+38. How do you handle form submission?
+39. How do you get input values in React?
+40. What is a controlled component?
+42. How do you handle multiple input fields?
+43. How do you render a list in React?
+44. What is the map() method?
+45. Why do we use the key prop?
+48. What is the difference between map() and filter()?
+49. What is the Virtual DOM?
+50. What is the difference between Virtual DOM and Real DOM?
+51. What is React Router?
+52. Why do we use React Router?
+53. What is BrowserRouter?
+54. What is Routes vs routes?
+57. What is useNavigate()?
+60. What is useParams()?
+61. What is API integration in React?
+62. How do you call an API in React?
+63. What is Axios?
+64. What is the difference between Fetch and Axios?
+66. How do you display API data in React?
+70. What is CORS?
+72. What is Redux?
+73. What is State Management?
+74. What is Prop Drilling?
+75. What is React Fragment?
+76. What is Lazy Loading?
+77. What is React Suspense?
+78. What is React.memo()?
+79. What is the difference between React.memo and useMemo?
+81. How do you create a React application?
+82. How do you create a reusable component?
+85. How do you update state?
+88. How do you create a login form?
+90. How do you connect React with a Node.js backend?
+95. How do you integrate backend APIs?
+98. How do you display dynamic data?
