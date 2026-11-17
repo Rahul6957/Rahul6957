@@ -168,6 +168,26 @@ gc is low level  proverety when thread are working on high preverty task then gc
 Multithreading, Multiprocessing & Async Programming in Python
 Socket Programming 
 defference library and package and module
-
+5. ASP.NET Core / MVC ⭐⭐⭐⭐⭐
+What is ASP.NET Core?
+What is MVC?
+What is Model?
+What is View?
+What is Controller?
+What is an Action Method?
+What is IActionResult?
+What is return View()?
+What is RedirectToAction()?
+What is routing?
+What is middleware?
+What is dependency injection?
+What is model binding?
+What is ViewBag?
+What is ViewData?
+What is TempData?
+Difference between ViewBag and ViewData
+What is a Partial View?
+What is Razor?
+What is @model in Razor?
 
  
