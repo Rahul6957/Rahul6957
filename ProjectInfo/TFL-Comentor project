@@ -1,13 +1,16 @@
-# TFLCoMentor – Online Learning, Mentoring, Assessment & Recruitment Platform
+My project name is TFLCoMentor. It is an online Learning, Mentoring, Assessment, and Recruitment platform.
 
-## 📌 Project Overview
+The main purpose of this platform is to connect Students, Mentors, SMEs, Admins, and Employers in one system.
 
-**TFLCoMentor** is an online learning, mentoring, assessment, and recruitment platform designed to connect students, mentors, Subject Matter Experts (SMEs), administrators, and employers through a unified system.
+In this platform:
 
-The platform enables students to develop technical skills, participate in assessments, receive mentorship, complete practical assignments, and explore job opportunities. SMEs can create learning content and assessments, mentors can guide students, and employers can identify and recruit qualified candidates.
+- Students learn technical skills, complete assignments, and take assessments.
+- Mentors guide students, review their projects, and provide feedback.
+- SMEs create courses, learning content, and assessments.
+- Admins manage users, roles, and overall platform activities.
+- Employers post job opportunities and hire suitable candidates.
 
-The system follows a modular architecture, with different modules responsible for specific business functionalities and implemented using appropriate technologies.
-
+The main goal of this platform is to help students improve their technical skills and become industry-ready.
 
 
 ## 👥 User Roles and Dashboards
