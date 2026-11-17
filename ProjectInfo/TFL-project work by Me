@@ -1,238 +1,137 @@
+In this project, I primarily worked on backend development using Node.js, Express.js, and MySQL. I also worked on frontend integration using React and TypeScript.
 
+**1. Database Design**
 
+Initially, I worked on database design for the User Profile module.
 
-You can say this:
+I created multiple related tables, including:
 
-My project TFLCoMentor is an integrated learning and recruitment platform. It connects students, mentors, SMEs, and employers in a single ecosystem. SMEs create courses and assessments, students learn and complete assignments, mentors guide students and review projects, and employers post jobs and recruit qualified candidates. The platform includes modules for user management, learning content, assessments, mentoring, project management, skill tracking, and recruitment.
+- Users
+- Personal Information
+- Professional Information
+- Academic Information
+- Roles
+- User Roles
 
-🎤 Interview साठी Marathi Explanation
+I maintained relationships using Primary Keys and Foreign Keys and focused on database normalization to avoid redundant data.
 
-“माझा प्रोजेक्ट TFLCoMentor platform आहे.
-हा एक learning, mentoring, assessment आणि recruitment platform आहे.
+I also worked with SQL JOIN queries to retrieve information from multiple tables.
 
-या system मध्ये Student, Mentor, SME आणि Employer हे roles आहेत आणि सगळे एकाच platform वर interact करतात.
+**2. User Profile API Development**
 
-🔄 System Flow (Simple शब्दात)
-SME courses आणि tests तयार करतो
-Student learning करतो आणि assignments complete करतो
-Student assessment देतो
-Mentor त्याला guide करतो आणि feedback देतो
-Employer jobs post करतो
-Student job ला apply करतो
-Employer interview घेऊन candidate hire करतो
-🧩 माझं Contribution (Important Part)
+After database design, I developed REST APIs for managing user profiles.
 
-“या project मध्ये मी backend development (Express.js) वर काम केलं.
+These APIs handle three types of information:
 
-सुरुवातीला मी Database design केलं.”
+- Personal Information
+- Academic Information
+- Professional Information
 
-👉 Database design करताना:
+Initially, I used MySQL Stored Procedures for update operations.
 
-Multiple tables design केल्या (User, Profile, etc.)
-Proper relationships maintain केले
-Data normalize करण्यावर focus केला
-🔧 मी बनवलेली API
+However, later I decided to move the business logic into the backend service layer to make the application easier to maintain and extend.
 
-“यानंतर मी User Profile Update API तयार केली.”
+So, I removed the Stored Procedures and restructured the APIs using MVC architecture.
 
-⚠️ Problem मी face केली
+I separated the code into:
 
-“जेव्हा मी पहिल्यांदा API तयार केली तेव्हा एक मोठी mistake झाली:
+- Routes
+- Controllers
+- Services
+- Repositories
 
-User फक्त एक field update करत असला (जसं name)
-तरी माझी API सगळे fields update करत होती
-त्यामुळे:
-Existing data override होत होता
-Unnecessary updates होत होते
-System performance कमी होत होता
-✅ मी कसा fix केलं
+**3. Challenges and Solutions**
 
-“नंतर मला कळलं की हे योग्य नाही.
+One major challenge I faced was during profile updates.
 
-मग मी API सुधारली:
+Initially, when a user updated only one field, such as their name, the API was updating multiple fields unnecessarily.
 
-आता फक्त user ने जे fields दिले आहेत तेवढेच update होतात
-बाकी data unchanged राहतो
-Multiple tables मध्येही proper handling केलं”
+This could overwrite existing data and execute unnecessary database queries.
 
-👉 Example:
+To solve this problem, I implemented dynamic update logic.
 
-User फक्त name बदलतो → फक्त name update होतो
-बाकी fields untouched राहतात
-📚 मी काय शिकलो
-Partial update (PATCH concept)
-Data overwrite कसं avoid करायचं
-Multi-table update कसं handle करायचं
-Real-world debugging
-Efficient API design
+Now, the API updates only the fields provided by the user, while the remaining data stays unchanged.
 
+Another issue occurred during the first-time profile creation.
 
-## Project Explanation
+My API was initially designed only for UPDATE operations. If the user's profile data did not exist in the database, the update operation could not work.
 
-या project मध्ये मी backend development वर काम केलं using Express.js, Node.js आणि MySQL.
+To solve this, I implemented separate INSERT, UPDATE, and GET methods in the repository layer.
 
-सुरुवातीला मी complete database design केलं.
+In the service layer, I added conditional logic:
 
-### Database Design करताना:
+- If the data already exists, perform an UPDATE.
+- If the data does not exist, perform an INSERT.
 
-* Multiple tables तयार केल्या:
+This allowed me to handle both first-time profile creation and future profile updates.
 
-  * Users
-  * Personal Information
-  * Professional Information
-  * Academic Information
-  * Roles & User Roles
-* Proper relationships maintain केले using primary key आणि foreign key.
-* Database normalization वर focus केलं जेणेकरून redundant data avoid होईल.
-* या process मध्ये मला MySQL schema design, joins, relationships आणि data flow बद्दल practical understanding मिळाली.
+**4. Frontend Integration**
 
----
+I also worked on React frontend integration.
 
-## User Profile Update API
+I connected the backend APIs with Personal, Academic, and Professional profile forms.
 
-यानंतर मी User Profile Update API तयार केली.
+I implemented data fetching, edit functionality, save functionality, and dynamic field handling.
 
-ही API:
+Additionally, I developed a Student Details page using React and TypeScript.
 
-* Personal data
-* Professional data
-* Academic data
+I reused existing APIs to fetch individual student information and configured React Router to navigate from the Mentor Dashboard to the Student Details page.
 
-update करण्यासाठी वापरली.
 
-सुरुवातीला मी MySQL Stored Procedures वापरले होते update operations साठी.
-Stored procedures working होते, पण नंतर मला जाणवलं की business logic backend service layer मध्ये handle करणं जास्त maintainable आणि scalable आहे.
+Along with development, I am also working on automation testing for the TFLCoMentor application.
 
-म्हणून मी Stored Procedures remove करून पूर्ण API पुन्हा MVC architecture follow करून build केली.
+For automation testing, I am using Python, Playwright, and Pytest.
 
-### MVC Structure:
+First, I created a separate automation testing project and configured the Python virtual environment, Playwright, and Pytest.
 
-* Controller
-* Service
-* Repository
-* Routes
+I started with the Authentication module.
 
-यामुळे code readability आणि maintainability improve झाली.
+**1. Home Page Testing**
 
----
+I automated the home page to verify whether the Sign In button is visible and whether clicking it navigates to the Login page.
 
-## Major Problem I Faced
+**2. Authentication Testing**
 
-जेव्हा मी पहिल्यांदा update API तयार केली तेव्हा एक मोठी issue आली.
+I created test cases for different login scenarios:
 
-User फक्त एक field update करत असला (उदा. name),
-तरी API सगळे fields update करत होती.
+- Login with valid credentials.
+- Login with invalid credentials.
+- Login with the wrong user role.
+- Login without selecting a role.
+- Login with an empty password.
+- Login with an empty contact number.
 
-त्यामुळे:
+I also tested role-based authentication for Student, Mentor, SME, Employer, and Alumni.
 
-* Existing data unnecessarily overwrite होत होता
-* Multiple unnecessary MySQL queries execute होत होत्या
-* Performance reduce होत होता
-* Unwanted requests database ला जात होत्या
+Instead of writing separate test functions for every role, I used Pytest Parameterization to execute the same test with different role inputs.
 
----
+**3. Registration Navigation**
 
-## Solution I Implemented
+I started testing the registration navigation by verifying the Register Now element on the Login page.
 
-नंतर मी dynamic update logic implement केलं.
+**4. SME Dashboard Testing**
 
-आता:
+After authentication, I moved to the SME module.
 
-* User जे fields edit करतो फक्त तेवढेच update होतात
-* बाकी fields unchanged राहतात
+I automated the workflow of logging in as an SME, navigating to the Tests Created section, opening the Created Assessments page, and verifying the Create Test button.
 
-### Example:
+**5. Assessment and Question Creation**
 
-जर user फक्त name बदलतो,
-तर फक्त name field update होते.
-बाकी personal, professional आणि academic data untouched राहतो.
+I automated the assessment creation process by filling in the test name, difficulty level, description, and duration.
 
----
+After creating the assessment, I verified navigation to the Question Setup page.
 
-## Another Issue Faced
+I also automated question creation, including selecting question types, skill levels, approval status, entering question details, adding multiple-choice options, selecting the correct answer, and verifying the success message.
 
-पहिल्यांदा user profile save करताना आणखी एक issue आला.
+**6. Question Selection and Test Creation**
 
-कारण:
+Finally, I automated the question selection process using checkboxes and verified the success message after submitting the test.
 
-* माझी API फक्त update query वापरत होती
-* जर database मध्ये user data आधीपासून नसला,
-  तर update operation fail होत होता
+Through this work, I gained practical experience in browser automation, writing test cases, handling web elements, role-based authentication testing, parameterization, and debugging automation failures.
 
----
-
-## Final Fix
-
-हे solve करण्यासाठी:
-मी repository layer मध्ये:
-
-* Insert methods
-* Update methods
-* GetByUserId methods
-
-वेगळे तयार केले.
-
-Service layer मध्ये logic लिहिलं:
-
-* जर data exist असेल → UPDATE query run करा
-* जर data exist नसेल → INSERT query run करा
-
-यामुळे:
-
-* First-time save
-* Future edits
-  दोन्ही properly handle झाले.
-
----
-
-## Frontend Integration
-
-मी React frontend मध्ये:
-
-* Personal
-* Professional
-* Academic
-
-data fetch करून forms मध्ये display केलं.
-
-त्यामध्ये:
-
-* Edit button
-* Save button
-* Dynamic field handling
-
-implement केलं.
-
----
-
-## Additional Improvements
-
-* Complete codebase restructure केलं
-* camelCase naming convention apply केलं
-* Clean architecture follow केली
-* Code readability improve केली
-
----
-
-## What I Learned
-
-या project मधून मला:
-
-* Real-world backend development
-* MVC architecture
-* Database design
-* Partial update (PATCH concept)
-* Multi-table handling
-* Dynamic query building
-* Insert vs Update logic
-* API optimization
-* Debugging and problem solving
-
-याबद्दल practical experience मिळाला.
-
-#######################################################################  14-10-2026     ########################################################################################################################################
-Created a Student Details page to display individual student information.
-Reused existing APIs to fetch student details.
-Created a reusable React component using TypeScript.
-Configured React Router to navigate from the Mentor Dashboard to the Student Details page.
-#################################################################################################################################
+**Technologies Used:**
+- Python
+- Playwright
+- Pytest
+- Chromium
+- VS Code
