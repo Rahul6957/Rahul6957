@@ -1,1 +1,60 @@
-Automation
+1. Automation Testing Basics
+1. What is Software Testing?
+2. What is Automation Testing?
+3. Why do we use Automation Testing?
+4. What are the advantages of Automation Testing?
+5. What is the difference between Manual Testing and Automation Testing?
+6. What is a Test Case?
+7. What is a Test Scenario?
+8. What is the Software Testing Life Cycle (STLC)?
+9. What is Functional Testing?
+10. What is Regression Testing?
+
+3. Playwright
+21. What is Playwright?
+22. Why do we use Playwright?
+23. What are the features of Playwright?
+24. Which browsers does Playwright support?
+25. Which programming languages does Playwright support?
+26. What is a Locator in Playwright?
+27. What are different types of Locators?
+28. What is the difference between get_by_role() and get_by_text()?
+29. What is the difference between fill() and type()?
+30. What is the difference between click() and dblclick()?
+31. What is Headed Mode?
+32. What is Headless Mode?
+33. What is Auto-waiting in Playwright?
+34. What is the difference between wait_for_timeout() and wait_for_url()?
+35. How do you handle dropdowns in Playwright?
+36. How do you handle alerts?
+37. How do you take screenshots in Playwright?
+38. What is Browser Context?
+39. What is the difference between Browser and Page?
+40. What is Playwright Inspector?
+4. Pytest
+41. What is Pytest?
+42. Why do we use Pytest with Playwright?
+43. How do you install Pytest?
+44. What is an Assertion?
+45. What is a Fixture?
+46. What is conftest.py?
+47. What is Parametrization?
+48. What is the use of @pytest.mark.parametrize?
+49. What is the difference between pytest and unittest?
+50. How do you run a specific test case?
+51. How do you run a specific test file?
+52. What is pytest.ini?
+53. What is the difference between -v and -s?
+54. What are Pytest markers?
+55. How do you skip a test case in Pytest?
+5. Practical Automation Testing
+56. How do you automate a login page?
+57. How do you test login with valid credentials?
+58. How do you test login with invalid credentials?
+59. How do you test empty login fields?
+60. How do you verify successful login?
+61. How do you verify error messages?
+62. How do you automate registration?
+63. How do you test role-based authentication?
+64. How do you handle dynamic web elements?
+65. How do you debug a failed test case?
