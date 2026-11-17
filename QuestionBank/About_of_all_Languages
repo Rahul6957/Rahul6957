@@ -61,9 +61,9 @@ What is Task?
 thread pool------------
 microservices--------
 monolithic----------
-Jagged Array✅-----------------
+Jagged Array-----------------
 I Comparable and comparer-----------
-Delegate✅----------------
+Delegate---------------
 Serilition and deserilization -------------------
 jwt authitication--------------
 jwt role base authitiation---------------
@@ -89,18 +89,18 @@ coculization
 web sockets
 signal R
 MQII
-What is a constructor?✅
-What is a property?✅
-Difference between field and property✅
-What are access modifiers?✅
-What is public, private, protected, internal?✅
+What is a constructor?
+What is a property?
+Difference between field and property
+What are access modifiers?
+What is public, private, protected, internal?
 
 
-What is readonly?✅
-MVC VS Minimal✅
-Difference between var, dynamic, and object✅
-What is nullable type?✅
-Why do we use virtual and override?✅
+What is readonly?
+MVC VS Minimal
+Difference between var, dynamic, and object
+What is nullable type?
+Why do we use virtual and override?
 4. Exception Handling ⭐⭐⭐⭐
 What is an exception?
 What is try?
