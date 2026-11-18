@@ -182,4 +182,9 @@ Node.js
 pytest 
 pywrites
 connection Pool
- 
+ repository 
+services
+controller
+routes
+model
+Entity
