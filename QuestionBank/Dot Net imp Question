@@ -6,21 +6,6 @@ What is a variable?✅
 What are data types in C#?✅
 Difference between value type and reference type✅
 
-3. Arrays & Collections ⭐⭐⭐⭐
-What is an array?
-Difference between array and List<T>
-What is Dictionary<TKey,TValue>?
-What is HashSet<T>?
-What is IEnumerable<T>?
-Difference between IEnumerable and List
-What is foreach?
-Difference between for and foreach
-What is LINQ?
-What is FirstOrDefault()?
-What is Where()?
-What is Select()?
-What is OrderBy()?
-What is Max()?
 
 
 
