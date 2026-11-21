@@ -1,4 +1,4 @@
-Q1. What is Virtual Machine ?
+
 Q2. What is a class?-----------------
 Q3. What is an object?--------------------
 Q27.what is polymorphism  ?----------------
@@ -71,6 +71,7 @@ linQ -------------------
 Application execution internal --------------
  CPU-Bound vs I/O-Bound
 Lock
+Q1. What is Virtual Machine ?
 Process
 multithreading
 multiprocessing
@@ -111,6 +112,7 @@ What happens if an exception is not handled?
 6. Web API ⭐⭐⭐⭐⭐
 What is Web API?
 What is REST API?
+Fast Api
 What is HTTP?
 What are HTTP methods?
 GET
@@ -147,10 +149,11 @@ gc is low level  proverety when thread are working on high preverty task then gc
 Socket Programming 
 defference library and package and module
 
-What is ASP.NET Core?
-What is MVC?
-What is Model?
-What is View?
+What is ASP.NET Core vs What is ASP.NET ?
+C# and Dot net deference
+What is MVC?-----------------
+What is Model?--------------
+What is View?-------------------
 
 What is an Action Method?
 What is IActionResult?
