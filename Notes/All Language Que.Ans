@@ -1,0 +1,782 @@
+  Q5. What is a class?
+“A class is a blueprint or template in C# that defines the data and behavior of objects. It can contain fields, properties, methods, constructors, and other members.”
+
+Q6. What is an object?
+An object is an instance of a class. It represents a real entity and contains the data and behavior defined by the class.”
+Q24.what is Encapsulation ?
+Wrapping of data (encapsulation = data hiding + controlled access to data.)
+Encapsulation is an OOP concept that bundles data and methods into a class and restricts direct access to the data using access modifiers like private, while providing controlled access through methods or properties.
+
+Q25 . what is Abstraction 
+“Abstract class ही अशी class आहे जिचा object आपण create करू शकत नाही. ती multiple child classes मध्ये common functionality देण्यासाठी वापरली जाते आणि abstract methods च्या माध्यमातून child classes ना specific functionality implement करणे compulsory करते.”
+•	Abstract class मध्ये fields, properties आणि normal methods असू शकतात. 
+•	Abstract method मध्ये implementation नसते. 
+•	Child class ने abstract method compulsory override करावी लागते. 
+•	Abstract class चा object create करता येत नाही. 
+Abstraction means hiding unnecessary implementation details and showing only the essential features to the user.
+An abstract class is a class that cannot be instantiated, meaning we cannot create an object of it. It is used to provide common functionality to child classes and to force child classes to implement specific functionality using abstract methods.
+Key Points
+•	❌ Cannot create an object of an abstract class. 
+•	✅ Can contain fields, properties, and normal methods. 
+•	✅ Can contain abstract methods without implementation. 
+•	✅ Child classes must override abstract methods. 
+•	✅ Used when multiple child classes share common functionality.
+
+
+Q26.what is Inheritance ?
+Its allow a child class to reuse the properties and Methods of a parent class reducing code dublication and improveving reusability 
+
+Q27.what is polymorphism  ?
+One think multiple form
+There are two type 
+1)	Compile -time ppolymorphism (Method overloading)
+Meanse the compiler decides which method to call based on the method parameter 
+
+2)	Runtime Polymorphism (method overriding)
+Runtime polymorphism mean the method is decide at runtime based on the actual object 
+
+#method overloading 
+Meanse same method name but different parameter in the same class
+#method overriding 
+same method name same parameter but difference implementation 
+-	Child class change the implementation of a parent class method 
+Use virtual method to verride
+
+Q27.  What is Interface?
+“An interface is a contract that defines a set of members that a class must implement. It is used to achieve abstraction, loose coupling, and multiple inheritance-like behavior in C#.”
+Marathi meaning
+Interface म्हणजे एक contract किंवा rule-set आहे.
+Interface सांगते काय करायचे, पण class त्याची implementation कशी करायची ते ठरवते.
+👉 Interface = Contract / Rules
+👉 Class = Implementation
+One class achive multiple interfaces
+
+Q7.what is a methods?
+A method is a block of code defined inside a class that performs a specific task. It can accept parameters and may return a value.”
+
+Q8.What is Static Method ?
+It use shered memory
+Its belong to the class it not accessible by object 
+Its only accesebly by class name 
+
+Q9.Instance Method 
+its belong to object  when it use then create then create object
+Its like normal function
+
+Q10.virtual Method ?
+A virtual method is a method defined in a base class that allows a derived class to override its implementation using the override keyword. It is used for runtime polymorphism.”
+
+Q11.Abstract Method
+•  It has no implementation/body in the parent class. 
+•  A derived class must override it. 
+•  It is used when the parent class wants to force child classes to implement a specific behavior. 
+•  Abstract methods are mainly used for abstraction.
+
+Q12.Defference between Abstract Method and Abstract Methods
+Abstract Method	Virtual Method
+Has no implementation/body	Has a default implementation/body
+Child class must override it	Child class may override it
+Declared using abstract	Declared using virtual
+Can only be declared inside an abstract class	Can be declared inside a normal or abstract class
+
+Q13.what is Constructor 
+A constructor is a special method that is automatically called when we create an object of a class.
+If we want to pass data while creating an object, we use a Parameterized Constructor.
+Important Points
+•	Constructor name = Class name.
+•	Constructor has no return type.
+•	Constructor is called automatically when an object is created.
+•	Parameterized constructor accepts arguments during object creation.
+
+Q14.What is a property?
+A property in C# is a member of a class that is used to read, write, or control access to data.
+Properties provide a controlled way to access a class's data.
+Q15. Why use Properties?
+•	To get data 
+•	To set data 
+•	To provide encapsulation 
+•	To control how data is accessed or modified
+
+Q16. Difference between field and property?
+Field	Property
+A field directly stores data	A property provides controlled access to data
+Usually has direct access	Can control get and set access
+Cannot easily add validation during access	Can add validation or logic
+Generally used for internal class data	Commonly used to expose data outside the class
+Example: private int age;	Example: public int Age { get; set; }
+
+
+Q17. What are access modifiers?
+“Access modifiers are keywords used to control the accessibility of classes and their members. C# provides public, private, protected, internal, protected internal, and private protected access modifiers.”
+•  public → Everyone 
+•  private → Only my class 
+•  protected → My class + child class 
+•  internal → Same project/assembly
+
+Q18. What is static?
+•  A static member is shared by all objects of that class. 
+•  You don't need to create an object to access it. 
+•  static can be used with fields, methods, properties, classes, constructors, etc. 
+•  Static members are commonly used when the data or behavior is common to the whole class.
+
+
+Q19. What is const?
+•  const value cannot be modified. 
+•  It must be assigned when declared. 
+•  A const member is implicitly static. 
+•  It is mainly used for values that never change.
+
+
+
+
+
+
+Q20. What is Serialization? and  Deserialization?
+“Serialization is the process of converting an object into a format such as JSON or XML for storage or transmission. Deserialization is the process of converting that data back into an object.”
+
+
+
+
+
+Q2.MVC	Minimal API
+Uses Controllers, Views, Models	Uses a minimal endpoint-based structure
+More structured	Simpler and lightweight
+Suitable for larger applications	Suitable for small/simple APIs and microservices
+Usually has more files and configuration	Requires less code and setup
+Can create UI using Views	Mainly used for APIs
+Follows the MVC architecture	Focuses on defining API endpoints quickly
+
+
+Q22.what is type casting?
+Type casting is the process of converting a value from one data type to another data type.
+For example, converting:
+•	int → double 
+•	double → int 
+•	object → specific type
+
+
+
+
+
+Q23.what is Reflection ?
+It find metadata of object 
+Metadata means information about the object/type, such as:
+•	Class/Type name 
+•	Methods 
+•	Properties 
+•	Fields 
+•	Constructors 
+•	Attributes
+•	In real-world projects, Reflection is used in frameworks like Entity Framework Core, dependency injection, serialization, and unit testing to inspect types and their members dynamically."
+
+What is process?
+a program is  under execution it call process.
+
+What is a Thread?
+A thread is a small unit of execution inside a program. It allows a program to perform a task independently or concurrently.
+
+What is Multithreading ?
+Multithreading is a technique of executing multiple threads concurrently within a process. It is mainly used to handle multiple tasks efficiently and improve application responsiveness.
+Why use Multithreading?
+•	Perform multiple tasks concurrently 
+•	Improve application responsiveness 
+•	Useful for I/O-bound tasks like API calls, file operations, and database operations
+
+
+
+
+What is Multiprocessing?
+Multiprocessing is a technique where a program uses multiple processes to perform tasks independently.Each process has its own memory space and can run on a separate CPU core.
+Why use Multiprocessing?
+Mainly for CPU-bound tasks, such as:
+•	Large calculations 
+•	Image/video processing 
+•	Data processing 
+•	Machine learning computations
+Import the module use it manully
+What is Thread Pool?
+A Thread Pool is a collection of reusable threads. When a task comes, it uses an available thread from the pool, and after completing the task, the thread becomes available for another task.
+Why use Thread Pool?
+•	Avoid creating new threads again and again 
+•	Reuse threads 
+•	Better performance 
+•	Manage many tasks efficiently 
+
+What is Synchronous Programming?
+Synchronous programming means tasks are executed one after another. The next task starts only after the current task is completed.
+
+What is Asynchronous programming
+Asynchronous programming allows a program to perform other work while waiting for a long-running I/O operation, without blocking the thread. It is commonly used for API calls, database operations, file operations, and network requests
+
+Await keyword
+await pauses the current method while an asynchronous operation is running. It does not block the thread, so the thread can do other work. When the operation is completed, an available thread from the thread pool can continue the remaining part of the method.
+
+
+
+
+What is GIL?
+GIL stands for Global Interpreter Lock. In CPython, it allows only one thread at a time to execute Python bytecode in a process.
+Why is GIL used?
+The GIL helps CPython safely manage memory and Python objects.
+
+What is Socket Programming  ?
+“Socket Programming is a way of establishing communication between two devices or applications over a network using sockets. It allows the client and server to send and receive data.”
+Simple example:
+In a chat application, the client and server use sockets to send and receive messages.
+
+What is IP(Internet Protocol)
+“An IP address is a unique address assigned to a device on a network. It is used to identify the device and enable communication between devices.”
+
+
+What is Transmission Control Protocol (TCP)
+TCP मध्ये communication सुरू करण्यापूर्वी client आणि server यांच्यामध्ये connection establish होते. त्यामुळे data व्यवस्थित आणि योग्य क्रमाने पोहोचवण्याची खात्री TCP करते.
+“A TCP server is a server that uses the TCP protocol to establish a reliable connection with clients and send or receive data over a network.”
+
+What is UDP
+“TCP is a connection-oriented and reliable protocol that ensures data is delivered correctly and in order. UDP is a connectionless protocol that is faster but does not guarantee delivery or order of data.”
+TCP = Reliable पण थोडे slow
+UDP = Fast पण delivery guarantee नाही
+
+
+Q..defference library and package and module??
+1. Module 📄
+A module is a single Python file (.py) containing code like functions, classes, or variables.
+2. Package 📁
+A package is a folder containing multiple modules.
+👉 Library = A library is a collection of reusable code that you use in your application. A library can contain multiple packages and modules.
+
+
+
+
+
+
+Q.. what is event driven programming
+The program waits for an event to happen, and when that event happens, it executes a specific function.
+Simple real-life example
+Think about a doorbell 🔔:
+1.	You press the doorbell → event 
+2.	Doorbell detects it → event handler 
+3.	Bell rings → action
+
+Button Click ↓ Event ↓ Function runs ↓ Action happens
+
+
+Q>>>>>>>>>>>>>>>
+Q. What is an Attribute in C#?
+An attribute in C# is a declarative feature used to add metadata to program elements such as classes, methods, and properties. Attributes provide additional information to the compiler or runtime. We can use built-in attributes or create custom attributes by inheriting from the Attribute class.
+What is a Property in C#?
+A Property in C# is a class member used to access (get) and modify (set) the values of private fields.
+Properties provide controlled access to class data and support encapsulation.
+
+What is State in C#?
+State refers to the current values of an object's properties or fields at a particular point in time.
+In simple words, state represents the current condition or data of an object.
+public class Student
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public int Age { get; set; }
+}
+
+Student student = new Student();
+
+student.Id = 101;
+student.Name = "Rahul";
+student.Age = 23;
+
+Here, the object's state is:
+•	Id = 101
+•	Name = Rahul
+•	Age = 23
+
+
+
+
+
+Q. What are Class Members in C#?
+Class members are the elements declared inside a class. They define the data and behavior of objects. Examples include fields, properties, methods, constructors, events, and indexers.
+Class members are divided into two main categories:
+1.	Data Members
+2.	Function Members
+
+What is a Data Member in C#?
+A Data Member is a variable declared inside a class that stores information about an object.
+Data members represent the state (data) of an object.
+
+1. Example
+public class Student
+{
+    // Data Members
+    public int Id;
+    public string Name;
+    public int Age;
+}
+Function members ?
+is define the actions or operations that a class can perform. They represent the behavior of an object.
+Examples:
+•	Methods
+•	Constructors
+•	Destructors
+•	Properties (get/set accessors)
+•	Events
+•	Indexers
+•	Operators
+
+Q1. What is the Waterfall Model?
+The Waterfall Model is a traditional Software Development Life Cycle (SDLC) model in which software development is completed step by step in a sequential manner.
+Each phase must be completed before moving to the next phase. Going back to previous phases is difficult.
+1. Phases of Waterfall Model
+1.	Requirement Analysis: Collect and understand customer requirements.
+2.	System Design: Design the software architecture and database.
+3.	Implementation: Developers write the code.
+4.	Testing: Test the application and identify bugs.
+5.	Deployment: Deliver the application to the customer.
+6.	Maintenance: Fix bugs and make necessary updates.
+
+
+
+
+
+
+
+
+
+Q. What is Agile?
+Agile is a software development approach that focuses on iterative development, teamwork, continuous feedback, and flexibility. It divides a large project into smaller tasks and delivers working software incrementally.
+What is Iterative Development?
+Iterative Development is a software development approach in which an application is developed in small repeated cycles. Each cycle includes development, testing, feedback, and improvement until the final product is completed.
+Simple meaning: Build a small part → Test it → Improve it → Repeat.
+
+Q2. What is Scrum?
+Scrum is an Agile framework used to manage work and organize tasks among team members using short iterations called Sprints. It helps the team collaborate, track progress, and deliver work regularly.
+•	Agile = Software development approach.
+•	Scrum = Agile framework.
+•	Sprint = Fixed time period for completing work.
+•	Product Backlog = List of all required features.
+•	Daily Scrum = Short daily team meeting.
+
+
+
+
+Q5. What is the difference between Scrum and Kanban?
+Scrum is an Agile framework used to manage and organize work among team members through fixed time periods called Sprints.
+Kanban is an Agile method used to visualize, manage, and track tasks through a visual board. It helps team members understand task status and project progress.
+Q. What is Hybrid Methodology?
+Hybrid Methodology is a project management approach that combines two or more methodologies, such as Waterfall and Agile. It uses Waterfall for structured planning and Agile for flexible and iterative development. It helps teams manage projects effectively while adapting to changing requirements.
+
+Q..What is framework?
+A framework is a predefined software structure that provides reusable code, libraries, tools, and guidelines to develop applications efficiently. It reduces repetitive coding and provides a standard structure for application development.
+
+Q…What is cloud ?
+Suppose we want to make our application live in a production environment and available 24/7.
+it not possible keeping our local computer running all the time, then we rent a cloud server from a cloud provider like AWS or Azure.
+The cloud provider provides infrastructure such as:
+•	CPU
+•	RAM
+•	Storage (Hard Disk)
+•	Networking
+•	Database services
+We deploy our application on that cloud infrastructure.
+The cloud provider maintains the infrastructure, and users can access our application through the internet 24/7.
+In return, we pay charges based on the resources and services we use.
+
+Q..What is public Cloud ?
+Public Cloud is a cloud computing model in which computing resources, such as servers, storage, and networking, are provided over the internet by a third-party cloud provider and shared among multiple customers.
+Examples include AWS, Microsoft Azure, and Google Cloud.
+
+Q..Traditional Data Center vs Cloud 
+In a traditional data center, a company buys, installs, and maintains its own physical infrastructure, such as servers, storage, and networking equipment.
+In cloud computing, a company rents computing resources from a cloud provider over the internet instead of buying and maintaining its own physical hardware.
+1. Traditional Data Center 🖥️
+Company स्वतःचा infrastructure arrange करते:
+•	CPU / Servers 
+•	RAM 
+•	Storage 
+•	Networking 
+•	Power and Cooling 
+Company स्वतः hardware खरेदी करते आणि maintain करते.
+2. Cloud ☁️
+Cloud provider आपल्याला infrastructure उपलब्ध करून देतो:
+•	Virtual Servers 
+•	CPU and RAM 
+•	Storage 
+•	Networking 
+आपण cloud provider कडून गरजेनुसार resources rent करतो.
+AWS, Microsoft Azure आणि Google Cloud ही examples आहेत.
+
+
+Q..Virtual Machine
+Q. What is a Virtual Machine (VM)?
+Answer:
+A Virtual Machine (VM) is a software-based computer that behaves like a physical computer. It runs an operating system and applications using the resources of a physical machine.
+It provides virtual resources such as CPU, RAM, storage, and networking.
+In simple words, a Virtual Machine is a computer inside another computer.
+1. How Does a Virtual Machine Work?
+Suppose you have one physical computer.
+You can create multiple Virtual Machines on that computer.
+For example:
+•	VM 1 → Windows OS
+•	VM 2 → Linux OS
+•	VM 3 → Ubuntu OS
+Each VM works like an independent computer with its own operating system and allocated resources.
+3. Virtual Machine in Cloud Computing
+Cloud providers like AWS and Azure allow us to rent Virtual Machines.
+For example:
+•	AWS EC2
+•	Azure Virtual Machines
+•	Google Compute Engine
+You can select:
+•	CPU
+•	RAM
+•	Storage
+•	Operating System
+Then deploy your application on that VM.
+4. Advantages of Virtual Machines
+1.	Run multiple operating systems on one physical machine.
+2.	Reduce hardware costs.
+3.	Easy to create and manage.
+4.	Isolate different environments.
+5.	Increase or decrease allocated resources.
+.
+
+Q what s Devops?
+DevOps is a combination of Development (Dev) and Operations (Ops)
+DevOps focuses on automation, collaboration, and continuous delivery.
+
+Loading older messages…
+Q..Virtual Machine
+Q. What is a Virtual Machine (VM)?
+Answer:
+A Virtual Machine (VM) is a software-based computer that behaves like a physical computer. It runs an operating system and applications using the resources of a physical machine.
+It provides virtual resources such as CPU, RAM, storage, and networking.
+In simple words, a Virtual Machine is a computer inside another computer.
+1. How Does a Virtual Machine Work?
+Suppose you have one physical computer.
+You can create multiple Virtual Machines on that computer.
+For example:
+•	VM 1 → Windows OS
+•	VM 2 → Linux OS
+•	VM 3 → Ubuntu OS
+Each VM works like an independent computer with its own operating system and allocated resources.
+2. Real-Life Example
+Suppose you are developing a C# Web API application.
+You want to deploy it on a Linux server.
+But your local computer has Windows.
+Instead of purchasing another physical computer, you can create a Linux Virtual Machine and run your application inside it.
+3. Virtual Machine in Cloud Computing
+Cloud providers like AWS and Azure allow us to rent Virtual Machines.
+For example:
+•	AWS EC2
+•	Azure Virtual Machines
+•	Google Compute Engine
+You can select:
+•	CPU
+•	RAM
+•	Storage
+•	Operating System
+Then deploy your application on that VM.
+4. Advantages of Virtual Machines
+1.	Run multiple operating systems on one physical machine.
+2.	Reduce hardware costs.
+3.	Easy to create and manage.
+4.	Isolate different environments.
+5.	Increase or decrease allocated resources.
+
+Q. What is a Virtual Machine?
+A Virtual Machine is a software-based computer that runs on a physical machine using virtualization technology. It has its own operating system, CPU, RAM, storage, and network resources. It allows us to run multiple independent operating systems on a single physical computer.
+Remember
+Term	Meaning
+Physical Machine	Actual computer or server
+Virtual Machine	Software-based computer
+Hypervisor	Software that creates and manages VMs
+AWS EC2	Cloud-based virtual server
+Easy trick:
+Physical Computer = Actual Computer.
+Virtual Machine = Computer created inside a physical computer.
+
+
+
+
+Q. What is DevOps?
+DevOps is a combination of Development (Dev) and Operations (Ops). It is a culture and set of practices that helps development and operations teams work together to build, test, deploy, and maintain software faster and more reliably.
+DevOps focuses on automation, collaboration, and continuous delivery.
+1. How DevOps Works
+Suppose we develop a Student Management System using C# Web API and React.
+The DevOps process includes:
+1.	Development: Developers write application code.
+2.	Build: Convert source code into a deployable application.
+3.	Testing: Automatically test the application.
+4.	Deployment: Deploy the application to a server or cloud.
+5.	Monitoring: Monitor application performance and errors.
+6.	Maintenance: Fix bugs and improve the application.
+2. DevOps Tools
+Purpose	Tools
+Version Control	Git, GitHub
+CI/CD	Jenkins, GitHub Actions
+Containerization	Docker
+Container Orchestration	Kubernetes
+Cloud	AWS, Azure
+Monitoring	Prometheus, Grafana
+
+
+
+Q…what is CI/CD? 
+•	CI (Continuous Integration): Automatically integrates and tests new code changes.
+•	CD (Continuous Delivery/Deployment): Prepares or automatically deploys tested code.
+1. How CI/CD works
+Suppose you develop a Student Management System.
+Step 1: Developer writes code
+•	You write code for adding a student.
+•	After completing the code, you push it to GitHub.
+Step 2: CI/CD tool starts working
+•	Jenkins or GitHub Actions detects the new code.
+•	It automatically starts the pipeline.
+Step 3: Build
+•	It checks and builds your application.
+•	It checks whether the code can be compiled successfully.
+Step 4: Testing
+•	It runs automated test cases.
+•	It checks whether the application is working correctly.
+Step 5: Deployment
+•	If everything is successful, it deploys the application to a cloud server.
+•	Users can access the updated application.
+
+
+Q. What is Docker?
+Docker is an open-source platform used to create, package, and run applications inside containers.
+A container contains everything required to run an application, such as:
+•	Application code
+•	Libraries
+•	Dependencies
+•	Configuration
+
+Q.. can we create multiple containers in one application  ?
+Yes, we can create multiple containers for a single application. For example, a Student Management System can have separate containers for the frontend, backend, and database. These containers communicate with each other through a network.
+1. Why Do We Build a Docker Image?
+A Docker Image contains the application source code, dependencies, libraries, and required configurations.
+Using a Docker Image, we create a Docker Container. The container provides an isolated environment to run the application.
+It helps us run the same application on different machines and environments without facing dependency or configuration issues.
+
+Q…what is kuberneties?
+Kubernetes is an open-source container orchestration platform used to deploy, manage, and scale containerized applications. It automates tasks such as restarting failed containers, scaling application replicas, and managing application deployments. It is commonly used in DevOps environments.
+
+
+
+
+
+
+Q…. Concurrency and Persistence and Modularity ?
+Concurrency
+अनेक tasks handle करणे
+Persistence
+Data कायमस्वरूपी save करणे
+Modularity
+Application चे छोटे भाग करणे
+What is DBAAS?
+DBaaS stands for Database as a Service. It is a cloud computing service that provides a managed database over the internet.
+The cloud provider manages tasks such as database infrastructure, backups, updates, and maintenance, allowing developers to focus on building applications.
+Examples include Amazon RDS, Azure SQL Database, and Google Cloud SQL.
+IaaS = Rent infrastructure. 
+PaaS = Get a platform to build applications. 
+SaaS = Use ready-made software. 
+DBaaS = Use a managed database. 
+
+Q..what is SSH?
+A remote server is a computer located at a different location that provides services, data, or resources to other computers over a network.
+We can access and manage a remote server over the internet using tools such as SSH.
+
+Q..What is remote Server?
+A remote server is a computer located at a different location that provides services, data, or resources to other computers over a network.
+We can access and manage a remote server over the internet using tools such as SSH.
+For example, an AWS EC2 virtual machine can act as a remote server for hosting a web application.
+
+
+
+
+Q…What is Port ?
+A port is a logical endpoint used for network communication. It helps the operating system identify the application or service that should receive incoming network traffic.
+For example, port 80 is commonly used for HTTP, port 443 for HTTPS, and port 22 for SSH.
+
+Q… What is the defference between IP address and port ?
+IP Address: An IP address identifies a device on a network.
+Port: A port number identifies the application or service that should receive network traffic on that device.
+IP Address = Building address 
+Port Number = Room number 
+
+Q..what is Firewall ?
+A Firewall is a security system that monitors and controls incoming and outgoing network traffic based on predefined security rules. It protects computers and networks from unauthorized access.
+Real-Life Example
+Think of a firewall as a security guard at an office entrance. The guard allows authorized people to enter and blocks unauthorized people. Similarly, a firewall allows permitted network traffic and blocks suspicious or unauthorized traffic.
+
+Q…what is spread operator ?
+in JavaScript is represented by three dots (…). It is used to expand the elements of an array or the properties of an object. It is commonly used to copy arrays, merge arrays, combine objects, and update React state.
+
+Q..shallow copy and Deep copy ?
+A shallow copy creates a new object but shares references to nested objects with the original. Therefore, changes to nested objects can affect both copies. A deep copy Python provides built-in decorators such as @staticmethod, @classmethod, and @property. They help define static methods, class methods, and managed attributes. The functools module also provides @wraps, which preserves metadata of the original function when using custom decorators.
+
+Q….what is decorators
+Python provides built-in decorators such as @staticmethod, @classmethod, and @property. They help define static methods, class methods, and managed attributes. The functools module also provides @wraps, which preserves metadata of the original function when using custom decorators.
+
+
+
+Q…Annotations in Python ?
+provide additional information about variables, function parameters, and return values. They are commonly used for type hints, documentation, and static type checking. Python does not automatically enforce these types at runtime.
+
+Q….. how much types of architecture.?
+1. Types of Software Architecture
+1. Monolithic Architecture
+Application चे मुख्य components एकाच application मध्ये एकत्र असतात.
+Example: BookHub चे frontend वेगळे असले तरी backend मध्ये user, book, cart आणि order functionality एकाच Node.js application मध्ये असते.
+2. Layered Architecture (N-Tier)
+Application वेगवेगळ्या layers मध्ये divide केलेले असते.
+उदाहरण:
+Controller
+    ↓
+Service
+    ↓
+Repository
+    ↓
+Database
+Example: तुझ्या Node.js + Express + MySQL project मधील Controller → Service → Repository structure.
+3. Microservices Architecture
+Application अनेक लहान, स्वतंत्र services मध्ये विभागलेले असते.
+उदाहरण:
+•	User Service 
+•	Book Service 
+•	Order Service 
+•	Payment Service 
+प्रत्येक service स्वतंत्रपणे develop आणि deploy करता येऊ शकते.
+4. Client-Server Architecture
+Client request पाठवतो आणि server response देतो.
+Example: React frontend → Node.js backend → MySQL database.
+5. Event-Driven Architecture
+एका component मध्ये event घडल्यावर इतर components त्या event नुसार काम करतात.
+Example: Book order झाल्यानंतर notification service ला event मिळतो आणि ती user ला notification पाठवते.
+6. Serverless Architecture
+Developer मुख्यतः application code आणि functions वर लक्ष देतो; infrastructure management चा मोठा भाग cloud provider सांभाळतो.
+Example: AWS Lambda वापरून order-processing function चालवणे.
+7. MVC Architecture
+MVC म्हणजे Model–View–Controller.
+•	Model: Data आणि business data representation. 
+•	View: User interface. 
+•	Controller: User requests handle करतो आणि योग्य operations सुरू करतो. 
+
+Q…what is task ? 
+In C#, the Task class represents an asynchronous operation. We use Task with async and await to perform operations such as database queries, API calls, and file operations without unnecessarily blocking the current thread. This helps applications remain responsive and use resources efficiently.
+1. What is Task.Delay()?
+Definition: Task.Delay() creates a task that completes after a specified amount of time without blocking the current thread.
+
+Q…What is jagged Array?
+A jagged array in C# is an array of arrays where each inner array can have a different number of elements.
+We use a jagged array when we need to store data with different row lengths.
+For example, in a college system, different students may have different numbers of subjects. We can use a jagged array to store their marks.
+The syntax is int[][].
+The main difference between a jagged array and a multidimensional array is that a jagged array can have different row lengths, whereas a rectangular multidimensional array has the same number of columns in every row.
+What is IComparer?
+Interview definition: IComparer is an interface in C# used to define a custom sorting order for objects.
+It uses the Compare() method to compare two objects.
+1. What is IComparable?
+Interview definition: IComparable is an interface in C# used to define the default sorting order of objects.
+It uses the CompareTo() method to compare the current object with another object.
+
+Q…..What is Delegate?
+
+
+Q… what is Event ?
+
+
+Q
+
+
+
+
+Q.. What is Authentication?
+Authentication is the process of verifying the identity of a user.
+For example, when a user logs in using an email and password, the system verifies whether the credentials are correct.
+Real-life example: Checking your ID card to verify your identity.
+Remember: Authentication = Who are you?
+
+3. What is JWT?
+JWT stands for JSON Web Token. It is a compact, URL-safe format used to securely transfer information between two parties.
+In web applications, JWT is commonly used to authenticate users and carry claims such as user ID and role.
+After successful login, the server generates a token and sends it to the client. The client sends this token with subsequent requests.
+4. What are the three parts of JWT?
+A JWT consists of three parts:
+1.	Header: Contains information about the token type and signing algorithm. 
+2.	Payload: Contains claims, such as user ID and role. 
+3.	Signature: Helps verify that the token has not been modified and that it was signed using the expected key.
+
+
+
+
+
+Q…Difference Between JWT and Session Authentication ?
+  
+JWT Authentication	Session Authentication
+Uses a signed token.	Uses a session ID.
+Token contains claims about the user.	Session information is stored on the server.
+The server can verify the token without looking up a session record.	The server typically looks up the session using the session ID.
+Often used in REST APIs and distributed applications.	Often used in traditional web applications.
+Revocation may require additional mechanisms.	The server can usually invalidate a session directly.
+The token has a signature and may have an expiration time.	The session has a lifetime controlled by the application.
+
+
+
+
+9. What is a JWT Secret Key?
+A JWT secret key is a private key used to sign and verify tokens when using a symmetric signing algorithm, such as HS256.
+It helps the server detect whether a token has been modified.
+
+Q….. Application execution internaly..?
+The overall flow is: C# Source Code → C# Compiler → IL Code → CLR → JIT Compiler → Native Machine Code → Execution.
+
+Step 1: C# Compiler
+The C# compiler converts your source code into IL and stores it in a .NET assembly, such as Program.dll.
+Step 2: IL Code
+The generated IL contains instructions representing operations such as loading values, adding numbers, and calling methods.
+
+Q.What is LINQ is used ??
+1.	Filter data.
+2.	Sort data.
+3.	Search specific records.
+4.	Group data.
+5.	Select specific columns or properties.
+6.	Reduce complex code and improve readability.
+7.	Important LINQ Methods
+Method	Purpose
+           Where()	                      Filters data
+           Select()	                    Selects specific data
+          OrderBy()	                    Sorts ascending
+OrderByDescending()	Sorts descending
+First()	Returns the first element
+FirstOrDefault()	Returns first element or default
+Single()	Returns exactly one element
+Count()	Counts elements
+Any()	Checks whether any element matches
+GroupBy()	Groups elements
+ToList()	Converts result into a List
+
+
+
+
+EX:
+List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6 };
+var result = numbers.Where(n => n % 2 == 0);
+foreach (var num in result)
+{
+    Console.WriteLine(num);
+}
+
+
+Q: Why do we use a Connection Pool?
+A: We use a connection pool to manage and reuse multiple database connections efficiently. Instead of creating a new connection for every database request, the pool maintains a collection of reusable connections. It reduces connection overhead, improves performance, and helps applications handle multiple concurrent requests.
+5. Real-world Example
+In your BookHub project:
+•	User 1 → Fetches books.
+•	User 2 → Registers an account.
+•	User 3 → Places an order.
+•	User 4 → Views order history.
+
+Q.. CPU-Bound vs I/O-Bound?
+
+
