@@ -1,169 +1,93 @@
-My project name is TFLCoMentor. It is an online Learning, Mentoring, Assessment, and Recruitment platform.
+Good morning, sir/madam.
 
-The main purpose of this platform is to connect Students, Mentors, SMEs, Admins, and Employers in one system.
+First of all, thank you for giving me this opportunity to introduce myself.
 
-In this platform:
+My name is Rahul Gayke, and I am from Chhatrapati Sambhaji Nagar.
 
-- Students learn technical skills, complete assignments, and take assessments.
-- Mentors guide students, review their projects, and provide feedback.
-- SMEs create courses, learning content, and assessments.
-- Admins manage users, roles, and overall platform activities.
-- Employers post job opportunities and hire suitable candidates.
+I have completed my Bachelor of Computer Applications (BCA) from Deogiri College, and currently, I am pursuing my Master of Computer Applications (MCA) from Dr. Babasaheb Ambedkar Technological University.
 
-The main goal of this platform is to help students improve their technical skills and become industry-ready.
+Currently, I am working as an intern at Transflower Learning Private Limited, where I am gaining practical experience in software development and automation testing.
 
+Talking about my technical skills, I have knowledge of JavaScript, Node.js, Express.js, React, TypeScript, Python, C#, .NET, and MySQL.
 
-## 👥 User Roles and Dashboards
+Project Experience
 
-### 1. Admin Dashboard
-The Admin Dashboard provides centralized control over the entire platform.
-**Key Responsibilities:**
-* View platform statistics and activity.
-* Manage assessments and assessment assignments.
-* Track student participation and results.
-* View platform session logs.
-* Manage users and roles.
-* Remove inactive users.
-* Monitor overall platform activity.
+During my internship, I worked on a project called TFLCoMentor.
 
+It is an integrated Learning, Mentoring, Assessment, and Recruitment platform.
 
-### 2. Student Dashboard
-The Student Dashboard helps students learn, practice, assess their skills, and explore career opportunities.
-**Key Responsibilities:**
-* Manage profile information and passwords.
-* View courses, assignments, and practical labs.
-* Submit assignments and projects.
-* Take assessments and view results.
-* Communicate with mentors.
-* Participate in discussion forums.
-* Apply for job opportunities.
-* Track job application status.
-* Monitor learning progress and notifications.
+The main objective of this platform is to connect Students, Mentors, SMEs, Admins, Employers, and Alumni in a single system.
 
+Each user has a separate dashboard with role-based functionalities.
 
-### 3. SME Dashboard
-The SME (Subject Matter Expert) Dashboard enables experts to create and manage technical learning content and assessments.
-**Key Responsibilities:**
-* Create and manage learning sessions.
-* Develop hands-on practice activities.
-* Manage concepts and topics.
-* Configure programming runtimes.
-* Create and manage tests.
-* Maintain the question bank.
-* Submit questions for mentor review.
-* Analyze assessment results.
-* Evaluate student performance.
+Let me briefly explain how the platform works.
 
+Admin: Manages users, assigns roles, monitors platform activities, and tracks student progress and employability readiness.
 
-### 4. Mentor Dashboard
-The Mentor Dashboard supports student guidance, progress monitoring, and performance improvement.
-**Key Responsibilities:**
-* Manage assigned students.
-* Track student progress and technical skills.
-* Review assignments and projects.
-* Provide feedback and mentoring notes.
-* Conduct mentoring sessions.
-* Access learning resources.
-* Manage mentor profile information.
+SME (Subject Matter Expert): Creates technical content, question banks, and assessments.
 
+Mentor: Assigns assessments to students, monitors their progress, reviews their performance, provides feedback, and creates learning roadmaps to help them improve their skills.
 
-### 5. Employer Dashboard
-The Employer Dashboard enables organizations to manage recruitment and hire suitable candidates.
-**Key Responsibilities:**
-* Manage company profile information.
-* Post and manage job openings.
-* Search and view candidates.
-* Review job applications.
-* Shortlist qualified candidates.
-* Schedule and conduct interviews.
-* View interview results.
-* Hire suitable candidates.
+Student: Learns technical concepts, completes assignments, takes assessments, reviews mentor feedback, follows learning roadmaps, and applies for job opportunities based on company requirements.
 
----
+Employer: Posts job vacancies, searches for suitable candidates, reviews applications, and conducts interviews to recruit candidates.
 
-## ⚙️ System Modules and Technologies
-TFLCoMentor is divided into multiple modules. Each module handles a specific set of responsibilities.
+Alumni: Former students can also access the platform through their own accounts and manage their profiles.
 
-| No. | Module                    | Technology            | Responsibilities                                                        |
-| --- | ------------------------- | --------------------- | ----------------------------------------------------------------------- |
-| 1   | Skill Taxonomy Module     | Java                  | Manages subjects, concepts, skill levels, and prerequisites.            |
-| 2   | Evaluation Content Module | Java                  | Manages question banks, coding problems, projects, and concept mapping. |
-| 3   | Assessment Module         | .NET                  | Creates tests, schedules assessments, and manages candidate attempts.   |
-| 4   | Evaluation Module         | Node.js               | Processes candidate submissions and performs automated grading.         |
-| 5   | Insight Module            | .NET – Future Phase   | Supports performance tracking, rankings, and analytics dashboards.      |
-| 6   | Growth Module             | Python – Future Phase | Supports AI-based recommendations and concept improvement tracking.     |
-| 7   | Membership & Roles Module | Node.js               | Handles user authentication, authorization, and role management.        |
+The platform also includes an AI-powered chatbot that uses mentors' GitHub learning notes as a knowledge source. We use Ollama with the Qwen 3.5 model to generate answers based on the retrieved information.
 
+Apart from MCQ-based assessments, the platform also introduces Video-Based Assessment, where students explain technical concepts through videos, and their understanding and practical implementation can be evaluated.
 
-### 1. Skill Taxonomy Module – Java
-This module maintains the platform's skill structure and relationships between learning concepts.
-**Responsibilities:**
-* Manage subjects and technical skills.
-* Organize concepts and topics.
-* Define skill levels.
-* Maintain prerequisite relationships.
-* Map concepts to relevant skills.
+System Architecture and Modules
 
+Our platform is divided into different modules, and each module handles specific responsibilities.
 
-### 2. Evaluation Content Module – Java
-This module manages educational and assessment content.
-**Responsibilities:**
+Skill Taxonomy Module – Java: Manages subjects, concepts, skills, and prerequisites.
 
-* Maintain the question bank.
-* Manage coding problems and projects.
-* Organize learning and assessment content.
-* Map questions to concepts and skills.
-* Support content creation and review workflows.
+Evaluation Content Module – Java: Manages question banks, coding problems, projects, and learning content.
 
-### 3. Assessment Module – .NET
-This module manages assessment creation, scheduling, and student attempts.
-**Responsibilities:**
-* Create and configure assessments.
-* Schedule assessments.
-* Assign assessments to students.
-* Manage candidate attempts.
-* Track assessment status.
-* Store assessment-related information.
+Assessment Module – .NET: Handles assessment creation, scheduling, and student attempts.
 
-### 4. Evaluation Module – Node.js
-This module evaluates student submissions and processes assessment results.
-**Responsibilities:**
-* Receive candidate submissions.
-* Process answers and coding solutions.
-* Execute automated grading workflows.
-* Evaluate submissions against defined criteria.
-* Generate evaluation results.
-* Return results to the relevant system components.
-*Note: Coding submissions should be executed in an appropriately isolated and secured environment.*
+Evaluation Module – Node.js: Processes student submissions and automated evaluation workflows.
 
-### 5. Insight Module – .NET (Future Phase)
-The Insight Module will provide advanced performance analysis and reporting capabilities.
-**Planned Responsibilities:**
-* Track student performance.
-* Analyze assessment results.
-* Generate rankings and performance reports.
-* Provide analytics dashboards.
-* Identify strengths and improvement areas.
+Insight Module – .NET: Planned for future performance tracking, rankings, and analytics.
 
-### 6. Growth Module – Python (Future Phase)
-The Growth Module will focus on personalized learning and skill improvement.
-**Planned Responsibilities:**
-* Generate AI-based learning recommendations.
-* Identify concepts requiring improvement.
-* Track concept mastery over time.
-* Recommend relevant learning resources.
-* Support personalized learning paths.
+Growth Module – Python: Planned for future AI-based learning recommendations and skill improvement tracking.
 
+Membership and Roles Module – Node.js: Handles user authentication, authorization, role management, and user profiles.
 
-### 7. Membership & Roles Module – Node.js
-This module manges user identity, access, and permissions across the platform.
-**Responsibilities:**
-* Handle user registration and login.
-* Manage authentication.
-* Implement role-based authorization.
-* Manage user roles and permissions.
-* Support access control for different dashboards.
-* Manage relevant user account operations.
+My Contribution
 
----
+In this project, I primarily worked on backend development using Node.js, Express.js, and MySQL.
 
+I developed REST APIs for the User Profile module, which manages personal, academic, and professional information.
+
+I designed relational database tables and worked with Primary Keys, Foreign Keys, SQL JOINs, and dynamic update operations.
+
+I followed a layered architecture by separating Routes, Controllers, Services, and Repositories.
+
+I also worked on frontend integration using React and TypeScript, where I connected backend APIs with profile forms and developed a Student Details page for the Mentor Dashboard.
+
+Apart from that, I worked on Video-Based Assessment development using Python and FastAPI.
+
+In this feature, students can submit videos explaining technical concepts, and their understanding, explanation skills, and practical implementation can be evaluated.
+
+Automation Testing
+
+Along with development, I also worked on automation testing for the TFLCoMentor application using Python, Playwright, and Pytest.
+
+I created automated test cases for login scenarios, role-based authentication, registration navigation, and dashboard workflows.
+
+I also automated the SME assessment creation process, including question creation, question selection, and test submission.
+
+I used Pytest Parameterization to execute the same test scenarios with different user roles.
+
+Conclusion
+
+Through this internship, I gained practical experience in backend development, frontend integration, REST API development, database management, Python development, and automation testing.
+
+I enjoy learning new technologies, understanding technical problems, and implementing practical solutions.
+
+I am looking for an opportunity where I can apply my technical knowledge, contribute to real-world projects, and grow as a software developer.
+
+Thank you.
