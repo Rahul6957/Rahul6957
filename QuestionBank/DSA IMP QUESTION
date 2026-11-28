@@ -1,16 +1,146 @@
-#	Array Question	
-1	Find Maximum element	⭐⭐⭐⭐⭐✅
-2	Find Minimum element	⭐⭐⭐⭐⭐
-3	Reverse an array	⭐⭐⭐⭐⭐✅
-4	Find Second Largest element	⭐⭐⭐⭐⭐
-5	Search an element	⭐⭐⭐⭐⭐
-6	Find Duplicate elements	⭐⭐⭐⭐⭐
-7	Find Missing Number	⭐⭐⭐⭐⭐
-8	Sort an array	⭐⭐⭐⭐⭐
-9	Find Sum of array elements	⭐⭐⭐⭐✅
-10	Count Even and Odd numbers	⭐⭐⭐⭐✅
-11	Count frequency of elements	⭐⭐⭐⭐
-12	Remove duplicates	⭐⭐⭐⭐
-13	Find Second Smallest element	⭐⭐⭐⭐
-14	Merge two arrays	⭐⭐⭐
-15	Move zeros to end	⭐⭐⭐
+
+1	Reverse a String	Easy
+2	Check Palindrome	Easy
+3	Find Largest Number in Array	Easy
+4	Find Smallest Number in Array	Easy
+5	Find Second Largest Number	Medium
+6	Find Even and Odd Numbers	Easy
+7	Find Sum of Array Elements	Easy
+8	Count Vowels in String	Easy
+9	Find Duplicate Elements	Medium
+10	Remove Duplicate Elements	Medium
+11	Find Missing Number	Medium
+12	Count Frequency of Characters	Medium
+13	Check Prime Number	Easy
+14	Find Factorial	Easy
+15	Fibonacci Series	Easy
+16	Check Anagram	Medium
+17	Sort Array Without Built-in Method	Medium
+18	Reverse an Array	Easy
+19	Find Common Elements in Two Arrays	Medium
+20	Find First Non-Repeating Character	Medium
+
+2. C# Coding Round
+1. Reverse a string without using built-in methods.
+2. Find the second-largest number in an array.
+3. Find duplicate numbers using Dictionary.
+4. Count character frequency using Dictionary.
+5. Find even and odd numbers using LINQ.
+6. Find maximum and minimum using LINQ.
+7. Remove duplicate elements using HashSet.
+8. Sort an array without using Array.Sort().
+9. Find the occurrence of each element.
+10. Find the missing number in an array.
+11. Write a program to check palindrome.
+12. Find common elements between two lists.
+13. Difference between IEnumerable and List with an example.
+14. Write a LINQ query to filter employees with salary greater than 30,000.
+15. Group employees by department using LINQ.
+Important: Dictionary, List, HashSet, Arrays आणि LINQ यांचा सराव कर.
+3. Python Coding Round
+Python मध्ये हे प्रश्न विचारले जाऊ शकतात.
+1. Reverse a string.
+2. Check palindrome.
+3. Find the largest number in a list.
+4. Find duplicate elements using a set.
+5. Count character frequency using a dictionary.
+6. Find second-largest number.
+7. Find factorial using recursion.
+8. Generate Fibonacci series.
+9. Check prime number.
+10. Sort a list without using sort().
+11. Find common elements in two lists.
+12. Find missing number.
+13. Count words in a sentence.
+14. Flatten a nested list.
+15. Find the frequency of elements using Counter.
+Important: List, Tuple, Dictionary, Set, List Comprehension आणि Functions.
+4. JavaScript Coding Round
+1. Reverse a string.
+2. Find the largest number in an array.
+3. Remove duplicates using Set.
+4. Find duplicate elements.
+5. Find second-largest number.
+6. Check palindrome.
+7. Count character frequency.
+8. Find even numbers using filter().
+9. Square each number using map().
+10. Calculate sum using reduce().
+11. Sort an array.
+12. Flatten a nested array.
+13. Implement a custom map function.
+14. Implement a custom filter function.
+15. Find the difference between map(), filter() and reduce() with code.
+Important: Array methods, Objects, Closures, Promises, Async/Await, Callbacks.
+5. Node.js Coding Round
+Node.js मध्ये फक्त logic नाही तर backend development सुद्धा तपासतात.
+1. Create a simple Express server.
+2. Create GET API to fetch all students.
+3. Create POST API to insert a student.
+4. Create PUT API to update student details.
+5. Create DELETE API to delete a student.
+6. Implement middleware for logging requests.
+7. Implement error-handling middleware.
+8. Connect Node.js with MySQL.
+9. Implement JWT authentication.
+10. Implement role-based authorization.
+11. Create API with pagination.
+12. Implement file upload.
+13. Read and write files using the File System module.
+14. Handle asynchronous operations using async/await.
+15. Implement input validation.
+Important: Express, REST API, Middleware, JWT, MySQL, Promises, Async/Await.
+6. React Coding Round
+React मध्ये छोटे practical tasks दिले जातात.
+1. Create a Counter Application.
+2. Create a Todo Application.
+3. Fetch API data using useEffect().
+4. Display data using map().
+5. Implement search functionality.
+6. Implement filtering functionality.
+7. Create a Registration Form.
+8. Implement form validation.
+9. Implement CRUD operations.
+10. Pass data from Parent to Child.
+11. Pass data from Child to Parent.
+12. Implement conditional rendering.
+13. Implement React Router.
+14. Implement pagination.
+15. Implement login and logout functionality.
+Important: useState, useEffect, Props, Components, Forms, Axios, React Router.
+
+
+
+
+
+****************************************************************************************************************************************************************
+जर तुला coding round साठी कमी वेळ असेल तर हे 25 प्रश्न आधी सोडव.
+No.	Question	Priority
+1	Reverse String	Very High
+2	Palindrome	Very High
+3	Largest Number	Very High
+4	Second Largest	Very High
+5	Remove Duplicates	Very High
+6	Find Duplicate Elements	Very High
+7	Character Frequency	Very High
+8	Missing Number	High
+9	Fibonacci	High
+10	Factorial	High
+11	Prime Number	High
+12	Anagram	High
+13	Reverse Array	High
+14	Sum of Array	High
+15	Find Common Elements	High
+16	Sort Without Built-in	High
+17	First Non-Repeating Character	High
+18	Count Vowels	High
+19	Flatten Array	Medium
+20	LINQ Filtering	High
+21	Dictionary Frequency	High
+22	Promise Handling	High
+23	API CRUD	Very High
+24	React Todo App	Very High
+25	React API Integration	Very High
+
+
+8. माझा तुझ्यासाठी Preparation P
