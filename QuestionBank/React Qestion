@@ -1,13 +1,8 @@
-
 1. What is React.js?
-2. Why do we use React?
-3. What are the features of React?
 4. What is a Single Page Application (SPA)?
-5. What is the difference between React and JavaScript?
 6. What is JSX?
 7. What is the difference between HTML and JSX?
 8. What is a Component in React?
-9. What are the different types of components?
 10. What is the difference between Functional and Class Components?
 2. Components and Props
 11. What are Props in React?
@@ -17,7 +12,6 @@
 16. What is Component Reusability?
 17. What is Conditional Rendering?
 21. What are Hooks in React?
-22. Why do we use Hooks?
 23. What is useState()?
 24. What is useEffect()?
 25. What is the difference between useState() and useEffect()?
@@ -41,9 +35,7 @@
 49. What is the Virtual DOM?
 50. What is the difference between Virtual DOM and Real DOM?
 51. What is React Router?
-52. Why do we use React Router?
 53. What is BrowserRouter?
-54. What is Routes vs routes?
 57. What is useNavigate()?
 60. What is useParams()?
 61. What is API integration in React?
@@ -58,7 +50,6 @@
 75. What is React Fragment?
 76. What is Lazy Loading?
 77. What is React Suspense?
-78. What is React.memo()?
 79. What is the difference between React.memo and useMemo?
 81. How do you create a React application?
 82. How do you create a reusable component?
