@@ -69,12 +69,12 @@ jwt authitication--------------
 jwt role base authitiation---------------
 linQ -------------------
 Application execution internal --------------
- CPU-Bound vs I/O-Bound
+ CPU-Bound vs I/O-Bound --------------------
 Lock
-Q1. What is Virtual Machine ?
-Process
-multithreading
-multiprocessing
+Q1. What is Virtual Machine ? --------------------
+Process-----------------
+multithreading------------------
+multiprocessing-----------------
 unsafe
 fixed
 etity
@@ -110,8 +110,8 @@ Difference between throw and throw ex
 Can we have multiple catch blocks?
 What happens if an exception is not handled?
 6. Web API ⭐⭐⭐⭐⭐
-What is Web API?
-What is REST API?
+ Web API?
+ REST API?
 Fast Api
 What is HTTP?
 What are HTTP methods?
@@ -151,9 +151,7 @@ defference library and package and module
 
 What is ASP.NET Core vs What is ASP.NET ?
 C# and Dot net deference
-What is MVC?-----------------
-What is Model?--------------
-What is View?-------------------
+
 
 What is an Action Method?
 What is IActionResult?
